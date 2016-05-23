@@ -1,0 +1,976 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AO_REQUIRE_CAS	ngx_atomic.h	18;"	d
+CMSG_DATA	ngx_freebsd_config.h	63;"	d
+CMSG_DATA	ngx_freebsd_config.h	64;"	d
+CMSG_DATA	ngx_posix_config.h	144;"	d
+CMSG_DATA	ngx_posix_config.h	145;"	d
+CMSG_LEN	ngx_freebsd_config.h	60;"	d
+CMSG_LEN	ngx_freebsd_config.h	61;"	d
+CMSG_LEN	ngx_posix_config.h	141;"	d
+CMSG_LEN	ngx_posix_config.h	142;"	d
+CMSG_SPACE	ngx_freebsd_config.h	57;"	d
+CMSG_SPACE	ngx_freebsd_config.h	58;"	d
+CMSG_SPACE	ngx_posix_config.h	138;"	d
+CMSG_SPACE	ngx_posix_config.h	139;"	d
+IOV_MAX	ngx_darwin_config.h	55;"	d
+IOV_MAX	ngx_freebsd_config.h	103;"	d
+IOV_MAX	ngx_posix_config.h	93;"	d
+KERNCALL	rfork_thread.S	/^#define	KERNCALL	int $0x80$/;"	d
+MAC_OS_X_VERSION_MIN_REQUIRED	ngx_darwin_config.h	12;"	d
+NGX_ALIGNMENT	ngx_solaris_config.h	56;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	101;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	127;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	168;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	210;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	216;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	247;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	253;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	272;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	28;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	30;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	60;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	72;"	d
+NGX_ATOMIC_T_LEN	ngx_atomic.h	99;"	d
+NGX_BROKEN_SCM_RIGHTS	ngx_posix_config.h	25;"	d
+NGX_CASA	ngx_gcc_atomic_sparc64.h	27;"	d
+NGX_CASA	ngx_gcc_atomic_sparc64.h	29;"	d
+NGX_CASA	ngx_sunpro_atomic_sparc64.h	11;"	d
+NGX_CASA	ngx_sunpro_atomic_sparc64.h	9;"	d
+NGX_CMD_CLOSE_CHANNEL	ngx_process_cycle.h	17;"	d
+NGX_CMD_OPEN_CHANNEL	ngx_process_cycle.h	16;"	d
+NGX_CMD_QUIT	ngx_process_cycle.h	18;"	d
+NGX_CMD_REOPEN	ngx_process_cycle.h	20;"	d
+NGX_CMD_TERMINATE	ngx_process_cycle.h	19;"	d
+NGX_CV_SIGNAL	ngx_freebsd_rfork_thread.h	35;"	d
+NGX_DIR_MASK_LEN	ngx_files.h	190;"	d
+NGX_EACCES	ngx_errno.h	25;"	d
+NGX_EADDRINUSE	ngx_errno.h	35;"	d
+NGX_EAGAIN	ngx_errno.h	52;"	d
+NGX_EAGAIN	ngx_errno.h	54;"	d
+NGX_EBUSY	ngx_errno.h	26;"	d
+NGX_ECANCELED	ngx_errno.h	47;"	d
+NGX_ECHILD	ngx_errno.h	23;"	d
+NGX_ECONNABORTED	ngx_errno.h	36;"	d
+NGX_ECONNREFUSED	ngx_errno.h	40;"	d
+NGX_ECONNRESET	ngx_errno.h	37;"	d
+NGX_EEXIST	ngx_errno.h	27;"	d
+NGX_EHOSTDOWN	ngx_errno.h	44;"	d
+NGX_EHOSTUNREACH	ngx_errno.h	45;"	d
+NGX_EILSEQ	ngx_errno.h	48;"	d
+NGX_EINPROGRESS	ngx_errno.h	34;"	d
+NGX_EINTR	ngx_errno.h	22;"	d
+NGX_EINVAL	ngx_errno.h	31;"	d
+NGX_EISDIR	ngx_errno.h	30;"	d
+NGX_ENAMETOOLONG	ngx_errno.h	41;"	d
+NGX_ENETDOWN	ngx_errno.h	42;"	d
+NGX_ENETUNREACH	ngx_errno.h	43;"	d
+NGX_ENOENT	ngx_errno.h	19;"	d
+NGX_ENOMEM	ngx_errno.h	24;"	d
+NGX_ENOMOREFILES	ngx_errno.h	49;"	d
+NGX_ENOPATH	ngx_errno.h	20;"	d
+NGX_ENOSPC	ngx_errno.h	32;"	d
+NGX_ENOSYS	ngx_errno.h	46;"	d
+NGX_ENOTCONN	ngx_errno.h	38;"	d
+NGX_ENOTDIR	ngx_errno.h	29;"	d
+NGX_EPERM	ngx_errno.h	18;"	d
+NGX_EPIPE	ngx_errno.h	33;"	d
+NGX_ESRCH	ngx_errno.h	21;"	d
+NGX_ETIMEDOUT	ngx_errno.h	39;"	d
+NGX_EXDEV	ngx_errno.h	28;"	d
+NGX_FILE_APPEND	ngx_files.h	76;"	d
+NGX_FILE_CREATE_OR_OPEN	ngx_files.h	73;"	d
+NGX_FILE_DEFAULT_ACCESS	ngx_files.h	79;"	d
+NGX_FILE_ERROR	ngx_files.h	50;"	d
+NGX_FILE_NONBLOCK	ngx_files.h	77;"	d
+NGX_FILE_OPEN	ngx_files.h	74;"	d
+NGX_FILE_OWNER_ACCESS	ngx_files.h	80;"	d
+NGX_FILE_RDONLY	ngx_files.h	70;"	d
+NGX_FILE_RDWR	ngx_files.h	72;"	d
+NGX_FILE_TRUNCATE	ngx_files.h	75;"	d
+NGX_FILE_WRONLY	ngx_files.h	71;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	132;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	156;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	173;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	197;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	21;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	225;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	232;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	241;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	267;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	54;"	d
+NGX_HAVE_ATOMIC_OPS	ngx_atomic.h	93;"	d
+NGX_HAVE_CASELESS_FILESYSTEM	ngx_darwin_config.h	86;"	d
+NGX_HAVE_CASELESS_FILESYSTEM	ngx_files.h	56;"	d
+NGX_HAVE_INHERITED_NONBLOCK	ngx_darwin_config.h	81;"	d
+NGX_HAVE_INHERITED_NONBLOCK	ngx_freebsd_config.h	108;"	d
+NGX_HAVE_INHERITED_NONBLOCK	ngx_linux_config.h	107;"	d
+NGX_HAVE_INHERITED_NONBLOCK	ngx_solaris_config.h	91;"	d
+NGX_HAVE_OS_SPECIFIC_INIT	ngx_darwin_config.h	90;"	d
+NGX_HAVE_OS_SPECIFIC_INIT	ngx_freebsd_config.h	112;"	d
+NGX_HAVE_OS_SPECIFIC_INIT	ngx_linux_config.h	111;"	d
+NGX_HAVE_OS_SPECIFIC_INIT	ngx_solaris_config.h	101;"	d
+NGX_HAVE_READ_AHEAD	ngx_files.h	280;"	d
+NGX_HAVE_READ_AHEAD	ngx_files.h	287;"	d
+NGX_HAVE_SO_SNDLOWAT	ngx_linux_config.h	102;"	d
+NGX_HAVE_SO_SNDLOWAT	ngx_solaris_config.h	97;"	d
+NGX_HEADERS	ngx_darwin_sendfile_chain.c	31;"	d	file:
+NGX_HEADERS	ngx_darwin_sendfile_chain.c	34;"	d	file:
+NGX_HEADERS	ngx_freebsd_sendfile_chain.c	33;"	d	file:
+NGX_HEADERS	ngx_freebsd_sendfile_chain.c	36;"	d	file:
+NGX_HEADERS	ngx_linux_sendfile_chain.c	31;"	d	file:
+NGX_HEADERS	ngx_linux_sendfile_chain.c	33;"	d	file:
+NGX_INVALID_FILE	ngx_files.h	49;"	d
+NGX_INVALID_PID	ngx_process.h	17;"	d
+NGX_IOVS	ngx_files.c	149;"	d	file:
+NGX_IOVS	ngx_readv_chain.c	13;"	d	file:
+NGX_IOVS	ngx_writev_chain.c	14;"	d	file:
+NGX_IOVS	ngx_writev_chain.c	16;"	d	file:
+NGX_IO_SENDFILE	ngx_os.h	16;"	d
+NGX_LINEFEED	ngx_files.h	132;"	d
+NGX_LINEFEED_SIZE	ngx_files.h	131;"	d
+NGX_LISTEN_BACKLOG	ngx_darwin_config.h	77;"	d
+NGX_LISTEN_BACKLOG	ngx_freebsd_config.h	93;"	d
+NGX_LISTEN_BACKLOG	ngx_linux_config.h	97;"	d
+NGX_LISTEN_BACKLOG	ngx_posix_config.h	127;"	d
+NGX_LISTEN_BACKLOG	ngx_solaris_config.h	87;"	d
+NGX_MAX_PATH	ngx_files.h	188;"	d
+NGX_MAX_PROCESSES	ngx_process.h	46;"	d
+NGX_MAX_THREADS	ngx_thread.h	17;"	d
+NGX_MUTEX_LIGHT	ngx_freebsd_rfork_thread.h	24;"	d
+NGX_MUTEX_LIGHT	ngx_thread.h	48;"	d
+NGX_MUTEX_LOCK_BUSY	ngx_freebsd_rfork_thread.h	26;"	d
+NGX_PROCESS_DETACHED	ngx_process.h	52;"	d
+NGX_PROCESS_HELPER	ngx_process_cycle.h	27;"	d
+NGX_PROCESS_JUST_RESPAWN	ngx_process.h	51;"	d
+NGX_PROCESS_JUST_SPAWN	ngx_process.h	49;"	d
+NGX_PROCESS_MASTER	ngx_process_cycle.h	24;"	d
+NGX_PROCESS_NORESPAWN	ngx_process.h	48;"	d
+NGX_PROCESS_RESPAWN	ngx_process.h	50;"	d
+NGX_PROCESS_SIGNALLER	ngx_process_cycle.h	25;"	d
+NGX_PROCESS_SINGLE	ngx_process_cycle.h	23;"	d
+NGX_PROCESS_WORKER	ngx_process_cycle.h	26;"	d
+NGX_SENDFILEVECS	ngx_solaris_sendfilev_chain.c	36;"	d	file:
+NGX_SENDFILEVECS	ngx_solaris_sendfilev_chain.c	38;"	d	file:
+NGX_SENDFILE_LIMIT	ngx_linux_config.h	76;"	d
+NGX_SENDFILE_LIMIT	ngx_linux_sendfile_chain.c	27;"	d	file:
+NGX_SETPROCTITLE_PAD	ngx_setproctitle.h	27;"	d
+NGX_SETPROCTITLE_PAD	ngx_setproctitle.h	35;"	d
+NGX_SETPROCTITLE_USES_ENV	ngx_setproctitle.h	26;"	d
+NGX_SETPROCTITLE_USES_ENV	ngx_setproctitle.h	34;"	d
+NGX_SMP_LOCK	ngx_gcc_atomic_amd64.h	11;"	d
+NGX_SMP_LOCK	ngx_gcc_atomic_amd64.h	9;"	d
+NGX_SMP_LOCK	ngx_gcc_atomic_x86.h	11;"	d
+NGX_SMP_LOCK	ngx_gcc_atomic_x86.h	9;"	d
+NGX_THREAD_BUSY	ngx_thread.h	86;"	d
+NGX_THREAD_DONE	ngx_thread.h	88;"	d
+NGX_THREAD_EXIT	ngx_thread.h	87;"	d
+NGX_THREAD_FREE	ngx_thread.h	85;"	d
+NGX_THREAD_KEYS_MAX	ngx_freebsd_rfork_thread.h	91;"	d
+NGX_TID_T_FMT	ngx_freebsd_rfork_thread.h	21;"	d
+NGX_TID_T_FMT	ngx_thread.h	115;"	d
+NGX_TID_T_FMT	ngx_thread.h	33;"	d
+NGX_TID_T_FMT	ngx_thread.h	35;"	d
+NGX_TRAILERS	ngx_darwin_sendfile_chain.c	32;"	d	file:
+NGX_TRAILERS	ngx_darwin_sendfile_chain.c	35;"	d	file:
+NGX_TRAILERS	ngx_freebsd_sendfile_chain.c	34;"	d	file:
+NGX_TRAILERS	ngx_freebsd_sendfile_chain.c	37;"	d	file:
+NGX_WRITE_SHUTDOWN	ngx_socket.h	15;"	d
+SFV_FD_SELF	ngx_solaris_sendfilev_chain.c	24;"	d	file:
+_FILE_OFFSET_BITS	ngx_linux_config.h	16;"	d
+_FILE_OFFSET_BITS	ngx_solaris_config.h	16;"	d
+_GNU_SOURCE	ngx_linux_config.h	13;"	d
+_NGX_ALLOC_H_INCLUDED_	ngx_alloc.h	9;"	d
+_NGX_ATOMIC_H_INCLUDED_	ngx_atomic.h	9;"	d
+_NGX_CHANNEL_H_INCLUDED_	ngx_channel.h	9;"	d
+_NGX_DARWIN_CONFIG_H_INCLUDED_	ngx_darwin_config.h	9;"	d
+_NGX_DARWIN_H_INCLUDED_	ngx_darwin.h	9;"	d
+_NGX_ERRNO_H_INCLUDED_	ngx_errno.h	9;"	d
+_NGX_FILES_H_INCLUDED_	ngx_files.h	9;"	d
+_NGX_FREEBSD_CONFIG_H_INCLUDED_	ngx_freebsd_config.h	9;"	d
+_NGX_FREEBSD_H_INCLUDED_	ngx_freebsd.h	9;"	d
+_NGX_FREEBSD_RFORK_THREAD_H_INCLUDED_	ngx_freebsd_rfork_thread.h	9;"	d
+_NGX_LINUX_CONFIG_H_INCLUDED_	ngx_linux_config.h	9;"	d
+_NGX_LINUX_H_INCLUDED_	ngx_linux.h	9;"	d
+_NGX_OS_H_INCLUDED_	ngx_os.h	9;"	d
+_NGX_POSIX_CONFIG_H_INCLUDED_	ngx_posix_config.h	9;"	d
+_NGX_PROCESS_CYCLE_H_INCLUDED_	ngx_process_cycle.h	9;"	d
+_NGX_PROCESS_H_INCLUDED_	ngx_process.h	9;"	d
+_NGX_SETPROCTITLE_H_INCLUDED_	ngx_setproctitle.h	9;"	d
+_NGX_SHMEM_H_INCLUDED_	ngx_shmem.h	9;"	d
+_NGX_SOCKET_H_INCLUDED_	ngx_socket.h	9;"	d
+_NGX_SOLARIS_CONFIG_H_INCLUDED_	ngx_solaris_config.h	9;"	d
+_NGX_SOLARIS_H_INCLUDED_	ngx_solaris.h	9;"	d
+_NGX_THREAD_H_INCLUDED_	ngx_thread.h	9;"	d
+_NGX_TIME_H_INCLUDED_	ngx_time.h	9;"	d
+_NGX_USER_H_INCLUDED_	ngx_user.h	9;"	d
+_REENTRANT	ngx_posix_config.h	19;"	d
+_REENTRANT	ngx_solaris_config.h	13;"	d
+_XOPEN_SOURCE	ngx_posix_config.h	13;"	d
+_XOPEN_SOURCE_EXTENDED	ngx_posix_config.h	14;"	d
+__anon10::channel	ngx_process.h	/^    ngx_socket_t        channel[2];$/;"	m	struct:__anon10	access:public
+__anon10::data	ngx_process.h	/^    void               *data;$/;"	m	struct:__anon10	access:public
+__anon10::detached	ngx_process.h	/^    unsigned            detached:1;$/;"	m	struct:__anon10	access:public
+__anon10::exited	ngx_process.h	/^    unsigned            exited:1;$/;"	m	struct:__anon10	access:public
+__anon10::exiting	ngx_process.h	/^    unsigned            exiting:1;$/;"	m	struct:__anon10	access:public
+__anon10::just_spawn	ngx_process.h	/^    unsigned            just_spawn:1;$/;"	m	struct:__anon10	access:public
+__anon10::name	ngx_process.h	/^    char               *name;$/;"	m	struct:__anon10	access:public
+__anon10::pid	ngx_process.h	/^    ngx_pid_t           pid;$/;"	m	struct:__anon10	access:public
+__anon10::proc	ngx_process.h	/^    ngx_spawn_proc_pt   proc;$/;"	m	struct:__anon10	access:public
+__anon10::respawn	ngx_process.h	/^    unsigned            respawn:1;$/;"	m	struct:__anon10	access:public
+__anon10::status	ngx_process.h	/^    int                 status;$/;"	m	struct:__anon10	access:public
+__anon11::argv	ngx_process.h	/^    char *const  *argv;$/;"	m	struct:__anon11	access:public
+__anon11::envp	ngx_process.h	/^    char *const  *envp;$/;"	m	struct:__anon11	access:public
+__anon11::name	ngx_process.h	/^    char         *name;$/;"	m	struct:__anon11	access:public
+__anon11::path	ngx_process.h	/^    char         *path;$/;"	m	struct:__anon11	access:public
+__anon12::flags	ngx_os.h	/^    ngx_uint_t         flags;$/;"	m	struct:__anon12	access:public
+__anon12::recv	ngx_os.h	/^    ngx_recv_pt        recv;$/;"	m	struct:__anon12	access:public
+__anon12::recv_chain	ngx_os.h	/^    ngx_recv_chain_pt  recv_chain;$/;"	m	struct:__anon12	access:public
+__anon12::send	ngx_os.h	/^    ngx_send_pt        send;$/;"	m	struct:__anon12	access:public
+__anon12::send_chain	ngx_os.h	/^    ngx_send_chain_pt  send_chain;$/;"	m	struct:__anon12	access:public
+__anon12::udp_recv	ngx_os.h	/^    ngx_recv_pt        udp_recv;$/;"	m	struct:__anon12	access:public
+__anon13::command	ngx_channel.h	/^     ngx_uint_t  command;$/;"	m	struct:__anon13	access:public
+__anon13::fd	ngx_channel.h	/^     ngx_fd_t    fd;$/;"	m	struct:__anon13	access:public
+__anon13::pid	ngx_channel.h	/^     ngx_pid_t   pid;$/;"	m	struct:__anon13	access:public
+__anon13::slot	ngx_channel.h	/^     ngx_int_t   slot;$/;"	m	struct:__anon13	access:public
+__anon14::log	ngx_thread.h	/^    ngx_log_t        *log;$/;"	m	struct:__anon14	access:public
+__anon14::mutex	ngx_thread.h	/^    pthread_mutex_t   mutex;$/;"	m	struct:__anon14	access:public
+__anon15::cond	ngx_thread.h	/^    pthread_cond_t    cond;$/;"	m	struct:__anon15	access:public
+__anon15::log	ngx_thread.h	/^    ngx_log_t        *log;$/;"	m	struct:__anon15	access:public
+__anon16::cv	ngx_thread.h	/^    ngx_cond_t  *cv;$/;"	m	struct:__anon16	access:public
+__anon16::state	ngx_thread.h	/^    ngx_uint_t   state;$/;"	m	struct:__anon16	access:public
+__anon16::tid	ngx_thread.h	/^    ngx_tid_t    tid;$/;"	m	struct:__anon16	access:public
+__anon17::addr	ngx_shmem.h	/^    u_char      *addr;$/;"	m	struct:__anon17	access:public
+__anon17::exists	ngx_shmem.h	/^    ngx_uint_t   exists;   \/* unsigned  exists:1;  *\/$/;"	m	struct:__anon17	access:public
+__anon17::log	ngx_shmem.h	/^    ngx_log_t   *log;$/;"	m	struct:__anon17	access:public
+__anon17::name	ngx_shmem.h	/^    ngx_str_t    name;$/;"	m	struct:__anon17	access:public
+__anon17::size	ngx_shmem.h	/^    size_t       size;$/;"	m	struct:__anon17	access:public
+__anon1::exists	ngx_darwin_init.c	/^    ngx_uint_t   exists;$/;"	m	struct:__anon1	file:	access:public
+__anon1::name	ngx_darwin_init.c	/^    char        *name;$/;"	m	struct:__anon1	file:	access:public
+__anon1::size	ngx_darwin_init.c	/^    size_t       size;$/;"	m	struct:__anon1	file:	access:public
+__anon1::value	ngx_darwin_init.c	/^    void        *value;$/;"	m	struct:__anon1	file:	access:public
+__anon2::addr	ngx_files.h	/^    void                        *addr;$/;"	m	struct:__anon2	access:public
+__anon2::fd	ngx_files.h	/^    ngx_fd_t                     fd;$/;"	m	struct:__anon2	access:public
+__anon2::log	ngx_files.h	/^    ngx_log_t                   *log;$/;"	m	struct:__anon2	access:public
+__anon2::name	ngx_files.h	/^    u_char                      *name;$/;"	m	struct:__anon2	access:public
+__anon2::size	ngx_files.h	/^    size_t                       size;$/;"	m	struct:__anon2	access:public
+__anon3::de	ngx_files.h	/^    struct dirent               *de;$/;"	m	struct:__anon3	typeref:struct:__anon3::dirent	access:public
+__anon3::dir	ngx_files.h	/^    DIR                         *dir;$/;"	m	struct:__anon3	access:public
+__anon3::info	ngx_files.h	/^    struct stat                  info;$/;"	m	struct:__anon3	typeref:struct:__anon3::stat	access:public
+__anon3::type	ngx_files.h	/^    unsigned                     type:8;$/;"	m	struct:__anon3	access:public
+__anon3::valid_info	ngx_files.h	/^    unsigned                     valid_info:1;$/;"	m	struct:__anon3	access:public
+__anon4::log	ngx_files.h	/^    ngx_log_t                   *log;$/;"	m	struct:__anon4	access:public
+__anon4::n	ngx_files.h	/^    size_t                       n;$/;"	m	struct:__anon4	access:public
+__anon4::pattern	ngx_files.h	/^    u_char                      *pattern;$/;"	m	struct:__anon4	access:public
+__anon4::pglob	ngx_files.h	/^    glob_t                       pglob;$/;"	m	struct:__anon4	access:public
+__anon4::test	ngx_files.h	/^    ngx_uint_t                   test;$/;"	m	struct:__anon4	access:public
+__anon5::delay	ngx_process_cycle.h	/^    ngx_msec_t                 delay;$/;"	m	struct:__anon5	access:public
+__anon5::handler	ngx_process_cycle.h	/^    ngx_event_handler_pt       handler;$/;"	m	struct:__anon5	access:public
+__anon5::name	ngx_process_cycle.h	/^    char                      *name;$/;"	m	struct:__anon5	access:public
+__anon6::lock	ngx_freebsd_rfork_thread.h	/^    ngx_atomic_t  lock;$/;"	m	struct:__anon6	access:public
+__anon6::log	ngx_freebsd_rfork_thread.h	/^    ngx_log_t    *log;$/;"	m	struct:__anon6	access:public
+__anon6::semid	ngx_freebsd_rfork_thread.h	/^    int           semid;$/;"	m	struct:__anon6	access:public
+__anon7::kq	ngx_freebsd_rfork_thread.h	/^    int           kq;$/;"	m	struct:__anon7	access:public
+__anon7::log	ngx_freebsd_rfork_thread.h	/^    ngx_log_t    *log;$/;"	m	struct:__anon7	access:public
+__anon7::signo	ngx_freebsd_rfork_thread.h	/^    int           signo;$/;"	m	struct:__anon7	access:public
+__anon7::tid	ngx_freebsd_rfork_thread.h	/^    ngx_tid_t     tid;$/;"	m	struct:__anon7	access:public
+__anon8::exists	ngx_freebsd_init.c	/^    ngx_uint_t   exists;$/;"	m	struct:__anon8	file:	access:public
+__anon8::name	ngx_freebsd_init.c	/^    char        *name;$/;"	m	struct:__anon8	file:	access:public
+__anon8::size	ngx_freebsd_init.c	/^    size_t       size;$/;"	m	struct:__anon8	file:	access:public
+__anon8::value	ngx_freebsd_init.c	/^    void        *value;$/;"	m	struct:__anon8	file:	access:public
+__anon9::handler	ngx_process.c	/^    void  (*handler)(int signo);$/;"	m	struct:__anon9	file:	access:public
+__anon9::name	ngx_process.c	/^    char   *name;$/;"	m	struct:__anon9	file:	access:public
+__anon9::signame	ngx_process.c	/^    char   *signame;$/;"	m	struct:__anon9	file:	access:public
+__anon9::signo	ngx_process.c	/^    int     signo;$/;"	m	struct:__anon9	file:	access:public
+__error	ngx_freebsd_rfork_thread.c	/^__error()$/;"	f
+_spinlock	ngx_freebsd_rfork_thread.c	/^_spinlock(ngx_atomic_t *lock)$/;"	f	signature:(ngx_atomic_t *lock)
+_spinunlock	ngx_freebsd_rfork_thread.c	/^_spinunlock(ngx_atomic_t *lock)$/;"	f	signature:(ngx_atomic_t *lock)
+addr	ngx_files.h	/^    void                        *addr;$/;"	m	struct:__anon2	access:public
+addr	ngx_shmem.h	/^    u_char      *addr;$/;"	m	struct:__anon17	access:public
+argv	ngx_process.h	/^    char *const  *argv;$/;"	m	struct:__anon11	access:public
+bool	ngx_atomic.h	51;"	d
+channel	ngx_process.h	/^    ngx_socket_t        channel[2];$/;"	m	struct:__anon10	access:public
+child	rfork_thread.S	/^child:$/;"	l
+command	ngx_channel.h	/^     ngx_uint_t  command;$/;"	m	struct:__anon13	access:public
+cond	ngx_thread.h	/^    pthread_cond_t    cond;$/;"	m	struct:__anon15	access:public
+cpu_affinity	ngx_process_cycle.c	/^u_long         cpu_affinity;$/;"	v
+cv	ngx_thread.h	/^    ngx_cond_t  *cv;$/;"	m	struct:__anon16	access:public
+data	ngx_process.h	/^    void               *data;$/;"	m	struct:__anon10	access:public
+de	ngx_files.h	/^    struct dirent               *de;$/;"	m	struct:__anon3	typeref:struct:__anon3::dirent	access:public
+delay	ngx_process_cycle.h	/^    ngx_msec_t                 delay;$/;"	m	struct:__anon5	access:public
+detached	ngx_process.h	/^    unsigned            detached:1;$/;"	m	struct:__anon10	access:public
+dir	ngx_files.h	/^    DIR                         *dir;$/;"	m	struct:__anon3	access:public
+envp	ngx_process.h	/^    char *const  *envp;$/;"	m	struct:__anon11	access:public
+errno0	ngx_freebsd_rfork_thread.c	/^static int   errno0;   \/* the main thread's errno *\/$/;"	v	file:
+errnos	ngx_freebsd_rfork_thread.c	/^static int  *errnos;   \/* the threads errno's array *\/$/;"	v	file:
+error	rfork_thread.S	/^error:$/;"	l
+exists	ngx_darwin_init.c	/^    ngx_uint_t   exists;$/;"	m	struct:__anon1	file:	access:public
+exists	ngx_freebsd_init.c	/^    ngx_uint_t   exists;$/;"	m	struct:__anon8	file:	access:public
+exists	ngx_shmem.h	/^    ngx_uint_t   exists;   \/* unsigned  exists:1;  *\/$/;"	m	struct:__anon17	access:public
+exited	ngx_process.h	/^    unsigned            exited:1;$/;"	m	struct:__anon10	access:public
+exiting	ngx_process.h	/^    unsigned            exiting:1;$/;"	m	struct:__anon10	access:public
+fd	ngx_channel.h	/^     ngx_fd_t    fd;$/;"	m	struct:__anon13	access:public
+fd	ngx_files.h	/^    ngx_fd_t                     fd;$/;"	m	struct:__anon2	access:public
+flags	ngx_os.h	/^    ngx_uint_t         flags;$/;"	m	struct:__anon12	access:public
+handler	ngx_process.c	/^    void  (*handler)(int signo);$/;"	m	struct:__anon9	file:	access:public
+handler	ngx_process_cycle.h	/^    ngx_event_handler_pt       handler;$/;"	m	struct:__anon5	access:public
+info	ngx_files.h	/^    struct stat                  info;$/;"	m	struct:__anon3	typeref:struct:__anon3::stat	access:public
+io_submit	ngx_linux_aio_read.c	/^io_submit(aio_context_t ctx, long n, struct iocb **paiocb)$/;"	f	file:	signature:(aio_context_t ctx, long n, struct iocb **paiocb)
+just_spawn	ngx_process.h	/^    unsigned            just_spawn:1;$/;"	m	struct:__anon10	access:public
+kq	ngx_freebsd_rfork_thread.h	/^    int           kq;$/;"	m	struct:__anon7	access:public
+last_stack	ngx_freebsd_rfork_thread.c	/^static char          *last_stack;$/;"	v	file:
+lock	ngx_freebsd_rfork_thread.h	/^    ngx_atomic_t  lock;$/;"	m	struct:__anon6	access:public
+log	ngx_files.h	/^    ngx_log_t                   *log;$/;"	m	struct:__anon2	access:public
+log	ngx_files.h	/^    ngx_log_t                   *log;$/;"	m	struct:__anon4	access:public
+log	ngx_freebsd_rfork_thread.h	/^    ngx_log_t    *log;$/;"	m	struct:__anon6	access:public
+log	ngx_freebsd_rfork_thread.h	/^    ngx_log_t    *log;$/;"	m	struct:__anon7	access:public
+log	ngx_shmem.h	/^    ngx_log_t   *log;$/;"	m	struct:__anon17	access:public
+log	ngx_thread.h	/^    ngx_log_t        *log;$/;"	m	struct:__anon14	access:public
+log	ngx_thread.h	/^    ngx_log_t        *log;$/;"	m	struct:__anon15	access:public
+master_process	ngx_process_cycle.c	/^static u_char  master_process[] = "master process";$/;"	v	file:
+max_threads	ngx_freebsd_rfork_thread.c	/^static ngx_uint_t     max_threads;$/;"	v	file:
+max_threads	ngx_pthread_thread.c	/^static ngx_uint_t   max_threads;$/;"	v	file:
+mutex	ngx_thread.h	/^    pthread_mutex_t   mutex;$/;"	m	struct:__anon14	access:public
+n	ngx_files.h	/^    size_t                       n;$/;"	m	struct:__anon4	access:public
+name	ngx_darwin_init.c	/^    char        *name;$/;"	m	struct:__anon1	file:	access:public
+name	ngx_files.h	/^    u_char                      *name;$/;"	m	struct:__anon2	access:public
+name	ngx_freebsd_init.c	/^    char        *name;$/;"	m	struct:__anon8	file:	access:public
+name	ngx_process.c	/^    char   *name;$/;"	m	struct:__anon9	file:	access:public
+name	ngx_process.h	/^    char               *name;$/;"	m	struct:__anon10	access:public
+name	ngx_process.h	/^    char         *name;$/;"	m	struct:__anon11	access:public
+name	ngx_process_cycle.h	/^    char                      *name;$/;"	m	struct:__anon5	access:public
+name	ngx_shmem.h	/^    ngx_str_t    name;$/;"	m	struct:__anon17	access:public
+ngx_add_channel_event	ngx_channel.c	/^ngx_add_channel_event(ngx_cycle_t *cycle, ngx_fd_t fd, ngx_int_t event,$/;"	f	signature:(ngx_cycle_t *cycle, ngx_fd_t fd, ngx_int_t event, ngx_event_handler_pt handler)
+ngx_add_channel_event	ngx_channel.h	/^ngx_int_t ngx_add_channel_event(ngx_cycle_t *cycle, ngx_fd_t fd,$/;"	p	signature:(ngx_cycle_t *cycle, ngx_fd_t fd, ngx_int_t event, ngx_event_handler_pt handler)
+ngx_aio_read	ngx_aio_read.c	/^ngx_aio_read(ngx_connection_t *c, u_char *buf, size_t size)$/;"	f	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_aio_read	ngx_os.h	/^ssize_t ngx_aio_read(ngx_connection_t *c, u_char *buf, size_t size);$/;"	p	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_aio_read_chain	ngx_aio_read_chain.c	/^ngx_aio_read_chain(ngx_connection_t *c, ngx_chain_t *cl)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *cl)
+ngx_aio_read_chain	ngx_os.h	/^ssize_t ngx_aio_read_chain(ngx_connection_t *c, ngx_chain_t *cl);$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *cl)
+ngx_aio_write	ngx_aio_write.c	/^ngx_aio_write(ngx_connection_t *c, u_char *buf, size_t size)$/;"	f	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_aio_write	ngx_os.h	/^ssize_t ngx_aio_write(ngx_connection_t *c, u_char *buf, size_t size);$/;"	p	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_aio_write_chain	ngx_aio_write_chain.c	/^ngx_aio_write_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_aio_write_chain	ngx_os.h	/^ngx_chain_t *ngx_aio_write_chain(ngx_connection_t *c, ngx_chain_t *in,$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_aiocb_t	ngx_freebsd_config.h	/^typedef struct aiocb  ngx_aiocb_t;$/;"	t	typeref:struct:aiocb
+ngx_aiocb_t	ngx_linux_config.h	/^typedef struct iocb  ngx_aiocb_t;$/;"	t	typeref:struct:iocb
+ngx_aiocb_t	ngx_posix_config.h	/^typedef struct aiocb  ngx_aiocb_t;$/;"	t	typeref:struct:aiocb
+ngx_alloc	ngx_alloc.c	/^ngx_alloc(size_t size, ngx_log_t *log)$/;"	f	signature:(size_t size, ngx_log_t *log)
+ngx_alloc	ngx_alloc.h	/^void *ngx_alloc(size_t size, ngx_log_t *log);$/;"	p	signature:(size_t size, ngx_log_t *log)
+ngx_argc	ngx_process.c	/^int              ngx_argc;$/;"	v
+ngx_argv	ngx_process.c	/^char           **ngx_argv;$/;"	v
+ngx_atomic_cmp_set	ngx_atomic.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	f	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_cmp_set	ngx_atomic.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	p	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_cmp_set	ngx_atomic.h	107;"	d
+ngx_atomic_cmp_set	ngx_atomic.h	33;"	d
+ngx_atomic_cmp_set	ngx_atomic.h	62;"	d
+ngx_atomic_cmp_set	ngx_atomic.h	74;"	d
+ngx_atomic_cmp_set	ngx_gcc_atomic_amd64.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	f	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_cmp_set	ngx_gcc_atomic_ppc.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	f	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_cmp_set	ngx_gcc_atomic_sparc64.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	f	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_cmp_set	ngx_gcc_atomic_x86.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	f	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_cmp_set	ngx_sunpro_atomic_sparc64.h	/^ngx_atomic_cmp_set(ngx_atomic_t *lock, ngx_atomic_uint_t old,$/;"	f	signature:(ngx_atomic_t *lock, ngx_atomic_uint_t old, ngx_atomic_uint_t set)
+ngx_atomic_fetch_add	ngx_atomic.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add)$/;"	f	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_fetch_add	ngx_atomic.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add);$/;"	p	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_fetch_add	ngx_atomic.h	110;"	d
+ngx_atomic_fetch_add	ngx_atomic.h	35;"	d
+ngx_atomic_fetch_add	ngx_atomic.h	65;"	d
+ngx_atomic_fetch_add	ngx_atomic.h	77;"	d
+ngx_atomic_fetch_add	ngx_gcc_atomic_amd64.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add)$/;"	f	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_fetch_add	ngx_gcc_atomic_ppc.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add)$/;"	f	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_fetch_add	ngx_gcc_atomic_sparc64.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add)$/;"	f	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_fetch_add	ngx_gcc_atomic_x86.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add)$/;"	f	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_fetch_add	ngx_sunpro_atomic_sparc64.h	/^ngx_atomic_fetch_add(ngx_atomic_t *value, ngx_atomic_int_t add)$/;"	f	signature:(ngx_atomic_t *value, ngx_atomic_int_t add)
+ngx_atomic_int_t	ngx_atomic.h	/^typedef int32_t                     ngx_atomic_int_t;$/;"	t
+ngx_atomic_int_t	ngx_atomic.h	/^typedef int64_t                     ngx_atomic_int_t;$/;"	t
+ngx_atomic_int_t	ngx_atomic.h	/^typedef long                        ngx_atomic_int_t;$/;"	t
+ngx_atomic_t	ngx_atomic.h	/^typedef volatile ngx_atomic_uint_t  ngx_atomic_t;$/;"	t
+ngx_atomic_uint_t	ngx_atomic.h	/^typedef AO_t                        ngx_atomic_uint_t;$/;"	t
+ngx_atomic_uint_t	ngx_atomic.h	/^typedef uint32_t                    ngx_atomic_uint_t;$/;"	t
+ngx_atomic_uint_t	ngx_atomic.h	/^typedef uint64_t                    ngx_atomic_uint_t;$/;"	t
+ngx_atomic_uint_t	ngx_atomic.h	/^typedef unsigned long               ngx_atomic_uint_t;$/;"	t
+ngx_blocking	ngx_socket.c	/^ngx_blocking(ngx_socket_t s)$/;"	f	signature:(ngx_socket_t s)
+ngx_blocking	ngx_socket.h	/^int ngx_blocking(ngx_socket_t s);$/;"	p	signature:(ngx_socket_t s)
+ngx_blocking	ngx_socket.h	36;"	d
+ngx_blocking_n	ngx_socket.h	29;"	d
+ngx_blocking_n	ngx_socket.h	37;"	d
+ngx_cache_loader_ctx	ngx_process_cycle.c	/^static ngx_cache_manager_ctx_t  ngx_cache_loader_ctx = {$/;"	v	file:
+ngx_cache_loader_process_handler	ngx_process_cycle.c	/^ngx_cache_loader_process_handler(ngx_event_t *ev)$/;"	f	file:	signature:(ngx_event_t *ev)
+ngx_cache_loader_process_handler	ngx_process_cycle.c	/^static void ngx_cache_loader_process_handler(ngx_event_t *ev);$/;"	p	file:	signature:(ngx_event_t *ev)
+ngx_cache_manager_ctx	ngx_process_cycle.c	/^static ngx_cache_manager_ctx_t  ngx_cache_manager_ctx = {$/;"	v	file:
+ngx_cache_manager_ctx_t	ngx_process_cycle.h	/^} ngx_cache_manager_ctx_t;$/;"	t	typeref:struct:__anon5
+ngx_cache_manager_process_cycle	ngx_process_cycle.c	/^ngx_cache_manager_process_cycle(ngx_cycle_t *cycle, void *data)$/;"	f	file:	signature:(ngx_cycle_t *cycle, void *data)
+ngx_cache_manager_process_cycle	ngx_process_cycle.c	/^static void ngx_cache_manager_process_cycle(ngx_cycle_t *cycle, void *data);$/;"	p	file:	signature:(ngx_cycle_t *cycle, void *data)
+ngx_cache_manager_process_handler	ngx_process_cycle.c	/^ngx_cache_manager_process_handler(ngx_event_t *ev)$/;"	f	file:	signature:(ngx_event_t *ev)
+ngx_cache_manager_process_handler	ngx_process_cycle.c	/^static void ngx_cache_manager_process_handler(ngx_event_t *ev);$/;"	p	file:	signature:(ngx_event_t *ev)
+ngx_cacheline_size	ngx_alloc.c	/^ngx_uint_t  ngx_cacheline_size;$/;"	v
+ngx_calloc	ngx_alloc.c	/^ngx_calloc(size_t size, ngx_log_t *log)$/;"	f	signature:(size_t size, ngx_log_t *log)
+ngx_calloc	ngx_alloc.h	/^void *ngx_calloc(size_t size, ngx_log_t *log);$/;"	p	signature:(size_t size, ngx_log_t *log)
+ngx_casa	ngx_sunpro_atomic_sparc64.h	/^ngx_casa(ngx_atomic_uint_t set, ngx_atomic_uint_t old, ngx_atomic_t *lock);$/;"	p	signature:(ngx_atomic_uint_t set, ngx_atomic_uint_t old, ngx_atomic_t *lock)
+ngx_casxa	ngx_sunpro_atomic_sparc64.h	/^ngx_casxa(ngx_atomic_uint_t set, ngx_atomic_uint_t old, ngx_atomic_t *lock);$/;"	p	signature:(ngx_atomic_uint_t set, ngx_atomic_uint_t old, ngx_atomic_t *lock)
+ngx_change_binary	ngx_process_cycle.c	/^sig_atomic_t  ngx_change_binary;$/;"	v
+ngx_change_file_access	ngx_files.h	139;"	d
+ngx_change_file_access_n	ngx_files.h	140;"	d
+ngx_channel	ngx_process.c	/^ngx_socket_t     ngx_channel;$/;"	v
+ngx_channel_handler	ngx_process_cycle.c	/^ngx_channel_handler(ngx_event_t *ev)$/;"	f	file:	signature:(ngx_event_t *ev)
+ngx_channel_handler	ngx_process_cycle.c	/^static void ngx_channel_handler(ngx_event_t *ev);$/;"	p	file:	signature:(ngx_event_t *ev)
+ngx_channel_t	ngx_channel.h	/^} ngx_channel_t;$/;"	t	typeref:struct:__anon13
+ngx_close_channel	ngx_channel.c	/^ngx_close_channel(ngx_fd_t *fd, ngx_log_t *log)$/;"	f	signature:(ngx_fd_t *fd, ngx_log_t *log)
+ngx_close_channel	ngx_channel.h	/^void ngx_close_channel(ngx_fd_t *fd, ngx_log_t *log);$/;"	p	signature:(ngx_fd_t *fd, ngx_log_t *log)
+ngx_close_dir	ngx_files.h	197;"	d
+ngx_close_dir_n	ngx_files.h	198;"	d
+ngx_close_file	ngx_files.h	83;"	d
+ngx_close_file_mapping	ngx_files.c	/^ngx_close_file_mapping(ngx_file_mapping_t *fm)$/;"	f	signature:(ngx_file_mapping_t *fm)
+ngx_close_file_mapping	ngx_files.h	/^void ngx_close_file_mapping(ngx_file_mapping_t *fm);$/;"	p	signature:(ngx_file_mapping_t *fm)
+ngx_close_file_n	ngx_files.h	84;"	d
+ngx_close_glob	ngx_files.c	/^ngx_close_glob(ngx_glob_t *gl)$/;"	f	signature:(ngx_glob_t *gl)
+ngx_close_glob	ngx_files.h	/^void ngx_close_glob(ngx_glob_t *gl);$/;"	p	signature:(ngx_glob_t *gl)
+ngx_close_socket	ngx_socket.h	60;"	d
+ngx_close_socket_n	ngx_socket.h	61;"	d
+ngx_cond_destroy	ngx_freebsd_rfork_thread.c	/^ngx_cond_destroy(ngx_cond_t *cv)$/;"	f	signature:(ngx_cond_t *cv)
+ngx_cond_destroy	ngx_pthread_thread.c	/^ngx_cond_destroy(ngx_cond_t *cv)$/;"	f	signature:(ngx_cond_t *cv)
+ngx_cond_destroy	ngx_thread.h	/^void ngx_cond_destroy(ngx_cond_t *cv);$/;"	p	signature:(ngx_cond_t *cv)
+ngx_cond_init	ngx_freebsd_rfork_thread.c	/^ngx_cond_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_cond_init	ngx_pthread_thread.c	/^ngx_cond_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_cond_init	ngx_thread.h	/^ngx_cond_t *ngx_cond_init(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_cond_signal	ngx_freebsd_rfork_thread.c	/^ngx_cond_signal(ngx_cond_t *cv)$/;"	f	signature:(ngx_cond_t *cv)
+ngx_cond_signal	ngx_pthread_thread.c	/^ngx_cond_signal(ngx_cond_t *cv)$/;"	f	signature:(ngx_cond_t *cv)
+ngx_cond_signal	ngx_thread.h	/^ngx_int_t ngx_cond_signal(ngx_cond_t *cv);$/;"	p	signature:(ngx_cond_t *cv)
+ngx_cond_signal	ngx_thread.h	121;"	d
+ngx_cond_t	ngx_freebsd_rfork_thread.h	/^} ngx_cond_t;$/;"	t	typeref:struct:__anon7
+ngx_cond_t	ngx_thread.h	/^} ngx_cond_t;$/;"	t	typeref:struct:__anon15
+ngx_cond_wait	ngx_freebsd_rfork_thread.c	/^ngx_cond_wait(ngx_cond_t *cv, ngx_mutex_t *m)$/;"	f	signature:(ngx_cond_t *cv, ngx_mutex_t *m)
+ngx_cond_wait	ngx_pthread_thread.c	/^ngx_cond_wait(ngx_cond_t *cv, ngx_mutex_t *m)$/;"	f	signature:(ngx_cond_t *cv, ngx_mutex_t *m)
+ngx_cond_wait	ngx_thread.h	/^ngx_int_t ngx_cond_wait(ngx_cond_t *cv, ngx_mutex_t *m);$/;"	p	signature:(ngx_cond_t *cv, ngx_mutex_t *m)
+ngx_cpu_pause	ngx_atomic.h	/^ngx_cpu_pause(void);$/;"	p	signature:(void)
+ngx_cpu_pause	ngx_atomic.h	116;"	d
+ngx_cpu_pause	ngx_atomic.h	118;"	d
+ngx_cpu_pause	ngx_atomic.h	300;"	d
+ngx_cpu_pause	ngx_atomic.h	38;"	d
+ngx_cpu_pause	ngx_atomic.h	84;"	d
+ngx_cpu_pause	ngx_gcc_atomic_amd64.h	82;"	d
+ngx_cpu_pause	ngx_gcc_atomic_ppc.h	155;"	d
+ngx_cpu_pause	ngx_gcc_atomic_sparc64.h	82;"	d
+ngx_cpu_pause	ngx_gcc_atomic_x86.h	127;"	d
+ngx_cpu_pause	ngx_sunpro_atomic_sparc64.h	61;"	d
+ngx_create_dir	ngx_files.h	205;"	d
+ngx_create_dir_n	ngx_files.h	206;"	d
+ngx_create_file_mapping	ngx_files.c	/^ngx_create_file_mapping(ngx_file_mapping_t *fm)$/;"	f	signature:(ngx_file_mapping_t *fm)
+ngx_create_file_mapping	ngx_files.h	/^ngx_int_t ngx_create_file_mapping(ngx_file_mapping_t *fm);$/;"	p	signature:(ngx_file_mapping_t *fm)
+ngx_create_thread	ngx_freebsd_rfork_thread.c	/^ngx_create_thread(ngx_tid_t *tid, ngx_thread_value_t (*func)(void *arg),$/;"	f	signature:(ngx_tid_t *tid, ngx_thread_value_t (*func)(void *arg), void *arg, ngx_log_t *log)
+ngx_create_thread	ngx_pthread_thread.c	/^ngx_create_thread(ngx_tid_t *tid, ngx_thread_value_t (*func)(void *arg),$/;"	f	signature:(ngx_tid_t *tid, ngx_thread_value_t (*func)(void *arg), void *arg, ngx_log_t *log)
+ngx_create_thread	ngx_thread.h	/^ngx_err_t ngx_create_thread(ngx_tid_t *tid,$/;"	p	signature:(ngx_tid_t *tid, ngx_thread_value_t (*func)(void *arg), void *arg, ngx_log_t *log)
+ngx_daemon	ngx_daemon.c	/^ngx_int_t ngx_daemon(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_daemon	ngx_os.h	/^ngx_int_t ngx_daemon(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_daemonized	ngx_process_cycle.c	/^ngx_uint_t    ngx_daemonized;$/;"	v
+ngx_darwin_hw_ncpu	ngx_darwin_init.c	/^int     ngx_darwin_hw_ncpu;$/;"	v
+ngx_darwin_io	ngx_darwin_init.c	/^static ngx_os_io_t ngx_darwin_io = {$/;"	v	file:
+ngx_darwin_kern_ipc_somaxconn	ngx_darwin_init.c	/^int     ngx_darwin_kern_ipc_somaxconn;$/;"	v
+ngx_darwin_kern_osrelease	ngx_darwin_init.c	/^char    ngx_darwin_kern_osrelease[128];$/;"	v
+ngx_darwin_kern_ostype	ngx_darwin_init.c	/^char    ngx_darwin_kern_ostype[16];$/;"	v
+ngx_darwin_net_inet_tcp_sendspace	ngx_darwin_init.c	/^u_long  ngx_darwin_net_inet_tcp_sendspace;$/;"	v
+ngx_darwin_sendfile_chain	ngx_darwin.h	/^ngx_chain_t *ngx_darwin_sendfile_chain(ngx_connection_t *c, ngx_chain_t *in,$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_darwin_sendfile_chain	ngx_darwin_sendfile_chain.c	/^ngx_darwin_sendfile_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_de_access	ngx_files.h	256;"	d
+ngx_de_fs_size	ngx_files.h	258;"	d
+ngx_de_info	ngx_files.h	/^ngx_de_info(u_char *name, ngx_dir_t *dir)$/;"	f	signature:(u_char *name, ngx_dir_t *dir)
+ngx_de_info_n	ngx_files.h	230;"	d
+ngx_de_is_dir	ngx_files.h	241;"	d
+ngx_de_is_dir	ngx_files.h	250;"	d
+ngx_de_is_file	ngx_files.h	243;"	d
+ngx_de_is_file	ngx_files.h	251;"	d
+ngx_de_is_link	ngx_files.h	245;"	d
+ngx_de_is_link	ngx_files.h	252;"	d
+ngx_de_link_info	ngx_files.h	231;"	d
+ngx_de_link_info_n	ngx_files.h	232;"	d
+ngx_de_mtime	ngx_files.h	260;"	d
+ngx_de_name	ngx_files.h	216;"	d
+ngx_de_namelen	ngx_files.h	218;"	d
+ngx_de_namelen	ngx_files.h	220;"	d
+ngx_de_size	ngx_files.h	257;"	d
+ngx_debug_init	ngx_freebsd_init.c	/^ngx_debug_init()$/;"	f
+ngx_debug_init	ngx_os.h	/^void ngx_debug_init(void);$/;"	p	signature:(void)
+ngx_debug_point	ngx_process.c	/^ngx_debug_point(void)$/;"	f	signature:(void)
+ngx_debug_point	ngx_process.h	/^void ngx_debug_point(void);$/;"	p	signature:(void)
+ngx_debug_quit	ngx_process_cycle.c	/^sig_atomic_t  ngx_debug_quit;$/;"	v
+ngx_delete_dir	ngx_files.h	209;"	d
+ngx_delete_dir_n	ngx_files.h	210;"	d
+ngx_delete_file	ngx_files.h	87;"	d
+ngx_delete_file_n	ngx_files.h	88;"	d
+ngx_dir_access	ngx_files.h	213;"	d
+ngx_dir_t	ngx_files.h	/^} ngx_dir_t;$/;"	t	typeref:struct:__anon3
+ngx_directio_off	ngx_files.c	/^ngx_directio_off(ngx_fd_t fd)$/;"	f	signature:(ngx_fd_t fd)
+ngx_directio_off	ngx_files.h	/^ngx_int_t ngx_directio_off(ngx_fd_t fd);$/;"	p	signature:(ngx_fd_t fd)
+ngx_directio_off_n	ngx_files.h	306;"	d
+ngx_directio_on	ngx_files.c	/^ngx_directio_on(ngx_fd_t fd)$/;"	f	signature:(ngx_fd_t fd)
+ngx_directio_on	ngx_files.h	/^ngx_int_t ngx_directio_on(ngx_fd_t fd);$/;"	p	signature:(ngx_fd_t fd)
+ngx_directio_on	ngx_files.h	310;"	d
+ngx_directio_on	ngx_files.h	315;"	d
+ngx_directio_on	ngx_files.h	320;"	d
+ngx_directio_on_n	ngx_files.h	303;"	d
+ngx_directio_on_n	ngx_files.h	311;"	d
+ngx_directio_on_n	ngx_files.h	316;"	d
+ngx_directio_on_n	ngx_files.h	321;"	d
+ngx_err_t	ngx_errno.h	/^typedef int               ngx_err_t;$/;"	t
+ngx_errno	ngx_errno.h	58;"	d
+ngx_exec_ctx_t	ngx_process.h	/^} ngx_exec_ctx_t;$/;"	t	typeref:struct:__anon11
+ngx_execute	ngx_process.c	/^ngx_execute(ngx_cycle_t *cycle, ngx_exec_ctx_t *ctx)$/;"	f	signature:(ngx_cycle_t *cycle, ngx_exec_ctx_t *ctx)
+ngx_execute	ngx_process.h	/^ngx_pid_t ngx_execute(ngx_cycle_t *cycle, ngx_exec_ctx_t *ctx);$/;"	p	signature:(ngx_cycle_t *cycle, ngx_exec_ctx_t *ctx)
+ngx_execute_proc	ngx_process.c	/^ngx_execute_proc(ngx_cycle_t *cycle, void *data)$/;"	f	file:	signature:(ngx_cycle_t *cycle, void *data)
+ngx_execute_proc	ngx_process.c	/^static void ngx_execute_proc(ngx_cycle_t *cycle, void *data);$/;"	p	file:	signature:(ngx_cycle_t *cycle, void *data)
+ngx_exit_cycle	ngx_process_cycle.c	/^static ngx_cycle_t      ngx_exit_cycle;$/;"	v	file:
+ngx_exit_log	ngx_process_cycle.c	/^static ngx_log_t        ngx_exit_log;$/;"	v	file:
+ngx_exit_log_file	ngx_process_cycle.c	/^static ngx_open_file_t  ngx_exit_log_file;$/;"	v	file:
+ngx_exiting	ngx_process_cycle.c	/^ngx_uint_t    ngx_exiting;$/;"	v
+ngx_fd_info	ngx_files.h	150;"	d
+ngx_fd_info_n	ngx_files.h	151;"	d
+ngx_fd_t	ngx_files.h	/^typedef int                      ngx_fd_t;$/;"	t
+ngx_file_access	ngx_files.h	160;"	d
+ngx_file_aio	ngx_files.c	/^ngx_uint_t  ngx_file_aio = 1;$/;"	v
+ngx_file_aio_event_handler	ngx_file_aio_read.c	/^ngx_file_aio_event_handler(ngx_event_t *ev)$/;"	f	file:	signature:(ngx_event_t *ev)
+ngx_file_aio_event_handler	ngx_file_aio_read.c	/^static void ngx_file_aio_event_handler(ngx_event_t *ev);$/;"	p	file:	signature:(ngx_event_t *ev)
+ngx_file_aio_event_handler	ngx_linux_aio_read.c	/^ngx_file_aio_event_handler(ngx_event_t *ev)$/;"	f	file:	signature:(ngx_event_t *ev)
+ngx_file_aio_event_handler	ngx_linux_aio_read.c	/^static void ngx_file_aio_event_handler(ngx_event_t *ev);$/;"	p	file:	signature:(ngx_event_t *ev)
+ngx_file_aio_read	ngx_file_aio_read.c	/^ngx_file_aio_read(ngx_file_t *file, u_char *buf, size_t size, off_t offset,$/;"	f	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset, ngx_pool_t *pool)
+ngx_file_aio_read	ngx_files.h	/^ssize_t ngx_file_aio_read(ngx_file_t *file, u_char *buf, size_t size,$/;"	p	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset, ngx_pool_t *pool)
+ngx_file_aio_read	ngx_linux_aio_read.c	/^ngx_file_aio_read(ngx_file_t *file, u_char *buf, size_t size, off_t offset,$/;"	f	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset, ngx_pool_t *pool)
+ngx_file_aio_result	ngx_file_aio_read.c	/^ngx_file_aio_result(ngx_file_t *file, ngx_event_aio_t *aio, ngx_event_t *ev)$/;"	f	file:	signature:(ngx_file_t *file, ngx_event_aio_t *aio, ngx_event_t *ev)
+ngx_file_aio_result	ngx_file_aio_read.c	/^static ssize_t ngx_file_aio_result(ngx_file_t *file, ngx_event_aio_t *aio,$/;"	p	file:	signature:(ngx_file_t *file, ngx_event_aio_t *aio, ngx_event_t *ev)
+ngx_file_fs_size	ngx_files.h	162;"	d
+ngx_file_info	ngx_files.h	147;"	d
+ngx_file_info_n	ngx_files.h	148;"	d
+ngx_file_info_t	ngx_files.h	/^typedef struct stat              ngx_file_info_t;$/;"	t	typeref:struct:stat
+ngx_file_mapping_t	ngx_files.h	/^} ngx_file_mapping_t;$/;"	t	typeref:struct:__anon2
+ngx_file_mtime	ngx_files.h	163;"	d
+ngx_file_size	ngx_files.h	161;"	d
+ngx_file_uniq	ngx_files.h	164;"	d
+ngx_file_uniq_t	ngx_files.h	/^typedef ino_t                    ngx_file_uniq_t;$/;"	t
+ngx_filename_cmp	ngx_files.h	173;"	d
+ngx_filename_cmp	ngx_files.h	177;"	d
+ngx_free	ngx_alloc.h	19;"	d
+ngx_freebsd_debug_malloc	ngx_freebsd_init.c	/^ngx_uint_t  ngx_freebsd_debug_malloc;$/;"	v
+ngx_freebsd_hw_ncpu	ngx_freebsd_init.c	/^int     ngx_freebsd_hw_ncpu;$/;"	v
+ngx_freebsd_io	ngx_freebsd_init.c	/^static ngx_os_io_t ngx_freebsd_io = {$/;"	v	file:
+ngx_freebsd_kern_ipc_somaxconn	ngx_freebsd_init.c	/^int     ngx_freebsd_kern_ipc_somaxconn;$/;"	v
+ngx_freebsd_kern_osreldate	ngx_freebsd_init.c	/^int     ngx_freebsd_kern_osreldate;$/;"	v
+ngx_freebsd_kern_osrelease	ngx_freebsd_init.c	/^char    ngx_freebsd_kern_osrelease[128];$/;"	v
+ngx_freebsd_kern_ostype	ngx_freebsd_init.c	/^char    ngx_freebsd_kern_ostype[16];$/;"	v
+ngx_freebsd_kern_usrstack	ngx_freebsd_rfork_thread.c	/^char                 *ngx_freebsd_kern_usrstack;$/;"	v
+ngx_freebsd_machdep_hlt_logical_cpus	ngx_freebsd_init.c	/^int     ngx_freebsd_machdep_hlt_logical_cpus;$/;"	v
+ngx_freebsd_net_inet_tcp_sendspace	ngx_freebsd_init.c	/^u_long  ngx_freebsd_net_inet_tcp_sendspace;$/;"	v
+ngx_freebsd_sendfile_chain	ngx_freebsd.h	/^ngx_chain_t *ngx_freebsd_sendfile_chain(ngx_connection_t *c, ngx_chain_t *in,$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_freebsd_sendfile_chain	ngx_freebsd_sendfile_chain.c	/^ngx_freebsd_sendfile_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_freebsd_sendfile_nbytes_bug	ngx_freebsd_init.c	/^ngx_uint_t  ngx_freebsd_sendfile_nbytes_bug;$/;"	v
+ngx_freebsd_use_tcp_nopush	ngx_freebsd_init.c	/^ngx_uint_t  ngx_freebsd_use_tcp_nopush;$/;"	v
+ngx_fs_bsize	ngx_files.c	/^ngx_fs_bsize(u_char *name)$/;"	f	signature:(u_char *name)
+ngx_fs_bsize	ngx_files.h	/^size_t ngx_fs_bsize(u_char *name);$/;"	p	signature:(u_char *name)
+ngx_getcwd	ngx_files.h	184;"	d
+ngx_getcwd_n	ngx_files.h	185;"	d
+ngx_getpid	ngx_process.h	55;"	d
+ngx_gettid	ngx_freebsd_rfork_thread.h	/^ngx_gettid()$/;"	f	signature:()
+ngx_gettimeofday	ngx_time.h	61;"	d
+ngx_gid_t	ngx_user.h	/^typedef gid_t  ngx_gid_t;$/;"	t
+ngx_glob_t	ngx_files.h	/^} ngx_glob_t;$/;"	t	typeref:struct:__anon4
+ngx_inherited	ngx_process_cycle.c	/^ngx_uint_t    ngx_inherited;$/;"	v
+ngx_inherited_nonblocking	ngx_posix_init.c	/^ngx_uint_t  ngx_inherited_nonblocking;$/;"	v
+ngx_init_setproctitle	ngx_setproctitle.c	/^ngx_init_setproctitle(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_init_setproctitle	ngx_setproctitle.h	/^ngx_int_t ngx_init_setproctitle(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_init_setproctitle	ngx_setproctitle.h	16;"	d
+ngx_init_setproctitle	ngx_setproctitle.h	42;"	d
+ngx_init_signals	ngx_process.c	/^ngx_init_signals(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_init_signals	ngx_process.h	/^ngx_int_t ngx_init_signals(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_init_threads	ngx_freebsd_rfork_thread.c	/^ngx_init_threads(int n, size_t size, ngx_cycle_t *cycle)$/;"	f	signature:(int n, size_t size, ngx_cycle_t *cycle)
+ngx_init_threads	ngx_pthread_thread.c	/^ngx_init_threads(int n, size_t size, ngx_cycle_t *cycle)$/;"	f	signature:(int n, size_t size, ngx_cycle_t *cycle)
+ngx_init_threads	ngx_thread.h	/^ngx_int_t ngx_init_threads(int n, size_t size, ngx_cycle_t *cycle);$/;"	p	signature:(int n, size_t size, ngx_cycle_t *cycle)
+ngx_is_dir	ngx_files.h	156;"	d
+ngx_is_exec	ngx_files.h	159;"	d
+ngx_is_file	ngx_files.h	157;"	d
+ngx_is_link	ngx_files.h	158;"	d
+ngx_last_process	ngx_process.c	/^ngx_int_t        ngx_last_process;$/;"	v
+ngx_libc_crypt	ngx_user.c	/^ngx_libc_crypt(ngx_pool_t *pool, u_char *key, u_char *salt, u_char **encrypted)$/;"	f	signature:(ngx_pool_t *pool, u_char *key, u_char *salt, u_char **encrypted)
+ngx_libc_crypt	ngx_user.h	/^ngx_int_t ngx_libc_crypt(ngx_pool_t *pool, u_char *key, u_char *salt,$/;"	p	signature:(ngx_pool_t *pool, u_char *key, u_char *salt, u_char **encrypted)
+ngx_libc_gmtime	ngx_time.c	/^ngx_libc_gmtime(time_t s, struct tm *tm)$/;"	f	signature:(time_t s, struct tm *tm)
+ngx_libc_gmtime	ngx_time.h	/^void ngx_libc_gmtime(time_t s, struct tm *tm);$/;"	p	signature:(time_t s, struct tm *tm)
+ngx_libc_localtime	ngx_time.c	/^ngx_libc_localtime(time_t s, struct tm *tm)$/;"	f	signature:(time_t s, struct tm *tm)
+ngx_libc_localtime	ngx_time.h	/^void ngx_libc_localtime(time_t s, struct tm *tm);$/;"	p	signature:(time_t s, struct tm *tm)
+ngx_linefeed	ngx_files.h	130;"	d
+ngx_link_info	ngx_files.h	153;"	d
+ngx_link_info_n	ngx_files.h	154;"	d
+ngx_linux_io	ngx_linux_init.c	/^static ngx_os_io_t ngx_linux_io = {$/;"	v	file:
+ngx_linux_kern_osrelease	ngx_linux_init.c	/^u_char  ngx_linux_kern_osrelease[50];$/;"	v
+ngx_linux_kern_ostype	ngx_linux_init.c	/^u_char  ngx_linux_kern_ostype[50];$/;"	v
+ngx_linux_rtsig_max	ngx_linux_init.c	/^int     ngx_linux_rtsig_max;$/;"	v
+ngx_linux_sendfile_chain	ngx_linux.h	/^ngx_chain_t *ngx_linux_sendfile_chain(ngx_connection_t *c, ngx_chain_t *in,$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_linux_sendfile_chain	ngx_linux_sendfile_chain.c	/^ngx_linux_sendfile_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_localtime	ngx_time.c	/^ngx_localtime(time_t s, ngx_tm_t *tm)$/;"	f	signature:(time_t s, ngx_tm_t *tm)
+ngx_localtime	ngx_time.h	/^void ngx_localtime(time_t s, ngx_tm_t *tm);$/;"	p	signature:(time_t s, ngx_tm_t *tm)
+ngx_lock_fd	ngx_files.c	/^ngx_lock_fd(ngx_fd_t fd)$/;"	f	signature:(ngx_fd_t fd)
+ngx_lock_fd	ngx_files.h	/^ngx_err_t ngx_lock_fd(ngx_fd_t fd);$/;"	p	signature:(ngx_fd_t fd)
+ngx_lock_fd_n	ngx_files.h	274;"	d
+ngx_log_pid	ngx_freebsd_rfork_thread.h	18;"	d
+ngx_log_pid	ngx_process.h	58;"	d
+ngx_log_tid	ngx_freebsd_rfork_thread.h	19;"	d
+ngx_log_tid	ngx_thread.h	114;"	d
+ngx_log_tid	ngx_thread.h	30;"	d
+ngx_master_process_cycle	ngx_process_cycle.c	/^ngx_master_process_cycle(ngx_cycle_t *cycle)$/;"	f	signature:(ngx_cycle_t *cycle)
+ngx_master_process_cycle	ngx_process_cycle.h	/^void ngx_master_process_cycle(ngx_cycle_t *cycle);$/;"	p	signature:(ngx_cycle_t *cycle)
+ngx_master_process_exit	ngx_process_cycle.c	/^ngx_master_process_exit(ngx_cycle_t *cycle)$/;"	f	file:	signature:(ngx_cycle_t *cycle)
+ngx_master_process_exit	ngx_process_cycle.c	/^static void ngx_master_process_exit(ngx_cycle_t *cycle);$/;"	p	file:	signature:(ngx_cycle_t *cycle)
+ngx_max_sockets	ngx_posix_init.c	/^ngx_int_t   ngx_max_sockets;$/;"	v
+ngx_memalign	ngx_alloc.c	/^ngx_memalign(size_t alignment, size_t size, ngx_log_t *log)$/;"	f	signature:(size_t alignment, size_t size, ngx_log_t *log)
+ngx_memalign	ngx_alloc.h	/^void *ngx_memalign(size_t alignment, size_t size, ngx_log_t *log);$/;"	p	signature:(size_t alignment, size_t size, ngx_log_t *log)
+ngx_memalign	ngx_alloc.h	35;"	d
+ngx_memory_barrier	ngx_atomic.h	113;"	d
+ngx_memory_barrier	ngx_atomic.h	151;"	d
+ngx_memory_barrier	ngx_atomic.h	192;"	d
+ngx_memory_barrier	ngx_atomic.h	299;"	d
+ngx_memory_barrier	ngx_atomic.h	37;"	d
+ngx_memory_barrier	ngx_atomic.h	82;"	d
+ngx_memory_barrier	ngx_gcc_atomic_amd64.h	80;"	d
+ngx_memory_barrier	ngx_gcc_atomic_ppc.h	146;"	d
+ngx_memory_barrier	ngx_gcc_atomic_ppc.h	149;"	d
+ngx_memory_barrier	ngx_gcc_atomic_ppc.h	83;"	d
+ngx_memory_barrier	ngx_gcc_atomic_ppc.h	86;"	d
+ngx_memory_barrier	ngx_gcc_atomic_sparc64.h	74;"	d
+ngx_memory_barrier	ngx_gcc_atomic_sparc64.h	79;"	d
+ngx_memory_barrier	ngx_gcc_atomic_x86.h	124;"	d
+ngx_memory_barrier	ngx_sunpro_atomic_sparc64.h	56;"	d
+ngx_msec_int_t	ngx_time.h	/^typedef ngx_rbtree_key_int_t  ngx_msec_int_t;$/;"	t
+ngx_msec_t	ngx_time.h	/^typedef ngx_rbtree_key_t      ngx_msec_t;$/;"	t
+ngx_msleep	ngx_time.h	62;"	d
+ngx_mutex_destroy	ngx_freebsd_rfork_thread.c	/^ngx_mutex_destroy(ngx_mutex_t *m)$/;"	f	signature:(ngx_mutex_t *m)
+ngx_mutex_destroy	ngx_pthread_thread.c	/^ngx_mutex_destroy(ngx_mutex_t *m)$/;"	f	signature:(ngx_mutex_t *m)
+ngx_mutex_destroy	ngx_thread.h	/^void ngx_mutex_destroy(ngx_mutex_t *m);$/;"	p	signature:(ngx_mutex_t *m)
+ngx_mutex_dolock	ngx_freebsd_rfork_thread.c	/^ngx_mutex_dolock(ngx_mutex_t *m, ngx_int_t try)$/;"	f	signature:(ngx_mutex_t *m, ngx_int_t try)
+ngx_mutex_dolock	ngx_freebsd_rfork_thread.h	/^ngx_int_t ngx_mutex_dolock(ngx_mutex_t *m, ngx_int_t try);$/;"	p	signature:(ngx_mutex_t *m, ngx_int_t try)
+ngx_mutex_init	ngx_freebsd_rfork_thread.c	/^ngx_mutex_init(ngx_log_t *log, ngx_uint_t flags)$/;"	f	signature:(ngx_log_t *log, ngx_uint_t flags)
+ngx_mutex_init	ngx_pthread_thread.c	/^ngx_mutex_init(ngx_log_t *log, ngx_uint_t flags)$/;"	f	signature:(ngx_log_t *log, ngx_uint_t flags)
+ngx_mutex_init	ngx_thread.h	/^ngx_mutex_t *ngx_mutex_init(ngx_log_t *log, ngx_uint_t flags);$/;"	p	signature:(ngx_log_t *log, ngx_uint_t flags)
+ngx_mutex_lock	ngx_freebsd_rfork_thread.h	114;"	d
+ngx_mutex_lock	ngx_pthread_thread.c	/^ngx_mutex_lock(ngx_mutex_t *m)$/;"	f	signature:(ngx_mutex_t *m)
+ngx_mutex_lock	ngx_thread.h	/^void ngx_mutex_lock(ngx_mutex_t *m);$/;"	p	signature:(ngx_mutex_t *m)
+ngx_mutex_lock	ngx_thread.h	118;"	d
+ngx_mutex_t	ngx_freebsd_rfork_thread.h	/^} ngx_mutex_t;$/;"	t	typeref:struct:__anon6
+ngx_mutex_t	ngx_thread.h	/^} ngx_mutex_t;$/;"	t	typeref:struct:__anon14
+ngx_mutex_trylock	ngx_freebsd_rfork_thread.h	113;"	d
+ngx_mutex_trylock	ngx_pthread_thread.c	/^ngx_mutex_trylock(ngx_mutex_t *m)$/;"	f	signature:(ngx_mutex_t *m)
+ngx_mutex_trylock	ngx_thread.h	/^ngx_int_t ngx_mutex_trylock(ngx_mutex_t *m);$/;"	p	signature:(ngx_mutex_t *m)
+ngx_mutex_trylock	ngx_thread.h	117;"	d
+ngx_mutex_unlock	ngx_freebsd_rfork_thread.c	/^ngx_mutex_unlock(ngx_mutex_t *m)$/;"	f	signature:(ngx_mutex_t *m)
+ngx_mutex_unlock	ngx_freebsd_rfork_thread.h	/^void ngx_mutex_unlock(ngx_mutex_t *m);$/;"	p	signature:(ngx_mutex_t *m)
+ngx_mutex_unlock	ngx_pthread_thread.c	/^ngx_mutex_unlock(ngx_mutex_t *m)$/;"	f	signature:(ngx_mutex_t *m)
+ngx_mutex_unlock	ngx_thread.h	/^void ngx_mutex_unlock(ngx_mutex_t *m);$/;"	p	signature:(ngx_mutex_t *m)
+ngx_mutex_unlock	ngx_thread.h	119;"	d
+ngx_ncpu	ngx_posix_init.c	/^ngx_int_t   ngx_ncpu;$/;"	v
+ngx_new_binary	ngx_process_cycle.c	/^ngx_pid_t     ngx_new_binary;$/;"	v
+ngx_noaccept	ngx_process_cycle.c	/^sig_atomic_t  ngx_noaccept;$/;"	v
+ngx_noaccepting	ngx_process_cycle.c	/^ngx_uint_t    ngx_noaccepting;$/;"	v
+ngx_nonblocking	ngx_socket.c	/^ngx_nonblocking(ngx_socket_t s)$/;"	f	signature:(ngx_socket_t s)
+ngx_nonblocking	ngx_socket.h	/^int ngx_nonblocking(ngx_socket_t s);$/;"	p	signature:(ngx_socket_t s)
+ngx_nonblocking	ngx_socket.h	33;"	d
+ngx_nonblocking_n	ngx_socket.h	28;"	d
+ngx_nonblocking_n	ngx_socket.h	34;"	d
+ngx_open_dir	ngx_files.c	/^ngx_open_dir(ngx_str_t *name, ngx_dir_t *dir)$/;"	f	signature:(ngx_str_t *name, ngx_dir_t *dir)
+ngx_open_dir	ngx_files.h	/^ngx_int_t ngx_open_dir(ngx_str_t *name, ngx_dir_t *dir);$/;"	p	signature:(ngx_str_t *name, ngx_dir_t *dir)
+ngx_open_dir_n	ngx_files.h	194;"	d
+ngx_open_file	ngx_files.h	58;"	d
+ngx_open_file	ngx_files.h	63;"	d
+ngx_open_file_n	ngx_files.h	68;"	d
+ngx_open_glob	ngx_files.c	/^ngx_open_glob(ngx_glob_t *gl)$/;"	f	signature:(ngx_glob_t *gl)
+ngx_open_glob	ngx_files.h	/^ngx_int_t ngx_open_glob(ngx_glob_t *gl);$/;"	p	signature:(ngx_glob_t *gl)
+ngx_open_glob_n	ngx_files.h	264;"	d
+ngx_open_tempfile	ngx_files.c	/^ngx_open_tempfile(u_char *name, ngx_uint_t persistent, ngx_uint_t access)$/;"	f	signature:(u_char *name, ngx_uint_t persistent, ngx_uint_t access)
+ngx_open_tempfile	ngx_files.h	/^ngx_fd_t ngx_open_tempfile(u_char *name, ngx_uint_t persistent,$/;"	p	signature:(u_char *name, ngx_uint_t persistent, ngx_uint_t access)
+ngx_open_tempfile_n	ngx_files.h	93;"	d
+ngx_os_argv	ngx_process.c	/^char           **ngx_os_argv;$/;"	v
+ngx_os_argv_last	ngx_setproctitle.c	/^static char *ngx_os_argv_last;$/;"	v	file:
+ngx_os_init	ngx_os.h	/^ngx_int_t ngx_os_init(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_os_init	ngx_posix_init.c	/^ngx_os_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_io	ngx_posix_init.c	/^ngx_os_io_t ngx_os_io = {$/;"	v
+ngx_os_io_t	ngx_os.h	/^} ngx_os_io_t;$/;"	t	typeref:struct:__anon12
+ngx_os_signal_process	ngx_os.h	/^ngx_int_t ngx_os_signal_process(ngx_cycle_t *cycle, char *sig, ngx_int_t pid);$/;"	p	signature:(ngx_cycle_t *cycle, char *sig, ngx_int_t pid)
+ngx_os_signal_process	ngx_process.c	/^ngx_os_signal_process(ngx_cycle_t *cycle, char *name, ngx_int_t pid)$/;"	f	signature:(ngx_cycle_t *cycle, char *name, ngx_int_t pid)
+ngx_os_specific_init	ngx_darwin_init.c	/^ngx_os_specific_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_init	ngx_freebsd_init.c	/^ngx_os_specific_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_init	ngx_linux_init.c	/^ngx_os_specific_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_init	ngx_os.h	/^ngx_int_t ngx_os_specific_init(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_os_specific_init	ngx_solaris_init.c	/^ngx_os_specific_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_status	ngx_darwin_init.c	/^ngx_os_specific_status(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_status	ngx_freebsd_init.c	/^ngx_os_specific_status(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_status	ngx_linux_init.c	/^ngx_os_specific_status(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_specific_status	ngx_os.h	/^void ngx_os_specific_status(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_os_specific_status	ngx_solaris_init.c	/^ngx_os_specific_status(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_os_status	ngx_os.h	/^void ngx_os_status(ngx_log_t *log);$/;"	p	signature:(ngx_log_t *log)
+ngx_os_status	ngx_posix_init.c	/^ngx_os_status(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_pagesize	ngx_alloc.c	/^ngx_uint_t  ngx_pagesize;$/;"	v
+ngx_pagesize_shift	ngx_alloc.c	/^ngx_uint_t  ngx_pagesize_shift;$/;"	v
+ngx_pass_open_channel	ngx_process_cycle.c	/^ngx_pass_open_channel(ngx_cycle_t *cycle, ngx_channel_t *ch)$/;"	f	file:	signature:(ngx_cycle_t *cycle, ngx_channel_t *ch)
+ngx_pass_open_channel	ngx_process_cycle.c	/^static void ngx_pass_open_channel(ngx_cycle_t *cycle, ngx_channel_t *ch);$/;"	p	file:	signature:(ngx_cycle_t *cycle, ngx_channel_t *ch)
+ngx_path_separator	ngx_files.h	186;"	d
+ngx_pid	ngx_process_cycle.c	/^ngx_pid_t     ngx_pid;$/;"	v
+ngx_pid_t	ngx_process.h	/^typedef pid_t       ngx_pid_t;$/;"	t
+ngx_posix_post_conf_init	ngx_posix_init.c	/^ngx_posix_post_conf_init(ngx_log_t *log)$/;"	f	signature:(ngx_log_t *log)
+ngx_process	ngx_process_cycle.c	/^ngx_uint_t    ngx_process;$/;"	v
+ngx_process_get_status	ngx_process.c	/^ngx_process_get_status(void)$/;"	f	file:	signature:(void)
+ngx_process_get_status	ngx_process.c	/^static void ngx_process_get_status(void);$/;"	p	file:	signature:(void)
+ngx_process_slot	ngx_process.c	/^ngx_int_t        ngx_process_slot;$/;"	v
+ngx_process_t	ngx_process.h	/^} ngx_process_t;$/;"	t	typeref:struct:__anon10
+ngx_processes	ngx_process.c	/^ngx_process_t    ngx_processes[NGX_MAX_PROCESSES];$/;"	v
+ngx_quit	ngx_process_cycle.c	/^sig_atomic_t  ngx_quit;$/;"	v
+ngx_read_ahead	ngx_files.c	/^ngx_read_ahead(ngx_fd_t fd, size_t n)$/;"	f	signature:(ngx_fd_t fd, size_t n)
+ngx_read_ahead	ngx_files.h	/^ngx_int_t ngx_read_ahead(ngx_fd_t fd, size_t n);$/;"	p	signature:(ngx_fd_t fd, size_t n)
+ngx_read_ahead	ngx_files.h	282;"	d
+ngx_read_ahead	ngx_files.h	294;"	d
+ngx_read_ahead_n	ngx_files.h	283;"	d
+ngx_read_ahead_n	ngx_files.h	290;"	d
+ngx_read_ahead_n	ngx_files.h	295;"	d
+ngx_read_channel	ngx_channel.c	/^ngx_read_channel(ngx_socket_t s, ngx_channel_t *ch, size_t size, ngx_log_t *log)$/;"	f	signature:(ngx_socket_t s, ngx_channel_t *ch, size_t size, ngx_log_t *log)
+ngx_read_channel	ngx_channel.h	/^ngx_int_t ngx_read_channel(ngx_socket_t s, ngx_channel_t *ch, size_t size,$/;"	p	signature:(ngx_socket_t s, ngx_channel_t *ch, size_t size, ngx_log_t *log)
+ngx_read_dir	ngx_files.c	/^ngx_read_dir(ngx_dir_t *dir)$/;"	f	signature:(ngx_dir_t *dir)
+ngx_read_dir	ngx_files.h	/^ngx_int_t ngx_read_dir(ngx_dir_t *dir);$/;"	p	signature:(ngx_dir_t *dir)
+ngx_read_dir_n	ngx_files.h	202;"	d
+ngx_read_fd	ngx_files.h	110;"	d
+ngx_read_fd_n	ngx_files.h	111;"	d
+ngx_read_file	ngx_files.c	/^ngx_read_file(ngx_file_t *file, u_char *buf, size_t size, off_t offset)$/;"	f	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset)
+ngx_read_file	ngx_files.h	/^ssize_t ngx_read_file(ngx_file_t *file, u_char *buf, size_t size, off_t offset);$/;"	p	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset)
+ngx_read_file_n	ngx_files.h	100;"	d
+ngx_read_file_n	ngx_files.h	98;"	d
+ngx_read_glob	ngx_files.c	/^ngx_read_glob(ngx_glob_t *gl, ngx_str_t *name)$/;"	f	signature:(ngx_glob_t *gl, ngx_str_t *name)
+ngx_read_glob	ngx_files.h	/^ngx_int_t ngx_read_glob(ngx_glob_t *gl, ngx_str_t *name);$/;"	p	signature:(ngx_glob_t *gl, ngx_str_t *name)
+ngx_readv_chain	ngx_os.h	/^ssize_t ngx_readv_chain(ngx_connection_t *c, ngx_chain_t *entry);$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *entry)
+ngx_readv_chain	ngx_readv_chain.c	/^ngx_readv_chain(ngx_connection_t *c, ngx_chain_t *chain)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *chain)
+ngx_realpath	ngx_files.h	182;"	d
+ngx_realpath_n	ngx_files.h	183;"	d
+ngx_reap	ngx_process_cycle.c	/^sig_atomic_t  ngx_reap;$/;"	v
+ngx_reap_children	ngx_process_cycle.c	/^ngx_reap_children(ngx_cycle_t *cycle)$/;"	f	file:	signature:(ngx_cycle_t *cycle)
+ngx_reap_children	ngx_process_cycle.c	/^static ngx_uint_t ngx_reap_children(ngx_cycle_t *cycle);$/;"	p	file:	signature:(ngx_cycle_t *cycle)
+ngx_reconfigure	ngx_process_cycle.c	/^sig_atomic_t  ngx_reconfigure;$/;"	v
+ngx_recv_chain_pt	ngx_os.h	/^typedef ssize_t (*ngx_recv_chain_pt)(ngx_connection_t *c, ngx_chain_t *in);$/;"	t
+ngx_recv_pt	ngx_os.h	/^typedef ssize_t (*ngx_recv_pt)(ngx_connection_t *c, u_char *buf, size_t size);$/;"	t
+ngx_rename_file	ngx_files.h	135;"	d
+ngx_rename_file_n	ngx_files.h	136;"	d
+ngx_reopen	ngx_process_cycle.c	/^sig_atomic_t  ngx_reopen;$/;"	v
+ngx_restart	ngx_process_cycle.c	/^ngx_uint_t    ngx_restart;$/;"	v
+ngx_rfork_thread_func_pt	ngx_freebsd_rfork_thread.h	/^typedef int (*ngx_rfork_thread_func_pt)(void *arg);$/;"	t
+ngx_sched_yield	ngx_process.h	70;"	d
+ngx_sched_yield	ngx_process.h	72;"	d
+ngx_send_chain_pt	ngx_os.h	/^typedef ngx_chain_t *(*ngx_send_chain_pt)(ngx_connection_t *c, ngx_chain_t *in,$/;"	t
+ngx_send_pt	ngx_os.h	/^typedef ssize_t (*ngx_send_pt)(ngx_connection_t *c, u_char *buf, size_t size);$/;"	t
+ngx_set_errno	ngx_errno.h	60;"	d
+ngx_set_file_time	ngx_files.c	/^ngx_set_file_time(u_char *name, ngx_fd_t fd, time_t s)$/;"	f	signature:(u_char *name, ngx_fd_t fd, time_t s)
+ngx_set_file_time	ngx_files.h	/^ngx_int_t ngx_set_file_time(u_char *name, ngx_fd_t fd, time_t s);$/;"	p	signature:(u_char *name, ngx_fd_t fd, time_t s)
+ngx_set_file_time_n	ngx_files.h	144;"	d
+ngx_set_socket_errno	ngx_errno.h	61;"	d
+ngx_set_stderr	ngx_files.h	329;"	d
+ngx_set_stderr_n	ngx_files.h	330;"	d
+ngx_setproctitle	ngx_setproctitle.c	/^ngx_setproctitle(char *title)$/;"	f	signature:(char *title)
+ngx_setproctitle	ngx_setproctitle.h	/^void ngx_setproctitle(char *title);$/;"	p	signature:(char *title)
+ngx_setproctitle	ngx_setproctitle.h	17;"	d
+ngx_setproctitle	ngx_setproctitle.h	43;"	d
+ngx_setthrtitle	ngx_freebsd_rfork_thread.h	52;"	d
+ngx_setthrtitle	ngx_thread.h	65;"	d
+ngx_shm_alloc	ngx_shmem.c	/^ngx_shm_alloc(ngx_shm_t *shm)$/;"	f	signature:(ngx_shm_t *shm)
+ngx_shm_alloc	ngx_shmem.h	/^ngx_int_t ngx_shm_alloc(ngx_shm_t *shm);$/;"	p	signature:(ngx_shm_t *shm)
+ngx_shm_free	ngx_shmem.c	/^ngx_shm_free(ngx_shm_t *shm)$/;"	f	signature:(ngx_shm_t *shm)
+ngx_shm_free	ngx_shmem.h	/^void ngx_shm_free(ngx_shm_t *shm);$/;"	p	signature:(ngx_shm_t *shm)
+ngx_shm_t	ngx_shmem.h	/^} ngx_shm_t;$/;"	t	typeref:struct:__anon17
+ngx_shutdown_socket	ngx_socket.h	57;"	d
+ngx_shutdown_socket_n	ngx_socket.h	58;"	d
+ngx_sigalrm	ngx_process_cycle.c	/^sig_atomic_t  ngx_sigalrm;$/;"	v
+ngx_sigio	ngx_process_cycle.c	/^sig_atomic_t  ngx_sigio;$/;"	v
+ngx_signal_handler	ngx_process.c	/^ngx_signal_handler(int signo)$/;"	f	signature:(int signo)
+ngx_signal_handler	ngx_process.c	/^static void ngx_signal_handler(int signo);$/;"	p	file:	signature:(int signo)
+ngx_signal_t	ngx_process.c	/^} ngx_signal_t;$/;"	t	typeref:struct:__anon9	file:
+ngx_signal_worker_processes	ngx_process_cycle.c	/^ngx_signal_worker_processes(ngx_cycle_t *cycle, int signo)$/;"	f	file:	signature:(ngx_cycle_t *cycle, int signo)
+ngx_signal_worker_processes	ngx_process_cycle.c	/^static void ngx_signal_worker_processes(ngx_cycle_t *cycle, int signo);$/;"	p	file:	signature:(ngx_cycle_t *cycle, int signo)
+ngx_single_process_cycle	ngx_process_cycle.c	/^ngx_single_process_cycle(ngx_cycle_t *cycle)$/;"	f	signature:(ngx_cycle_t *cycle)
+ngx_single_process_cycle	ngx_process_cycle.h	/^void ngx_single_process_cycle(ngx_cycle_t *cycle);$/;"	p	signature:(ngx_cycle_t *cycle)
+ngx_sleep	ngx_time.h	63;"	d
+ngx_socket	ngx_socket.h	19;"	d
+ngx_socket_errno	ngx_errno.h	59;"	d
+ngx_socket_n	ngx_socket.h	20;"	d
+ngx_socket_t	ngx_socket.h	/^typedef int  ngx_socket_t;$/;"	t
+ngx_solaris_io	ngx_solaris_init.c	/^static ngx_os_io_t ngx_solaris_io = {$/;"	v	file:
+ngx_solaris_release	ngx_solaris_init.c	/^char ngx_solaris_release[10];$/;"	v
+ngx_solaris_sendfilev_chain	ngx_solaris.h	/^ngx_chain_t *ngx_solaris_sendfilev_chain(ngx_connection_t *c, ngx_chain_t *in,$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_solaris_sendfilev_chain	ngx_solaris_sendfilev_chain.c	/^ngx_solaris_sendfilev_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_solaris_sysname	ngx_solaris_init.c	/^char ngx_solaris_sysname[20];$/;"	v
+ngx_solaris_version	ngx_solaris_init.c	/^char ngx_solaris_version[50];$/;"	v
+ngx_spawn_proc_pt	ngx_process.h	/^typedef void (*ngx_spawn_proc_pt) (ngx_cycle_t *cycle, void *data);$/;"	t
+ngx_spawn_process	ngx_process.c	/^ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *data,$/;"	f	signature:(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *data, char *name, ngx_int_t respawn)
+ngx_spawn_process	ngx_process.h	/^ngx_pid_t ngx_spawn_process(ngx_cycle_t *cycle,$/;"	p	signature:(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *data, char *name, ngx_int_t respawn)
+ngx_spinlock	ngx_atomic.h	/^void ngx_spinlock(ngx_atomic_t *lock, ngx_atomic_int_t value, ngx_uint_t spin);$/;"	p	signature:(ngx_atomic_t *lock, ngx_atomic_int_t value, ngx_uint_t spin)
+ngx_start_cache_manager_processes	ngx_process_cycle.c	/^ngx_start_cache_manager_processes(ngx_cycle_t *cycle, ngx_uint_t respawn)$/;"	f	file:	signature:(ngx_cycle_t *cycle, ngx_uint_t respawn)
+ngx_start_cache_manager_processes	ngx_process_cycle.c	/^static void ngx_start_cache_manager_processes(ngx_cycle_t *cycle,$/;"	p	file:	signature:(ngx_cycle_t *cycle, ngx_uint_t respawn)
+ngx_start_worker_processes	ngx_process_cycle.c	/^ngx_start_worker_processes(ngx_cycle_t *cycle, ngx_int_t n, ngx_int_t type)$/;"	f	file:	signature:(ngx_cycle_t *cycle, ngx_int_t n, ngx_int_t type)
+ngx_start_worker_processes	ngx_process_cycle.c	/^static void ngx_start_worker_processes(ngx_cycle_t *cycle, ngx_int_t n,$/;"	p	file:	signature:(ngx_cycle_t *cycle, ngx_int_t n, ngx_int_t type)
+ngx_stderr	ngx_files.h	328;"	d
+ngx_strerror	ngx_errno.c	/^ngx_strerror(ngx_err_t err, u_char *errstr, size_t size)$/;"	f	signature:(ngx_err_t err, u_char *errstr, size_t size)
+ngx_strerror	ngx_errno.h	/^u_char *ngx_strerror(ngx_err_t err, u_char *errstr, size_t size);$/;"	p	signature:(ngx_err_t err, u_char *errstr, size_t size)
+ngx_strerror_init	ngx_errno.c	/^ngx_strerror_init(void)$/;"	f	signature:(void)
+ngx_strerror_init	ngx_errno.h	/^ngx_uint_t ngx_strerror_init(void);$/;"	p	signature:(void)
+ngx_sys_errlist	ngx_errno.c	/^static ngx_str_t  *ngx_sys_errlist;$/;"	v	file:
+ngx_tcp_nodelay_and_tcp_nopush	ngx_posix_init.c	/^ngx_uint_t  ngx_tcp_nodelay_and_tcp_nopush;$/;"	v
+ngx_tcp_nopush	ngx_socket.c	/^ngx_tcp_nopush(ngx_socket_t s)$/;"	f	signature:(ngx_socket_t s)
+ngx_tcp_nopush	ngx_socket.h	/^int ngx_tcp_nopush(ngx_socket_t s);$/;"	p	signature:(ngx_socket_t s)
+ngx_tcp_nopush_n	ngx_socket.h	46;"	d
+ngx_tcp_nopush_n	ngx_socket.h	51;"	d
+ngx_tcp_push	ngx_socket.c	/^ngx_tcp_push(ngx_socket_t s)$/;"	f	signature:(ngx_socket_t s)
+ngx_tcp_push	ngx_socket.h	/^int ngx_tcp_push(ngx_socket_t s);$/;"	p	signature:(ngx_socket_t s)
+ngx_tcp_push_n	ngx_socket.h	47;"	d
+ngx_tcp_push_n	ngx_socket.h	52;"	d
+ngx_terminate	ngx_process_cycle.c	/^sig_atomic_t  ngx_terminate;$/;"	v
+ngx_thread_get_tls	ngx_freebsd_rfork_thread.h	/^ngx_thread_get_tls(ngx_tls_key_t key)$/;"	f	signature:(ngx_tls_key_t key)
+ngx_thread_get_tls	ngx_thread.h	45;"	d
+ngx_thread_join	ngx_freebsd_rfork_thread.h	50;"	d
+ngx_thread_join	ngx_thread.h	63;"	d
+ngx_thread_key_create	ngx_freebsd_rfork_thread.c	/^ngx_thread_key_create(ngx_tls_key_t *key)$/;"	f	signature:(ngx_tls_key_t *key)
+ngx_thread_key_create	ngx_freebsd_rfork_thread.h	/^ngx_err_t ngx_thread_key_create(ngx_tls_key_t *key);$/;"	p	signature:(ngx_tls_key_t *key)
+ngx_thread_key_create	ngx_thread.h	41;"	d
+ngx_thread_key_create_n	ngx_freebsd_rfork_thread.h	96;"	d
+ngx_thread_key_create_n	ngx_thread.h	42;"	d
+ngx_thread_main	ngx_thread.h	123;"	d
+ngx_thread_self	ngx_freebsd_rfork_thread.c	/^ngx_thread_self()$/;"	f
+ngx_thread_self	ngx_freebsd_rfork_thread.h	/^ngx_tid_t ngx_thread_self();$/;"	p	signature:()
+ngx_thread_self	ngx_thread.h	29;"	d
+ngx_thread_set_tls	ngx_freebsd_rfork_thread.c	/^ngx_thread_set_tls(ngx_tls_key_t key, void *value)$/;"	f	signature:(ngx_tls_key_t key, void *value)
+ngx_thread_set_tls	ngx_freebsd_rfork_thread.h	/^ngx_err_t ngx_thread_set_tls(ngx_tls_key_t key, void *value);$/;"	p	signature:(ngx_tls_key_t key, void *value)
+ngx_thread_set_tls	ngx_thread.h	43;"	d
+ngx_thread_set_tls_n	ngx_freebsd_rfork_thread.h	99;"	d
+ngx_thread_set_tls_n	ngx_thread.h	44;"	d
+ngx_thread_sigmask	ngx_freebsd_rfork_thread.h	45;"	d
+ngx_thread_sigmask	ngx_thread.h	60;"	d
+ngx_thread_sigmask_n	ngx_freebsd_rfork_thread.h	48;"	d
+ngx_thread_sigmask_n	ngx_thread.h	61;"	d
+ngx_thread_stack_size	ngx_freebsd_rfork_thread.c	/^size_t                ngx_thread_stack_size;$/;"	v
+ngx_thread_t	ngx_thread.h	/^} ngx_thread_t;$/;"	t	typeref:struct:__anon16
+ngx_thread_value_t	ngx_thread.h	/^typedef void *  ngx_thread_value_t;$/;"	t
+ngx_thread_volatile	ngx_thread.h	112;"	d
+ngx_thread_volatile	ngx_thread.h	76;"	d
+ngx_threaded	ngx_process_cycle.c	/^ngx_uint_t    ngx_threaded;$/;"	v
+ngx_threads	ngx_process_cycle.c	/^volatile ngx_thread_t  ngx_threads[NGX_MAX_THREADS];$/;"	v
+ngx_threads_n	ngx_process_cycle.c	/^ngx_int_t              ngx_threads_n;$/;"	v
+ngx_tid_t	ngx_freebsd_rfork_thread.h	/^typedef pid_t  ngx_tid_t;$/;"	t
+ngx_tid_t	ngx_thread.h	/^typedef pthread_t                    ngx_tid_t;$/;"	t
+ngx_timezone	ngx_time.h	47;"	d
+ngx_timezone	ngx_time.h	51;"	d
+ngx_timezone_update	ngx_time.c	/^ngx_timezone_update(void)$/;"	f	signature:(void)
+ngx_timezone_update	ngx_time.h	/^void ngx_timezone_update(void);$/;"	p	signature:(void)
+ngx_tls	ngx_freebsd_rfork_thread.c	/^void                **ngx_tls;   \/* the threads tls's array *\/$/;"	v
+ngx_tls_key_t	ngx_freebsd_rfork_thread.h	/^typedef ngx_uint_t               ngx_tls_key_t;$/;"	t
+ngx_tls_key_t	ngx_thread.h	/^typedef pthread_key_t                ngx_tls_key_t;$/;"	t
+ngx_tm_gmtoff	ngx_time.h	40;"	d
+ngx_tm_hour	ngx_time.h	23;"	d
+ngx_tm_hour_t	ngx_time.h	32;"	d
+ngx_tm_isdst	ngx_time.h	28;"	d
+ngx_tm_mday	ngx_time.h	24;"	d
+ngx_tm_mday_t	ngx_time.h	33;"	d
+ngx_tm_min	ngx_time.h	22;"	d
+ngx_tm_min_t	ngx_time.h	31;"	d
+ngx_tm_mon	ngx_time.h	25;"	d
+ngx_tm_mon_t	ngx_time.h	34;"	d
+ngx_tm_sec	ngx_time.h	21;"	d
+ngx_tm_sec_t	ngx_time.h	30;"	d
+ngx_tm_t	ngx_time.h	/^typedef struct tm             ngx_tm_t;$/;"	t	typeref:struct:tm
+ngx_tm_wday	ngx_time.h	27;"	d
+ngx_tm_wday_t	ngx_time.h	36;"	d
+ngx_tm_year	ngx_time.h	26;"	d
+ngx_tm_year_t	ngx_time.h	35;"	d
+ngx_tm_zone	ngx_time.h	41;"	d
+ngx_trylock	ngx_atomic.h	307;"	d
+ngx_trylock_fd	ngx_files.c	/^ngx_trylock_fd(ngx_fd_t fd)$/;"	f	signature:(ngx_fd_t fd)
+ngx_trylock_fd	ngx_files.h	/^ngx_err_t ngx_trylock_fd(ngx_fd_t fd);$/;"	p	signature:(ngx_fd_t fd)
+ngx_trylock_fd_n	ngx_files.h	273;"	d
+ngx_udp_unix_recv	ngx_os.h	/^ssize_t ngx_udp_unix_recv(ngx_connection_t *c, u_char *buf, size_t size);$/;"	p	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_udp_unix_recv	ngx_udp_recv.c	/^ngx_udp_unix_recv(ngx_connection_t *c, u_char *buf, size_t size)$/;"	f	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_uid_t	ngx_user.h	/^typedef uid_t  ngx_uid_t;$/;"	t
+ngx_unix_recv	ngx_os.h	/^ssize_t ngx_unix_recv(ngx_connection_t *c, u_char *buf, size_t size);$/;"	p	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_unix_recv	ngx_recv.c	/^ngx_unix_recv(ngx_connection_t *c, u_char *buf, size_t size)$/;"	f	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_unix_send	ngx_os.h	/^ssize_t ngx_unix_send(ngx_connection_t *c, u_char *buf, size_t size);$/;"	p	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_unix_send	ngx_send.c	/^ngx_unix_send(ngx_connection_t *c, u_char *buf, size_t size)$/;"	f	signature:(ngx_connection_t *c, u_char *buf, size_t size)
+ngx_unknown_error	ngx_errno.c	/^static ngx_str_t   ngx_unknown_error = ngx_string("Unknown error");$/;"	v	file:
+ngx_unlock	ngx_atomic.h	308;"	d
+ngx_unlock_fd	ngx_files.c	/^ngx_unlock_fd(ngx_fd_t fd)$/;"	f	signature:(ngx_fd_t fd)
+ngx_unlock_fd	ngx_files.h	/^ngx_err_t ngx_unlock_fd(ngx_fd_t fd);$/;"	p	signature:(ngx_fd_t fd)
+ngx_unlock_fd_n	ngx_files.h	275;"	d
+ngx_wakeup_worker_threads	ngx_process_cycle.c	/^ngx_wakeup_worker_threads(ngx_cycle_t *cycle)$/;"	f	file:	signature:(ngx_cycle_t *cycle)
+ngx_wakeup_worker_threads	ngx_process_cycle.c	/^static void ngx_wakeup_worker_threads(ngx_cycle_t *cycle);$/;"	p	file:	signature:(ngx_cycle_t *cycle)
+ngx_worker_process_cycle	ngx_process_cycle.c	/^ngx_worker_process_cycle(ngx_cycle_t *cycle, void *data)$/;"	f	file:	signature:(ngx_cycle_t *cycle, void *data)
+ngx_worker_process_cycle	ngx_process_cycle.c	/^static void ngx_worker_process_cycle(ngx_cycle_t *cycle, void *data);$/;"	p	file:	signature:(ngx_cycle_t *cycle, void *data)
+ngx_worker_process_exit	ngx_process_cycle.c	/^ngx_worker_process_exit(ngx_cycle_t *cycle)$/;"	f	file:	signature:(ngx_cycle_t *cycle)
+ngx_worker_process_exit	ngx_process_cycle.c	/^static void ngx_worker_process_exit(ngx_cycle_t *cycle);$/;"	p	file:	signature:(ngx_cycle_t *cycle)
+ngx_worker_process_init	ngx_process_cycle.c	/^ngx_worker_process_init(ngx_cycle_t *cycle, ngx_uint_t priority)$/;"	f	file:	signature:(ngx_cycle_t *cycle, ngx_uint_t priority)
+ngx_worker_process_init	ngx_process_cycle.c	/^static void ngx_worker_process_init(ngx_cycle_t *cycle, ngx_uint_t priority);$/;"	p	file:	signature:(ngx_cycle_t *cycle, ngx_uint_t priority)
+ngx_worker_thread_cycle	ngx_process_cycle.c	/^ngx_worker_thread_cycle(void *data)$/;"	f	file:	signature:(void *data)
+ngx_worker_thread_cycle	ngx_process_cycle.c	/^static ngx_thread_value_t ngx_worker_thread_cycle(void *data);$/;"	p	file:	signature:(void *data)
+ngx_write_chain_to_file	ngx_files.c	/^ngx_write_chain_to_file(ngx_file_t *file, ngx_chain_t *cl, off_t offset,$/;"	f	signature:(ngx_file_t *file, ngx_chain_t *cl, off_t offset, ngx_pool_t *pool)
+ngx_write_chain_to_file	ngx_files.h	/^ssize_t ngx_write_chain_to_file(ngx_file_t *file, ngx_chain_t *ce,$/;"	p	signature:(ngx_file_t *file, ngx_chain_t *ce, off_t offset, ngx_pool_t *pool)
+ngx_write_channel	ngx_channel.c	/^ngx_write_channel(ngx_socket_t s, ngx_channel_t *ch, size_t size,$/;"	f	signature:(ngx_socket_t s, ngx_channel_t *ch, size_t size, ngx_log_t *log)
+ngx_write_channel	ngx_channel.h	/^ngx_int_t ngx_write_channel(ngx_socket_t s, ngx_channel_t *ch, size_t size,$/;"	p	signature:(ngx_socket_t s, ngx_channel_t *ch, size_t size, ngx_log_t *log)
+ngx_write_console	ngx_files.h	127;"	d
+ngx_write_fd	ngx_files.h	/^ngx_write_fd(ngx_fd_t fd, void *buf, size_t n)$/;"	f	signature:(ngx_fd_t fd, void *buf, size_t n)
+ngx_write_fd_n	ngx_files.h	124;"	d
+ngx_write_file	ngx_files.c	/^ngx_write_file(ngx_file_t *file, u_char *buf, size_t size, off_t offset)$/;"	f	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset)
+ngx_write_file	ngx_files.h	/^ssize_t ngx_write_file(ngx_file_t *file, u_char *buf, size_t size,$/;"	p	signature:(ngx_file_t *file, u_char *buf, size_t size, off_t offset)
+ngx_writev_chain	ngx_os.h	/^ngx_chain_t *ngx_writev_chain(ngx_connection_t *c, ngx_chain_t *in,$/;"	p	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+ngx_writev_chain	ngx_writev_chain.c	/^ngx_writev_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f	signature:(ngx_connection_t *c, ngx_chain_t *in, off_t limit)
+nkeys	ngx_freebsd_rfork_thread.c	/^static ngx_uint_t     nkeys;$/;"	v	file:
+nthreads	ngx_freebsd_rfork_thread.c	/^static ngx_uint_t     nthreads;$/;"	v	file:
+nthreads	ngx_pthread_thread.c	/^static ngx_uint_t   nthreads;$/;"	v	file:
+parent	rfork_thread.S	/^parent:$/;"	l
+path	ngx_process.h	/^    char         *path;$/;"	m	struct:__anon11	access:public
+pattern	ngx_files.h	/^    u_char                      *pattern;$/;"	m	struct:__anon4	access:public
+pglob	ngx_files.h	/^    glob_t                       pglob;$/;"	m	struct:__anon4	access:public
+pid	ngx_channel.h	/^     ngx_pid_t   pid;$/;"	m	struct:__anon13	access:public
+pid	ngx_process.h	/^    ngx_pid_t           pid;$/;"	m	struct:__anon10	access:public
+proc	ngx_process.h	/^    ngx_spawn_proc_pt   proc;$/;"	m	struct:__anon10	access:public
+recv	ngx_os.h	/^    ngx_recv_pt        recv;$/;"	m	struct:__anon12	access:public
+recv_chain	ngx_os.h	/^    ngx_recv_chain_pt  recv_chain;$/;"	m	struct:__anon12	access:public
+respawn	ngx_process.h	/^    unsigned            respawn:1;$/;"	m	struct:__anon10	access:public
+rfork_thread	ngx_freebsd_config.h	/^pid_t rfork_thread(int flags, void *stack, int (*func)(void *arg), void *arg);$/;"	p	signature:(int flags, void *stack, int (*func)(void *arg), void *arg)
+rlmt	ngx_posix_init.c	/^struct rlimit  rlmt;$/;"	v	typeref:struct:rlimit
+rz_size	ngx_freebsd_rfork_thread.c	/^static size_t         rz_size;$/;"	v	file:
+semid	ngx_freebsd_rfork_thread.h	/^    int           semid;$/;"	m	struct:__anon6	access:public
+send	ngx_os.h	/^    ngx_send_pt        send;$/;"	m	struct:__anon12	access:public
+send_chain	ngx_os.h	/^    ngx_send_chain_pt  send_chain;$/;"	m	struct:__anon12	access:public
+sendfile	ngx_linux_config.h	/^extern ssize_t sendfile(int s, int fd, int32_t *offset, size_t size);$/;"	p	signature:(int s, int fd, int32_t *offset, size_t size)
+sendfilev	ngx_solaris_sendfilev_chain.c	/^static ssize_t sendfilev(int fd, const struct sendfilevec *vec,$/;"	f	file:	signature:(int fd, const struct sendfilevec *vec, int sfvcnt, size_t *xferred)
+sendfilevec	ngx_solaris_sendfilev_chain.c	/^typedef struct sendfilevec {$/;"	s	file:
+sendfilevec::sfv_fd	ngx_solaris_sendfilev_chain.c	/^    int     sfv_fd;$/;"	m	struct:sendfilevec	file:	access:public
+sendfilevec::sfv_flag	ngx_solaris_sendfilev_chain.c	/^    u_int   sfv_flag;$/;"	m	struct:sendfilevec	file:	access:public
+sendfilevec::sfv_len	ngx_solaris_sendfilev_chain.c	/^    size_t  sfv_len;$/;"	m	struct:sendfilevec	file:	access:public
+sendfilevec::sfv_off	ngx_solaris_sendfilev_chain.c	/^    off_t   sfv_off;$/;"	m	struct:sendfilevec	file:	access:public
+sendfilevec_t	ngx_solaris_sendfilev_chain.c	/^} sendfilevec_t;$/;"	t	typeref:struct:sendfilevec	file:
+sfv_fd	ngx_solaris_sendfilev_chain.c	/^    int     sfv_fd;$/;"	m	struct:sendfilevec	file:	access:public
+sfv_flag	ngx_solaris_sendfilev_chain.c	/^    u_int   sfv_flag;$/;"	m	struct:sendfilevec	file:	access:public
+sfv_len	ngx_solaris_sendfilev_chain.c	/^    size_t  sfv_len;$/;"	m	struct:sendfilevec	file:	access:public
+sfv_off	ngx_solaris_sendfilev_chain.c	/^    off_t   sfv_off;$/;"	m	struct:sendfilevec	file:	access:public
+signals	ngx_process.c	/^ngx_signal_t  signals[] = {$/;"	v
+signame	ngx_process.c	/^    char   *signame;$/;"	m	struct:__anon9	file:	access:public
+signo	ngx_freebsd_rfork_thread.h	/^    int           signo;$/;"	m	struct:__anon7	access:public
+signo	ngx_process.c	/^    int     signo;$/;"	m	struct:__anon9	file:	access:public
+size	ngx_darwin_init.c	/^    size_t       size;$/;"	m	struct:__anon1	file:	access:public
+size	ngx_files.h	/^    size_t                       size;$/;"	m	struct:__anon2	access:public
+size	ngx_freebsd_init.c	/^    size_t       size;$/;"	m	struct:__anon8	file:	access:public
+size	ngx_shmem.h	/^    size_t       size;$/;"	m	struct:__anon17	access:public
+slot	ngx_channel.h	/^     ngx_int_t   slot;$/;"	m	struct:__anon13	access:public
+state	ngx_thread.h	/^    ngx_uint_t   state;$/;"	m	struct:__anon16	access:public
+status	ngx_process.h	/^    int                 status;$/;"	m	struct:__anon10	access:public
+sysctl_t	ngx_darwin_init.c	/^} sysctl_t;$/;"	t	typeref:struct:__anon1	file:
+sysctl_t	ngx_freebsd_init.c	/^} sysctl_t;$/;"	t	typeref:struct:__anon8	file:
+sysctls	ngx_darwin_init.c	/^sysctl_t sysctls[] = {$/;"	v
+sysctls	ngx_freebsd_init.c	/^sysctl_t sysctls[] = {$/;"	v
+test	ngx_files.h	/^    ngx_uint_t                   test;$/;"	m	struct:__anon4	access:public
+thr_attr	ngx_pthread_thread.c	/^static pthread_attr_t  thr_attr;$/;"	v	file:
+tid	ngx_freebsd_rfork_thread.h	/^    ngx_tid_t     tid;$/;"	m	struct:__anon7	access:public
+tid	ngx_thread.h	/^    ngx_tid_t    tid;$/;"	m	struct:__anon16	access:public
+tids	ngx_freebsd_rfork_thread.c	/^static ngx_tid_t     *tids;      \/* the threads tids array *\/$/;"	v	file:
+timezonevar	ngx_posix_config.h	24;"	d
+type	ngx_files.h	/^    unsigned                     type:8;$/;"	m	struct:__anon3	access:public
+udp_recv	ngx_os.h	/^    ngx_recv_pt        udp_recv;$/;"	m	struct:__anon12	access:public
+usable_stack_size	ngx_freebsd_rfork_thread.c	/^static size_t         usable_stack_size;$/;"	v	file:
+valid_info	ngx_files.h	/^    unsigned                     valid_info:1;$/;"	m	struct:__anon3	access:public
+value	ngx_darwin_init.c	/^    void        *value;$/;"	m	struct:__anon1	file:	access:public
+value	ngx_freebsd_init.c	/^    void        *value;$/;"	m	struct:__anon8	file:	access:public

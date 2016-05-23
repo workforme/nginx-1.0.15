@@ -1,0 +1,1341 @@
+./core/ngx_resolver.c:    r = ev->data;
+./core/ngx_resolver.c:    c = rev->data;
+./core/ngx_resolver.c:    } while (rev->ready);
+./core/ngx_resolver.c:    ctx = ev->data;
+./core/ngx_resolver.c:    rev->log = &uc->log;
+./core/ngx_resolver.c:    wev->log = &uc->log;
+./core/ngx_resolver.c:    rev->lock = &c->lock;
+./core/ngx_resolver.c:    wev->lock = &c->lock;
+./core/ngx_resolver.c:    rev->own_lock = &c->lock;
+./core/ngx_resolver.c:    wev->own_lock = &c->lock;
+./core/ngx_resolver.c:    wev->ready = 1;
+./core/ngx_open_file_cache.c:    fev->fd = of->fd;
+./core/ngx_open_file_cache.c:    fev->file = file;
+./core/ngx_open_file_cache.c:    fev->cache = cache;
+./core/ngx_open_file_cache.c:    fev = ev->data;
+./core/ngx_open_file_cache.c:    file = fev->file;
+./core/ngx_open_file_cache.c:    ngx_rbtree_delete(&fev->cache->rbtree, &file->node);
+./core/ngx_open_file_cache.c:    fev->cache->current--;
+./core/ngx_open_file_cache.c:    ngx_close_cached_file(fev->cache, file, 0, ev->log);
+./core/ngx_open_file_cache.c:    /* free memory only when fev->cache and fev->file are already not needed */
+./core/ngx_open_file_cache.c:    ngx_free(ev->data);
+./core/ngx_connection.c:    instance = rev->instance;
+./core/ngx_connection.c:    rev->instance = !instance;
+./core/ngx_connection.c:    wev->instance = !instance;
+./core/ngx_connection.c:    rev->index = NGX_INVALID_INDEX;
+./core/ngx_connection.c:    wev->index = NGX_INVALID_INDEX;
+./core/ngx_connection.c:    rev->data = c;
+./core/ngx_connection.c:    wev->data = c;
+./core/ngx_connection.c:    wev->write = 1;
+./core/ngx_slab.c:                                prev->next = page->next;
+./core/ngx_slab.c:                            prev->next = page->next;
+./core/ngx_slab.c:                            prev->next = page->next;
+./core/ngx_slab.c:        prev->next = page->next;
+./core/ngx_queue.h:    (x)->prev->next = x;                                                      \
+./core/ngx_queue.h:    (x)->prev->next = (x)->next;                                              \
+./core/ngx_queue.h:    (x)->prev->next = (x)->next
+./core/ngx_queue.h:    (n)->prev->next = n;                                                      \
+./core/ngx_queue.h:    (h)->prev->next = h;                                                      \
+./core/ngx_queue.h:    (h)->prev->next = (n)->next;                                              \
+./core/ngx_queue.h:    (h)->prev->next = h;
+./cs.out: && (ev->log->
+./cs.out: > 0x8000000 && kev->ident != () -1) ?
+./cs.out:, kev->
+./cs.out:, kev->
+./cs.out:, kev->
+./cs.out: && !wev->
+./cs.out: && !wev->
+./cs.out: && wev->
+./cs.out: && !wev->
+./cs.out: && wev->
+./cs.out: ||„ev->
+./cs.out: && !wev->
+./cs.out: !ğev->
+./cs.out: |ğev->
+./cs.out: |ğev->
+./cs.out: |ğev->
+./cs.out: |ğev->
+./cs.out: !ğev->
+./cs.out: = &ev->next; \
+./cs.out:èğev->
+./cs.out:, &´ev->
+./cs.out:, &´ev->
+./cs.out:, &´ev->
+./cs.out:->unixsock == 2) ? 0 :…rev->unixsock;
+./cs.out:, &´ev->
+./cs.out:, &´ev->
+./cs.out:, &´ev->
+./cs.out: == 3) ? 0 :…rev->gzip_disable_msie6;
+./cs.out: && wev->
+./cs.out:29 "aio: wev->com¶‘e: %d", 
+./cs.out:,„ev->
+./cs.out:,„ev->
+./cs.out:,„ev->
+./cs.out:,„ev->
+./event/ngx_event_timer.h:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_timer.h:                    ngx_event_ident(ev->data), ev->timer.key);
+./event/ngx_event_timer.h:    ngx_rbtree_delete(&ngx_event_timer_rbtree, &ev->timer);
+./event/ngx_event_timer.h:    ev->timer.left = NULL;
+./event/ngx_event_timer.h:    ev->timer.right = NULL;
+./event/ngx_event_timer.h:    ev->timer.parent = NULL;
+./event/ngx_event_timer.h:    ev->timer_set = 0;
+./event/ngx_event_timer.h:    if (ev->timer_set) {
+./event/ngx_event_timer.h:        diff = (ngx_msec_int_t) (key - ev->timer.key);
+./event/ngx_event_timer.h:            ngx_log_debug3(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_timer.h:                            ngx_event_ident(ev->data), ev->timer.key, key);
+./event/ngx_event_timer.h:    ev->timer.key = key;
+./event/ngx_event_timer.h:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_timer.h:                    ngx_event_ident(ev->data), timer, ev->timer.key);
+./event/ngx_event_timer.h:    ngx_rbtree_insert(&ngx_event_timer_rbtree, &ev->timer);
+./event/ngx_event_timer.h:    ev->timer_set = 1;
+./event/ngx_event_mutex.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_mutex.c:        ev->next = NULL;
+./event/ngx_event_mutex.c:        ev->light = 1;
+./event/ngx_event_mutex.c:        m->events = ev->next;
+./event/ngx_event_mutex.c:        ev->next = (ngx_event_t *) ngx_posted_events;
+./event/ngx_event_pipe.c:        flags = (rev->eof || rev->error) ? NGX_CLOSE_EVENT : 0;
+./event/ngx_event_pipe.c:        if (rev->active && !rev->ready) {
+./event/ngx_event_pipe.c:        } else if (rev->timer_set) {
+./event/ngx_event_pipe.c:        if (!wev->delayed) {
+./event/ngx_event_pipe.c:            if (wev->active && !wev->ready) {
+./event/ngx_event_pipe.c:            } else if (wev->timer_set) {
+./event/ngx_event_posted.h:    if (ev->prev == NULL) {                                                   \
+./event/ngx_event_posted.h:        ev->next = (ngx_event_t *) *queue;                                    \
+./event/ngx_event_posted.h:        ev->prev = (ngx_event_t **) queue;                                    \
+./event/ngx_event_posted.h:        if (ev->next) {                                                       \
+./event/ngx_event_posted.h:            ev->next->prev = &ev->next;                                       \
+./event/ngx_event_posted.h:        ngx_log_debug1(NGX_LOG_DEBUG_CORE, ev->log, 0, "post event %p", ev);  \
+./event/ngx_event_posted.h:        ngx_log_debug1(NGX_LOG_DEBUG_CORE, ev->log, 0,                        \
+./event/ngx_event_posted.h:    *(ev->prev) = ev->next;                                                   \
+./event/ngx_event_posted.h:    if (ev->next) {                                                           \
+./event/ngx_event_posted.h:        ev->next->prev = ev->prev;                                            \
+./event/ngx_event_posted.h:    ev->prev = NULL;                                                          \
+./event/ngx_event_posted.h:    ngx_log_debug1(NGX_LOG_DEBUG_CORE, ev->log, 0,                            \
+./event/ngx_event_openssl.c:    c = ev->data;
+./event/ngx_event_openssl.c:                   "SSL handshake handler: %d", ev->write);
+./event/ngx_event_openssl.c:    if (ev->timedout) {
+./event/ngx_event_openssl.c:    c = wev->data;
+./event/ngx_event_openssl.c:    c = rev->data;
+./event/ngx_event_openssl.c:    c = ev->data;
+./event/ngx_event_openssl.c:    if (ev->timedout) {
+./event/ngx_event_openssl.c:    ngx_log_debug0(NGX_LOG_DEBUG_EVENT, ev->log, 0, "SSL shutdown handler");
+./event/ngx_event.c:        if (!rev->active && !rev->ready) {
+./event/ngx_event.c:        if (!rev->active && !rev->ready) {
+./event/ngx_event.c:        if (rev->active && (rev->ready || (flags & NGX_CLOSE_EVENT))) {
+./event/ngx_event.c:        if (!rev->active && !rev->ready) {
+./event/ngx_event.c:        if (rev->oneshot && !rev->ready) {
+./event/ngx_event.c:        c = wev->data;
+./event/ngx_event.c:        if (!wev->active && !wev->ready) {
+./event/ngx_event.c:        if (!wev->active && !wev->ready) {
+./event/ngx_event.c:        if (wev->active && wev->ready) {
+./event/ngx_event.c:        if (!wev->active && !wev->ready) {
+./event/ngx_event.c:        if (wev->oneshot && wev->ready) {
+./event/ngx_event.c://ACCPETæ—¶å€™è·å–revçš„rev->data->listeningæ˜¯åœ¨
+./event/ngx_event.c:        rev->log = c->log;
+./event/ngx_event.c:        rev->accept = 1;
+./event/ngx_event.c:        rev->deferred_accept = ls[i].deferred_accept;
+./event/ngx_event.c:            rev->handler = ngx_event_acceptex;
+./event/ngx_event.c:            rev->handler = ngx_event_accept;
+./event/ngx_event.c:        rev->handler = ngx_event_accept;
+./event/ngx_event_connect.c:    rev->log = pc->log;
+./event/ngx_event_connect.c:    wev->log = pc->log;
+./event/ngx_event_connect.c:    rev->lock = pc->lock;
+./event/ngx_event_connect.c:    wev->lock = pc->lock;
+./event/ngx_event_connect.c:    rev->own_lock = &c->lock;
+./event/ngx_event_connect.c:    wev->own_lock = &c->lock;
+./event/ngx_event_connect.c:        wev->ready = 1;
+./event/ngx_event_connect.c:        rev->ready = 1;
+./event/ngx_event_connect.c:        wev->ready = 1;
+./event/ngx_event_connect.c:    wev->ready = 1;
+./event/ngx_event_timer.c:            if (ngx_threaded && ngx_trylock(ev->lock) == 0) {
+./event/ngx_event_timer.c:                ngx_log_debug1(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_timer.c:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_timer.c:                           ngx_event_ident(ev->data), ev->timer.key);
+./event/ngx_event_timer.c:            ngx_rbtree_delete(&ngx_event_timer_rbtree, &ev->timer);
+./event/ngx_event_timer.c:            ev->timer.left = NULL;
+./event/ngx_event_timer.c:            ev->timer.right = NULL;
+./event/ngx_event_timer.c:            ev->timer.parent = NULL;
+./event/ngx_event_timer.c:            ev->timer_set = 0;
+./event/ngx_event_timer.c:                ev->posted_timedout = 1;
+./event/ngx_event_timer.c:                ngx_unlock(ev->lock);
+./event/ngx_event_timer.c:            ev->timedout = 1;
+./event/ngx_event_timer.c:            ev->handler(ev);
+./event/ngx_event_posted.c:        ev->handler(ev);
+./event/ngx_event_posted.c:    for (ev = (ngx_event_t *) ngx_posted_events; ev; ev = ev->next) {
+./event/ngx_event_posted.c:        if (*(ev->lock) == 0) {
+./event/ngx_event_posted.c:            if (ngx_trylock(ev->lock) == 0) {
+./event/ngx_event_posted.c:                ev = ev->next;
+./event/ngx_event_posted.c:            if (ev->lock != ev->own_lock) {
+./event/ngx_event_posted.c:                if (*(ev->own_lock)) {
+./event/ngx_event_posted.c:                    ngx_unlock(ev->lock);
+./event/ngx_event_posted.c:                    ev = ev->next;
+./event/ngx_event_posted.c:                *(ev->own_lock) = 1;
+./event/ngx_event_posted.c:            ev->locked = 1;
+./event/ngx_event_posted.c:            ev->ready |= ev->posted_ready;
+./event/ngx_event_posted.c:            ev->timedout |= ev->posted_timedout;
+./event/ngx_event_posted.c:            ev->pending_eof |= ev->posted_eof;
+./event/ngx_event_posted.c:            ev->kq_errno |= ev->posted_errno;
+./event/ngx_event_posted.c:            if (ev->posted_available) {
+./event/ngx_event_posted.c:                ev->available = ev->posted_available;
+./event/ngx_event_posted.c:            ev->posted_ready = 0;
+./event/ngx_event_posted.c:            ev->posted_timedout = 0;
+./event/ngx_event_posted.c:            ev->posted_eof = 0;
+./event/ngx_event_posted.c:            ev->posted_errno = 0;
+./event/ngx_event_posted.c:            ev->posted_available = 0;
+./event/ngx_event_posted.c:            ev->handler(ev);
+./event/ngx_event_posted.c:            if (ev->locked) {
+./event/ngx_event_posted.c:                ngx_unlock(ev->lock);
+./event/ngx_event_posted.c:                if (ev->lock != ev->own_lock) {
+./event/ngx_event_posted.c:                    ngx_unlock(ev->own_lock);
+./event/ngx_event_busy_lock.c:        if (ev->timer_set) {
+./event/ngx_event_busy_lock.c:    ev->handler = ngx_event_busy_lock_posted_handler;
+./event/ngx_event_busy_lock.c:    ctx = ev->data;
+./event/ngx_event_accept.c:        ev->available = 1;
+./event/ngx_event_accept.c:        ev->available = ecf->multi_accept;
+./event/ngx_event_accept.c:    lc = ev->data;
+./event/ngx_event_accept.c:    ev->ready = 0;
+./event/ngx_event_accept.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/ngx_event_accept.c:                   "accept on %V, ready: %d", &ls->addr_text, ev->available);
+./event/ngx_event_accept.c:                ngx_log_debug0(NGX_LOG_DEBUG_EVENT, ev->log, err,
+./event/ngx_event_accept.c:                          ev->log, err,
+./event/ngx_event_accept.c:                          ev->log, err, "accept() failed");
+./event/ngx_event_accept.c:                    ev->available--;
+./event/ngx_event_accept.c:                if (ev->available) {
+./event/ngx_event_accept.c:        c = ngx_get_connection(s, ev->log);
+./event/ngx_event_accept.c:                ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_socket_errno,
+./event/ngx_event_accept.c:        c->pool = ngx_create_pool(ls->pool_size, ev->log);
+./event/ngx_event_accept.c:                    ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_socket_errno,
+./event/ngx_event_accept.c:                    ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_socket_errno,
+./event/ngx_event_accept.c:        wev->ready = 1;
+./event/ngx_event_accept.c:            rev->ready = 1;
+./event/ngx_event_accept.c:        if (ev->deferred_accept) {
+./event/ngx_event_accept.c:            rev->ready = 1;
+./event/ngx_event_accept.c:            rev->available = 1;
+./event/ngx_event_accept.c:        rev->log = log;
+./event/ngx_event_accept.c:        wev->log = log;
+./event/ngx_event_accept.c:        rev->lock = &c->lock;
+./event/ngx_event_accept.c:        wev->lock = &c->lock;
+./event/ngx_event_accept.c:        rev->own_lock = &c->lock;
+./event/ngx_event_accept.c:        wev->own_lock = &c->lock;
+./event/ngx_event_accept.c:            ev->available--;
+./event/ngx_event_accept.c:    } while (ev->available);
+./event/modules/ngx_select_module.c:    c = ev->data;
+./event/modules/ngx_select_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_select_module.c:    if (ev->index != NGX_INVALID_INDEX) {
+./event/modules/ngx_select_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_select_module.c:    if ((event == NGX_READ_EVENT && ev->write)
+./event/modules/ngx_select_module.c:        || (event == NGX_WRITE_EVENT && !ev->write))
+./event/modules/ngx_select_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_select_module.c:                      ev->write ? "write" : "read", c->fd, event);
+./event/modules/ngx_select_module.c:    ev->active = 1;
+./event/modules/ngx_select_module.c:    ev->index = nevents;
+./event/modules/ngx_select_module.c:    c = ev->data;
+./event/modules/ngx_select_module.c:    ev->active = 0;
+./event/modules/ngx_select_module.c:    if (ev->index == NGX_INVALID_INDEX) {
+./event/modules/ngx_select_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_select_module.c:    if (ev->index < --nevents) {
+./event/modules/ngx_select_module.c:        event_index[ev->index] = e;
+./event/modules/ngx_select_module.c:        e->index = ev->index;
+./event/modules/ngx_select_module.c:    ev->index = NGX_INVALID_INDEX;
+./event/modules/ngx_select_module.c:            c = ev->data;
+./event/modules/ngx_select_module.c:                           "select event: fd:%d wr:%d", c->fd, ev->write);
+./event/modules/ngx_select_module.c:        c = ev->data;
+./event/modules/ngx_select_module.c:        if (ev->write) {
+./event/modules/ngx_select_module.c:            ev->ready = 1;
+./event/modules/ngx_select_module.c:            queue = (ngx_event_t **) (ev->accept ? &ngx_posted_accept_events:
+./event/modules/ngx_kqueue_module.c:    ev->active = 1;
+./event/modules/ngx_kqueue_module.c:    ev->disabled = 0;
+./event/modules/ngx_kqueue_module.c:    ev->oneshot = (flags & NGX_ONESHOT_EVENT) ? 1 : 0;
+./event/modules/ngx_kqueue_module.c:    if (ev->index < nchanges
+./event/modules/ngx_kqueue_module.c:        && ((uintptr_t) change_list[ev->index].udata & (uintptr_t) ~1)
+./event/modules/ngx_kqueue_module.c:        if (change_list[ev->index].flags == EV_DISABLE) {
+./event/modules/ngx_kqueue_module.c:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_kqueue_module.c:                           ngx_event_ident(ev->data), event);
+./event/modules/ngx_kqueue_module.c:            if (ev->index < --nchanges) {
+./event/modules/ngx_kqueue_module.c:                change_list[ev->index] = change_list[nchanges];
+./event/modules/ngx_kqueue_module.c:                e->index = ev->index;
+./event/modules/ngx_kqueue_module.c:        c = ev->data;
+./event/modules/ngx_kqueue_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_kqueue_module.c:    ev->active = 0;
+./event/modules/ngx_kqueue_module.c:    ev->disabled = 0;
+./event/modules/ngx_kqueue_module.c:    if (ev->index < nchanges
+./event/modules/ngx_kqueue_module.c:        && ((uintptr_t) change_list[ev->index].udata & (uintptr_t) ~1)
+./event/modules/ngx_kqueue_module.c:        ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_kqueue_module.c:                       ngx_event_ident(ev->data), event);
+./event/modules/ngx_kqueue_module.c:        if (ev->index < nchanges) {
+./event/modules/ngx_kqueue_module.c:            change_list[ev->index] = change_list[nchanges];
+./event/modules/ngx_kqueue_module.c:            e->index = ev->index;
+./event/modules/ngx_kqueue_module.c:        ev->disabled = 1;
+./event/modules/ngx_kqueue_module.c:    c = ev->data;
+./event/modules/ngx_kqueue_module.c:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_kqueue_module.c:        ngx_log_error(NGX_LOG_WARN, ev->log, 0,
+./event/modules/ngx_kqueue_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno, "kevent() failed");
+./event/modules/ngx_kqueue_module.c:    kev->ident = c->fd;
+./event/modules/ngx_kqueue_module.c:    kev->filter = (short) filter;
+./event/modules/ngx_kqueue_module.c:    kev->flags = (u_short) flags;
+./event/modules/ngx_kqueue_module.c:    kev->udata = NGX_KQUEUE_UDATA_T ((uintptr_t) ev | ev->instance);
+./event/modules/ngx_kqueue_module.c:        kev->fflags = NOTE_DELETE|NOTE_WRITE|NOTE_EXTEND
+./event/modules/ngx_kqueue_module.c:        kev->data = 0;
+./event/modules/ngx_kqueue_module.c:            kev->fflags = NOTE_LOWAT;
+./event/modules/ngx_kqueue_module.c:            kev->data = ev->available;
+./event/modules/ngx_kqueue_module.c:            kev->fflags = 0;
+./event/modules/ngx_kqueue_module.c:            kev->data = 0;
+./event/modules/ngx_kqueue_module.c:        kev->fflags = 0;
+./event/modules/ngx_kqueue_module.c:        kev->data = 0;
+./event/modules/ngx_kqueue_module.c:    ev->index = nchanges;
+./event/modules/ngx_kqueue_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_EVENT, ev->log, 0, "kevent flush");
+./event/modules/ngx_kqueue_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno, "kevent() failed");
+./event/modules/ngx_kqueue_module.c:            if (ev->closed || ev->instance != instance) {
+./event/modules/ngx_kqueue_module.c:            if (ev->log && (ev->log->log_level & NGX_LOG_DEBUG_CONNECTION)) {
+./event/modules/ngx_kqueue_module.c:                ngx_kqueue_dump_event(ev->log, &event_list[i]);
+./event/modules/ngx_kqueue_module.c:            if (ev->oneshot) {
+./event/modules/ngx_kqueue_module.c:                ev->active = 0;
+./event/modules/ngx_kqueue_module.c:            if ((flags & NGX_POST_THREAD_EVENTS) && !ev->accept) {
+./event/modules/ngx_kqueue_module.c:                ev->posted_ready = 1;
+./event/modules/ngx_kqueue_module.c:                ev->posted_available = event_list[i].data;
+./event/modules/ngx_kqueue_module.c:                    ev->posted_eof = 1;
+./event/modules/ngx_kqueue_module.c:                    ev->posted_errno = event_list[i].fflags;
+./event/modules/ngx_kqueue_module.c:            ev->available = event_list[i].data;
+./event/modules/ngx_kqueue_module.c:                ev->pending_eof = 1;
+./event/modules/ngx_kqueue_module.c:                ev->kq_errno = event_list[i].fflags;
+./event/modules/ngx_kqueue_module.c:            ev->ready = 1;
+./event/modules/ngx_kqueue_module.c:            ev->kq_vnode = 1;
+./event/modules/ngx_kqueue_module.c:            ev->complete = 1;
+./event/modules/ngx_kqueue_module.c:            ev->ready = 1;
+./event/modules/ngx_kqueue_module.c:            queue = (ngx_event_t **) (ev->accept ? &ngx_posted_accept_events:
+./event/modules/ngx_kqueue_module.c:        ev->handler(ev);
+./event/modules/ngx_kqueue_module.c:                   (kev->ident > 0x8000000 && kev->ident != (unsigned) -1) ?
+./event/modules/ngx_kqueue_module.c:                    kev->ident, kev->filter,
+./event/modules/ngx_kqueue_module.c:                    kev->flags, kev->fflags,
+./event/modules/ngx_kqueue_module.c:                    kev->data, kev->udata);
+./event/modules/ngx_win32_select_module.c:    c = ev->data;
+./event/modules/ngx_win32_select_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_win32_select_module.c:    if (ev->index != NGX_INVALID_INDEX) {
+./event/modules/ngx_win32_select_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_win32_select_module.c:    if ((event == NGX_READ_EVENT && ev->write)
+./event/modules/ngx_win32_select_module.c:        || (event == NGX_WRITE_EVENT && !ev->write))
+./event/modules/ngx_win32_select_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_win32_select_module.c:                      ev->write ? "write" : "read", c->fd, event);
+./event/modules/ngx_win32_select_module.c:        ngx_log_error(NGX_LOG_ERR, ev->log, 0,
+./event/modules/ngx_win32_select_module.c:    ev->active = 1;
+./event/modules/ngx_win32_select_module.c:    ev->index = nevents;
+./event/modules/ngx_win32_select_module.c:    c = ev->data;
+./event/modules/ngx_win32_select_module.c:    ev->active = 0;
+./event/modules/ngx_win32_select_module.c:    if (ev->index == NGX_INVALID_INDEX) {
+./event/modules/ngx_win32_select_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_win32_select_module.c:    if (ev->index < --nevents) {
+./event/modules/ngx_win32_select_module.c:        event_index[ev->index] = e;
+./event/modules/ngx_win32_select_module.c:        e->index = ev->index;
+./event/modules/ngx_win32_select_module.c:    ev->index = NGX_INVALID_INDEX;
+./event/modules/ngx_win32_select_module.c:            c = ev->data;
+./event/modules/ngx_win32_select_module.c:                           "select event: fd:%d wr:%d", c->fd, ev->write);
+./event/modules/ngx_win32_select_module.c:        c = ev->data;
+./event/modules/ngx_win32_select_module.c:        if (ev->write) {
+./event/modules/ngx_win32_select_module.c:            ev->ready = 1;
+./event/modules/ngx_win32_select_module.c:            queue = (ngx_event_t **) (ev->accept ? &ngx_posted_accept_events:
+./event/modules/ngx_eventport_module.c:    c = ev->data;
+./event/modules/ngx_eventport_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_eventport_module.c:                       (void *) ((uintptr_t) ev | ev->instance))
+./event/modules/ngx_eventport_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_eventport_module.c:    ev->active = 1;
+./event/modules/ngx_eventport_module.c:    ev->oneshot = 1;
+./event/modules/ngx_eventport_module.c:        ev->active = 0;
+./event/modules/ngx_eventport_module.c:        ev->oneshot = 0;
+./event/modules/ngx_eventport_module.c:    c = ev->data;
+./event/modules/ngx_eventport_module.c:        ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_eventport_module.c:                           (void *) ((uintptr_t) ev | ev->instance))
+./event/modules/ngx_eventport_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_eventport_module.c:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_eventport_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_eventport_module.c:    ev->active = 0;
+./event/modules/ngx_eventport_module.c:    ev->oneshot = 0;
+./event/modules/ngx_eventport_module.c:            if (ev->closed || ev->instance != instance) {
+./event/modules/ngx_eventport_module.c:            c = ev->data;
+./event/modules/ngx_eventport_module.c:            rev->active = 0;
+./event/modules/ngx_eventport_module.c:            wev->active = 0;
+./event/modules/ngx_eventport_module.c:                if ((flags & NGX_POST_THREAD_EVENTS) && !rev->accept) {
+./event/modules/ngx_eventport_module.c:                    rev->posted_ready = 1;
+./event/modules/ngx_eventport_module.c:                    rev->ready = 1;
+./event/modules/ngx_eventport_module.c:                    queue = (ngx_event_t **) (rev->accept ?
+./event/modules/ngx_eventport_module.c:                    rev->handler(rev);
+./event/modules/ngx_eventport_module.c:                    if (ev->closed) {
+./event/modules/ngx_eventport_module.c:                if (rev->accept) {
+./event/modules/ngx_eventport_module.c:                                       (void *) ((uintptr_t) ev | ev->instance))
+./event/modules/ngx_eventport_module.c:                        ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_eventport_module.c:                    wev->posted_ready = 1;
+./event/modules/ngx_eventport_module.c:                    wev->ready = 1;
+./event/modules/ngx_eventport_module.c:                    wev->handler(wev);
+./event/modules/ngx_rtsig_module.c:        if (rev->instance != instance) {
+./event/modules/ngx_rtsig_module.c:        if ((si.si_band & (POLLIN|POLLHUP|POLLERR)) && rev->active) {
+./event/modules/ngx_rtsig_module.c:            rev->ready = 1;
+./event/modules/ngx_rtsig_module.c:                queue = (ngx_event_t **) (rev->accept ?
+./event/modules/ngx_rtsig_module.c:                rev->handler(rev);
+./event/modules/ngx_rtsig_module.c:        if ((si.si_band & (POLLOUT|POLLHUP|POLLERR)) && wev->active) {
+./event/modules/ngx_rtsig_module.c:            wev->ready = 1;
+./event/modules/ngx_rtsig_module.c:                wev->handler(wev);
+./event/modules/ngx_rtsig_module.c:            if (rev->active
+./event/modules/ngx_rtsig_module.c:                && !rev->closed
+./event/modules/ngx_rtsig_module.c:                && rev->handler
+./event/modules/ngx_rtsig_module.c:                if ((flags & NGX_POST_THREAD_EVENTS) && !rev->accept) {
+./event/modules/ngx_rtsig_module.c:                    rev->posted_ready = 1;
+./event/modules/ngx_rtsig_module.c:                    rev->ready = 1;
+./event/modules/ngx_rtsig_module.c:                    queue = (ngx_event_t **) (rev->accept ?
+./event/modules/ngx_rtsig_module.c:                    rev->handler(rev);
+./event/modules/ngx_rtsig_module.c:            if (wev->active
+./event/modules/ngx_rtsig_module.c:                && !wev->closed
+./event/modules/ngx_rtsig_module.c:                && wev->handler
+./event/modules/ngx_rtsig_module.c:                    wev->posted_ready = 1;
+./event/modules/ngx_rtsig_module.c:                    wev->ready = 1;
+./event/modules/ngx_rtsig_module.c:                    wev->handler(wev);
+./event/modules/ngx_epoll_module.c:    c = ev->data;
+./event/modules/ngx_epoll_module.c:    ee.data.ptr = (void *) ((uintptr_t) c | ev->instance);
+./event/modules/ngx_epoll_module.c:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_epoll_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_epoll_module.c:    ev->active = 1;
+./event/modules/ngx_epoll_module.c:    ev->oneshot = (flags & NGX_ONESHOT_EVENT) ? 1 : 0;
+./event/modules/ngx_epoll_module.c:        ev->active = 0;
+./event/modules/ngx_epoll_module.c:    c = ev->data;
+./event/modules/ngx_epoll_module.c:        ee.data.ptr = (void *) ((uintptr_t) c | ev->instance);
+./event/modules/ngx_epoll_module.c:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_epoll_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_epoll_module.c:    ev->active = 0;
+./event/modules/ngx_epoll_module.c:        if (c->fd == -1 || rev->instance != instance) {
+./event/modules/ngx_epoll_module.c:        if ((revents & EPOLLIN) && rev->active) {
+./event/modules/ngx_epoll_module.c:            if ((flags & NGX_POST_THREAD_EVENTS) && !rev->accept) {
+./event/modules/ngx_epoll_module.c:                rev->posted_ready = 1;
+./event/modules/ngx_epoll_module.c:                rev->ready = 1;
+./event/modules/ngx_epoll_module.c:                queue = (ngx_event_t **) (rev->accept ?
+./event/modules/ngx_epoll_module.c:                rev->handler(rev);
+./event/modules/ngx_epoll_module.c:        if ((revents & EPOLLOUT) && wev->active) {
+./event/modules/ngx_epoll_module.c:            if (c->fd == -1 || wev->instance != instance) {
+./event/modules/ngx_epoll_module.c:                wev->posted_ready = 1;
+./event/modules/ngx_epoll_module.c:                wev->ready = 1;
+./event/modules/ngx_epoll_module.c:                wev->handler(wev);
+./event/modules/ngx_epoll_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_EVENT, ev->log, 0, "eventfd handler");
+./event/modules/ngx_epoll_module.c:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, ev->log, 0, "eventfd: %d", n);
+./event/modules/ngx_epoll_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, err, "read(eventfd) failed");
+./event/modules/ngx_epoll_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_epoll_module.c:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_epoll_module.c:                ngx_log_debug4(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_epoll_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_poll_module.c:    c = ev->data;
+./event/modules/ngx_poll_module.c:    ev->active = 1;
+./event/modules/ngx_poll_module.c:    if (ev->index != NGX_INVALID_INDEX) {
+./event/modules/ngx_poll_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_poll_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_poll_module.c:        ev->index = nevents;
+./event/modules/ngx_poll_module.c:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_poll_module.c:        ev->index = e->index;
+./event/modules/ngx_poll_module.c:    c = ev->data;
+./event/modules/ngx_poll_module.c:    ev->active = 0;
+./event/modules/ngx_poll_module.c:    if (ev->index == NGX_INVALID_INDEX) {
+./event/modules/ngx_poll_module.c:        ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_poll_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_poll_module.c:        if (ev->index < (ngx_uint_t) nevents) {
+./event/modules/ngx_poll_module.c:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_poll_module.c:                           "index: copy event %ui to %i", nevents, ev->index);
+./event/modules/ngx_poll_module.c:            event_list[ev->index] = event_list[nevents];
+./event/modules/ngx_poll_module.c:                ngx_log_error(NGX_LOG_ALERT, ev->log, 0,
+./event/modules/ngx_poll_module.c:                    c->read->index = ev->index;
+./event/modules/ngx_poll_module.c:                    c->write->index = ev->index;
+./event/modules/ngx_poll_module.c:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_poll_module.c:    ev->index = NGX_INVALID_INDEX;
+./event/modules/ngx_poll_module.c:            if ((flags & NGX_POST_THREAD_EVENTS) && !ev->accept) {
+./event/modules/ngx_poll_module.c:                ev->posted_ready = 1;
+./event/modules/ngx_poll_module.c:                ev->ready = 1;
+./event/modules/ngx_poll_module.c:            queue = (ngx_event_t **) (ev->accept ? &ngx_posted_accept_events:
+./event/modules/ngx_poll_module.c:                ev->posted_ready = 1;
+./event/modules/ngx_poll_module.c:                ev->ready = 1;
+./event/modules/ngx_devpoll_module.c:    c = ev->data;
+./event/modules/ngx_devpoll_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_devpoll_module.c:    ev->active = 1;
+./event/modules/ngx_devpoll_module.c:    c = ev->data;
+./event/modules/ngx_devpoll_module.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_devpoll_module.c:    ev->active = 0;
+./event/modules/ngx_devpoll_module.c:    c = ev->data;
+./event/modules/ngx_devpoll_module.c:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, ev->log, 0,
+./event/modules/ngx_devpoll_module.c:        ngx_log_error(NGX_LOG_WARN, ev->log, 0,
+./event/modules/ngx_devpoll_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_devpoll_module.c:    ev->index = nchanges;
+./event/modules/ngx_devpoll_module.c:            ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./event/modules/ngx_devpoll_module.c:        if ((revents & POLLIN) && rev->active) {
+./event/modules/ngx_devpoll_module.c:            if ((flags & NGX_POST_THREAD_EVENTS) && !rev->accept) {
+./event/modules/ngx_devpoll_module.c:                rev->posted_ready = 1;
+./event/modules/ngx_devpoll_module.c:                rev->ready = 1;
+./event/modules/ngx_devpoll_module.c:                queue = (ngx_event_t **) (rev->accept ?
+./event/modules/ngx_devpoll_module.c:                rev->handler(rev);
+./event/modules/ngx_devpoll_module.c:        if ((revents & POLLOUT) && wev->active) {
+./event/modules/ngx_devpoll_module.c:                wev->posted_ready = 1;
+./event/modules/ngx_devpoll_module.c:                wev->ready = 1;
+./event/modules/ngx_devpoll_module.c:                wev->handler(wev);
+./event/cs.out: && (ev->log->
+./event/cs.out: > 0x8000000 && kev->ident != () -1) ?
+./event/cs.out:, kev->
+./event/cs.out:, kev->
+./event/cs.out:, kev->
+./event/cs.out: && !wev->
+./event/cs.out: && !wev->
+./event/cs.out: && wev->
+./event/cs.out: && !wev->
+./event/cs.out: && wev->
+./event/cs.out: ||„ev->
+./event/cs.out: && !wev->
+./event/cs.out: !ğev->
+./event/cs.out: |ğev->
+./event/cs.out: |ğev->
+./event/cs.out: |ğev->
+./event/cs.out: |ğev->
+./event/cs.out: !ğev->
+./event/cs.out: = &ev->next; \
+./event/cs.out:èğev->
+./http/ngx_http_request_body.c:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, rev->log, 0, "http set discard body");
+./http/ngx_http_request_body.c:    if (rev->timer_set) {
+./http/ngx_http_request_body.c:    if (rev->timedout) {
+./http/ngx_http_copy_filter_module.c:    aio = ev->data;
+./http/ngx_http_copy_filter_module.c:    aio = ev->data;
+./http/ngx_http_copy_filter_module.c:    ev->complete = 0;
+./http/ngx_http_copy_filter_module.c:    ngx_conf_merge_bufs_value(conf->bufs, prev->bufs, 1, 32768);
+./http/ngx_http_file_cache.c:    aio = ev->data;
+./http/ngx_http_core_module.c:                              prev->connection_pool_size, 256);
+./http/ngx_http_core_module.c:                              prev->request_pool_size, 4096);
+./http/ngx_http_core_module.c:                              prev->client_header_timeout, 60000);
+./http/ngx_http_core_module.c:                              prev->client_header_buffer_size, 1024);
+./http/ngx_http_core_module.c:                              prev->large_client_header_buffers,
+./http/ngx_http_core_module.c:                              prev->ignore_invalid_headers, 1);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->merge_slashes, prev->merge_slashes, 1);
+./http/ngx_http_core_module.c:                              prev->underscores_in_headers, 0);
+./http/ngx_http_core_module.c:        conf->alias = prev->alias;
+./http/ngx_http_core_module.c:        conf->root = prev->root;
+./http/ngx_http_core_module.c:        conf->root_lengths = prev->root_lengths;
+./http/ngx_http_core_module.c:        conf->root_values = prev->root_values;
+./http/ngx_http_core_module.c:        if (prev->root.data == NULL) {
+./http/ngx_http_core_module.c:        conf->post_action = prev->post_action;
+./http/ngx_http_core_module.c:                              prev->types_hash_max_size, 1024);
+./http/ngx_http_core_module.c:                              prev->types_hash_bucket_size,
+./http/ngx_http_core_module.c:    if (prev->types && prev->types_hash.buckets == NULL) {
+./http/ngx_http_core_module.c:        types_hash.hash = &prev->types_hash;
+./http/ngx_http_core_module.c:        if (ngx_hash_init(&types_hash, prev->types->elts, prev->types->nelts)
+./http/ngx_http_core_module.c:        conf->types = prev->types;
+./http/ngx_http_core_module.c:        conf->types_hash = prev->types_hash;
+./http/ngx_http_core_module.c:        if (prev->error_log) {
+./http/ngx_http_core_module.c:            conf->error_log = prev->error_log;
+./http/ngx_http_core_module.c:    if (conf->error_pages == NULL && prev->error_pages) {
+./http/ngx_http_core_module.c:        conf->error_pages = prev->error_pages;
+./http/ngx_http_core_module.c:                              prev->default_type, "text/plain");
+./http/ngx_http_core_module.c:                              prev->client_max_body_size, 1 * 1024 * 1024);
+./http/ngx_http_core_module.c:                              prev->client_body_buffer_size,
+./http/ngx_http_core_module.c:                              prev->client_body_timeout, 60000);
+./http/ngx_http_core_module.c:                              prev->keepalive_disable,
+./http/ngx_http_core_module.c:    ngx_conf_merge_uint_value(conf->satisfy, prev->satisfy,
+./http/ngx_http_core_module.c:    ngx_conf_merge_uint_value(conf->if_modified_since, prev->if_modified_since,
+./http/ngx_http_core_module.c:    ngx_conf_merge_uint_value(conf->max_ranges, prev->max_ranges,
+./http/ngx_http_core_module.c:                              prev->client_body_in_file_only,
+./http/ngx_http_core_module.c:                              prev->client_body_in_single_buffer, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->internal, prev->internal, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->sendfile, prev->sendfile, 0);
+./http/ngx_http_core_module.c:                              prev->sendfile_max_chunk, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->aio, prev->aio, NGX_HTTP_AIO_OFF);
+./http/ngx_http_core_module.c:    ngx_conf_merge_size_value(conf->read_ahead, prev->read_ahead, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_off_value(conf->directio, prev->directio,
+./http/ngx_http_core_module.c:    ngx_conf_merge_off_value(conf->directio_alignment, prev->directio_alignment,
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->tcp_nopush, prev->tcp_nopush, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->tcp_nodelay, prev->tcp_nodelay, 1);
+./http/ngx_http_core_module.c:    ngx_conf_merge_msec_value(conf->send_timeout, prev->send_timeout, 60000);
+./http/ngx_http_core_module.c:    ngx_conf_merge_size_value(conf->send_lowat, prev->send_lowat, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_size_value(conf->postpone_output, prev->postpone_output,
+./http/ngx_http_core_module.c:    ngx_conf_merge_size_value(conf->limit_rate, prev->limit_rate, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_size_value(conf->limit_rate_after, prev->limit_rate_after,
+./http/ngx_http_core_module.c:                              prev->keepalive_timeout, 75000);
+./http/ngx_http_core_module.c:                              prev->keepalive_header, 0);
+./http/ngx_http_core_module.c:                              prev->keepalive_requests, 100);
+./http/ngx_http_core_module.c:                              prev->lingering_close, NGX_HTTP_LINGERING_ON);
+./http/ngx_http_core_module.c:                              prev->lingering_time, 30000);
+./http/ngx_http_core_module.c:                              prev->lingering_timeout, 5000);
+./http/ngx_http_core_module.c:                              prev->resolver_timeout, 30000);
+./http/ngx_http_core_module.c:        if (prev->resolver == NULL) {
+./http/ngx_http_core_module.c:            prev->resolver = ngx_resolver_create(cf, NULL);
+./http/ngx_http_core_module.c:            if (prev->resolver == NULL) {
+./http/ngx_http_core_module.c:        conf->resolver = prev->resolver;
+./http/ngx_http_core_module.c:                              prev->client_body_temp_path,
+./http/ngx_http_core_module.c:                              prev->reset_timedout_connection, 0);
+./http/ngx_http_core_module.c:                              prev->server_name_in_redirect, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->port_in_redirect, prev->port_in_redirect, 1);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->msie_padding, prev->msie_padding, 1);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->msie_refresh, prev->msie_refresh, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->log_not_found, prev->log_not_found, 1);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->log_subrequest, prev->log_subrequest, 0);
+./http/ngx_http_core_module.c:                              prev->recursive_error_pages, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->server_tokens, prev->server_tokens, 1);
+./http/ngx_http_core_module.c:                              prev->chunked_transfer_encoding, 1);
+./http/ngx_http_core_module.c:                              prev->open_file_cache, NULL);
+./http/ngx_http_core_module.c:                              prev->open_file_cache_valid, 60);
+./http/ngx_http_core_module.c:                              prev->open_file_cache_min_uses, 1);
+./http/ngx_http_core_module.c:                              prev->open_file_cache_errors, 0);
+./http/ngx_http_core_module.c:                              prev->open_file_cache_events, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_value(conf->gzip_vary, prev->gzip_vary, 0);
+./http/ngx_http_core_module.c:    ngx_conf_merge_uint_value(conf->gzip_http_version, prev->gzip_http_version,
+./http/ngx_http_core_module.c:    ngx_conf_merge_bitmask_value(conf->gzip_proxied, prev->gzip_proxied,
+./http/ngx_http_core_module.c:    ngx_conf_merge_ptr_value(conf->gzip_disable, prev->gzip_disable, NULL);
+./http/ngx_http_core_module.c:            (prev->gzip_disable_msie6 == 3) ? 0 : prev->gzip_disable_msie6;
+./http/ngx_http_core_module.c:            (prev->gzip_disable_degradation == 3) ?
+./http/ngx_http_core_module.c:                 0 : prev->gzip_disable_degradation;
+./http/ngx_http_upstream.c:    c = ev->data;
+./http/ngx_http_upstream.c:    if (ev->write) {
+./http/ngx_http_upstream.c:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, ev->log, 0,
+./http/ngx_http_upstream.c:                   ev->write, &r->uri);
+./http/ngx_http_upstream.c:        if ((ngx_event_flags & NGX_USE_LEVEL_EVENT) && ev->active) {
+./http/ngx_http_upstream.c:            event = ev->write ? NGX_WRITE_EVENT : NGX_READ_EVENT;
+./http/ngx_http_upstream.c:        if (!ev->pending_eof) {
+./http/ngx_http_upstream.c:        ev->eof = 1;
+./http/ngx_http_upstream.c:        if (ev->kq_errno) {
+./http/ngx_http_upstream.c:            ev->error = 1;
+./http/ngx_http_upstream.c:            ngx_log_error(NGX_LOG_INFO, ev->log, ev->kq_errno,
+./http/ngx_http_upstream.c:        ngx_log_error(NGX_LOG_INFO, ev->log, ev->kq_errno,
+./http/ngx_http_upstream.c:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, ev->log, err,
+./http/ngx_http_upstream.c:    if (ev->write && (n >= 0 || err == NGX_EAGAIN)) {
+./http/ngx_http_upstream.c:    if ((ngx_event_flags & NGX_USE_LEVEL_EVENT) && ev->active) {
+./http/ngx_http_upstream.c:        event = ev->write ? NGX_WRITE_EVENT : NGX_READ_EVENT;
+./http/ngx_http_upstream.c:        ev->error = 1;
+./http/ngx_http_upstream.c:    ev->eof = 1;
+./http/ngx_http_upstream.c:        ngx_log_error(NGX_LOG_INFO, ev->log, err,
+./http/ngx_http_upstream.c:    ngx_log_error(NGX_LOG_INFO, ev->log, err,
+./http/ngx_http_upstream.c:    if (rev->timedout) {
+./http/ngx_http_upstream.c:        if (!rev->ready) {
+./http/ngx_http_upstream.c:    if (rev->active) {
+./http/ngx_http_upstream.c:    } else if (rev->timer_set) {
+./http/ngx_http_upstream.c:    if (wev->timedout) {
+./http/ngx_http_upstream.c:    if (wev->timedout) {
+./http/ngx_http_upstream.c:        if (wev->delayed) {
+./http/ngx_http_upstream.c:            wev->timedout = 0;
+./http/ngx_http_upstream.c:            wev->delayed = 0;
+./http/ngx_http_upstream.c:            if (!wev->ready) {
+./http/ngx_http_upstream.c:            if (ngx_event_pipe(p, wev->write) == NGX_ABORT) {
+./http/ngx_http_upstream.c:        if (wev->delayed) {
+./http/ngx_http_upstream.c:        conf->hide_headers_hash = prev->hide_headers_hash;
+./http/ngx_http_upstream.c:            && ((conf->cache == NULL) == (prev->cache == NULL))
+./http/ngx_http_upstream.c:        conf->hide_headers = prev->hide_headers;
+./http/ngx_http_upstream.c:        conf->pass_headers = prev->pass_headers;
+./http/ngx_http_upstream.c:            conf->hide_headers = prev->hide_headers;
+./http/ngx_http_upstream.c:            conf->pass_headers = prev->pass_headers;
+./http/ngx_http_request.c:    rev->handler = ngx_http_init_request;
+./http/ngx_http_request.c:    if (rev->ready) {
+./http/ngx_http_request.c:    c = rev->data;
+./http/ngx_http_request.c:    if (rev->timedout) {
+./http/ngx_http_request.c:    rev->handler = ngx_http_process_request_line;
+./http/ngx_http_request.c:            rev->handler = ngx_http_ssl_handshake;
+./http/ngx_http_request.c:    rev->handler(rev);
+./http/ngx_http_request.c:    c = rev->data;
+./http/ngx_http_request.c:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, rev->log, 0,
+./http/ngx_http_request.c:    if (rev->timedout) {
+./http/ngx_http_request.c:        if (!rev->timer_set) {
+./http/ngx_http_request.c:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, rev->log, 0,
+./http/ngx_http_request.c:                if (!rev->timer_set) {
+./http/ngx_http_request.c:            ngx_log_debug0(NGX_LOG_DEBUG_HTTP, rev->log, 0,
+./http/ngx_http_request.c:    rev->handler = ngx_http_process_request_line;
+./http/ngx_http_request.c:    c = rev->data;
+./http/ngx_http_request.c:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, rev->log, 0,
+./http/ngx_http_request.c:    if (rev->timedout) {
+./http/ngx_http_request.c:            rev->handler = ngx_http_process_request_headers;
+./http/ngx_http_request.c:    c = rev->data;
+./http/ngx_http_request.c:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, rev->log, 0,
+./http/ngx_http_request.c:    if (rev->timedout) {
+./http/ngx_http_request.c:    if (rev->ready) {
+./http/ngx_http_request.c:        if (!rev->timer_set) {
+./http/ngx_http_request.c:    c = ev->data;
+./http/ngx_http_request.c:    if (ev->write) {
+./http/ngx_http_request.c:    if (wev->ready && wev->delayed) {
+./http/ngx_http_request.c:    if (!wev->delayed) {
+./http/ngx_http_request.c:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, wev->log, 0,
+./http/ngx_http_request.c:    if (wev->timedout) {
+./http/ngx_http_request.c:        if (!wev->delayed) {
+./http/ngx_http_request.c:        wev->timedout = 0;
+./http/ngx_http_request.c:        wev->delayed = 0;
+./http/ngx_http_request.c:        if (!wev->ready) {
+./http/ngx_http_request.c:    if (wev->delayed || r->aio) {
+./http/ngx_http_request.c:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, wev->log, 0,
+./http/ngx_http_request.c:        if (!wev->delayed) {
+./http/ngx_http_request.c:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, wev->log, 0,
+./http/ngx_http_request.c:        if (!rev->pending_eof) {
+./http/ngx_http_request.c:        rev->eof = 1;
+./http/ngx_http_request.c:        err = rev->kq_errno;
+./http/ngx_http_request.c:        rev->eof = 1;
+./http/ngx_http_request.c:            rev->eof = 1;
+./http/ngx_http_request.c:    if ((ngx_event_flags & NGX_USE_LEVEL_EVENT) && rev->active) {
+./http/ngx_http_request.c:        rev->error = 1;
+./http/ngx_http_request.c:    wev->handler = ngx_http_empty_handler;
+./http/ngx_http_request.c:        rev->handler = ngx_http_init_request;
+./http/ngx_http_request.c:    rev->handler = ngx_http_keepalive_handler;
+./http/ngx_http_request.c:    if (wev->active && (ngx_event_flags & NGX_USE_LEVEL_EVENT)) {
+./http/ngx_http_request.c:    if (rev->ready) {
+./http/ngx_http_request.c:    c = rev->data;
+./http/ngx_http_request.c:    if (rev->timedout || c->close) {
+./http/ngx_http_request.c:        if (rev->pending_eof) {
+./http/ngx_http_request.c:            ngx_log_error(NGX_LOG_INFO, c->log, rev->kq_errno,
+./http/ngx_http_request.c:    rev->handler = ngx_http_lingering_close_handler;
+./http/ngx_http_request.c:    wev->handler = ngx_http_empty_handler;
+./http/ngx_http_request.c:    if (wev->active && (ngx_event_flags & NGX_USE_LEVEL_EVENT)) {
+./http/ngx_http_request.c:    if (rev->ready) {
+./http/ngx_http_request.c:    c = rev->data;
+./http/ngx_http_request.c:    if (rev->timedout) {
+./http/ngx_http_request.c:    } while (rev->ready);
+./http/ngx_http_request.c:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, wev->log, 0, "http empty handler");
+./http/modules/ngx_http_dav_module.c:    ngx_conf_merge_bitmask_value(conf->methods, prev->methods,
+./http/modules/ngx_http_dav_module.c:                         prev->min_delete_depth, 0);
+./http/modules/ngx_http_dav_module.c:    ngx_conf_merge_uint_value(conf->access, prev->access, 0600);
+./http/modules/ngx_http_dav_module.c:                         prev->create_full_put_path, 0);
+./http/modules/ngx_http_autoindex_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./http/modules/ngx_http_autoindex_module.c:    ngx_conf_merge_value(conf->localtime, prev->localtime, 0);
+./http/modules/ngx_http_autoindex_module.c:    ngx_conf_merge_value(conf->exact_size, prev->exact_size, 1);
+./http/modules/ngx_http_realip_module.c:        conf->from = prev->from;
+./http/modules/ngx_http_realip_module.c:        conf->unixsock = (prev->unixsock == 2) ? 0 : prev->unixsock;
+./http/modules/ngx_http_realip_module.c:    ngx_conf_merge_uint_value(conf->type, prev->type, NGX_HTTP_REALIP_XREALIP);
+./http/modules/ngx_http_realip_module.c:        conf->hash = prev->hash;
+./http/modules/ngx_http_realip_module.c:        conf->header = prev->header;
+./http/modules/ngx_http_limit_req_module.c:    if (!wev->timedout) {
+./http/modules/ngx_http_limit_req_module.c:    wev->timedout = 0;
+./http/modules/ngx_http_limit_req_module.c:        conf->shm_zone = prev->shm_zone;
+./http/modules/ngx_http_limit_req_module.c:        conf->burst = prev->burst;
+./http/modules/ngx_http_limit_req_module.c:        conf->nodelay = prev->nodelay;
+./http/modules/ngx_http_limit_req_module.c:    ngx_conf_merge_uint_value(conf->limit_log_level, prev->limit_log_level,
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_value(conf->no_buffer, prev->no_buffer, 0);
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_bufs_value(conf->bufs, prev->bufs,
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_size_value(conf->postpone_gzipping, prev->postpone_gzipping,
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_value(conf->level, prev->level, 1);
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_size_value(conf->wbits, prev->wbits, MAX_WBITS);
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_size_value(conf->memlevel, prev->memlevel,
+./http/modules/ngx_http_gzip_filter_module.c:    ngx_conf_merge_value(conf->min_length, prev->min_length, 20);
+./http/modules/ngx_http_gzip_filter_module.c:                             &prev->types_keys, &prev->types,
+./http/modules/ngx_http_limit_zone_module.c:        conf->shm_zone = prev->shm_zone;
+./http/modules/ngx_http_limit_zone_module.c:        conf->conn = prev->conn;
+./http/modules/ngx_http_limit_zone_module.c:    ngx_conf_merge_uint_value(conf->log_level, prev->log_level, NGX_LOG_ERR);
+./http/modules/ngx_http_access_module.c:        conf->rules = prev->rules;
+./http/modules/ngx_http_access_module.c:        conf->rules6 = prev->rules6;
+./http/modules/ngx_http_headers_filter_module.c:        conf->expires = prev->expires;
+./http/modules/ngx_http_headers_filter_module.c:        conf->expires_time = prev->expires_time;
+./http/modules/ngx_http_headers_filter_module.c:        conf->headers = prev->headers;
+./http/modules/ngx_http_auth_basic_module.c:        conf->realm = prev->realm;
+./http/modules/ngx_http_auth_basic_module.c:        conf->user_file = prev->user_file;
+./http/modules/ngx_http_ssi_filter_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./http/modules/ngx_http_ssi_filter_module.c:    ngx_conf_merge_value(conf->silent_errors, prev->silent_errors, 0);
+./http/modules/ngx_http_ssi_filter_module.c:                         prev->ignore_recycled_buffers, 0);
+./http/modules/ngx_http_ssi_filter_module.c:    ngx_conf_merge_size_value(conf->min_file_chunk, prev->min_file_chunk, 1024);
+./http/modules/ngx_http_ssi_filter_module.c:    ngx_conf_merge_size_value(conf->value_len, prev->value_len, 256);
+./http/modules/ngx_http_ssi_filter_module.c:                             &prev->types_keys, &prev->types,
+./http/modules/ngx_http_scgi_module.c:        ngx_conf_merge_value(conf->upstream.store, prev->upstream.store, 0);
+./http/modules/ngx_http_scgi_module.c:            conf->upstream.store_lengths = prev->upstream.store_lengths;
+./http/modules/ngx_http_scgi_module.c:            conf->upstream.store_values = prev->upstream.store_values;
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.store_access, 0600);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.buffering, 1);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.ignore_client_abort, 0);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.connect_timeout, 60000);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.send_timeout, 60000);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.read_timeout, 60000);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.send_lowat, 0);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.buffer_size,
+./http/modules/ngx_http_scgi_module.c:    ngx_conf_merge_bufs_value(conf->upstream.bufs, prev->upstream.bufs,
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.busy_buffers_size_conf,
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.temp_file_write_size_conf,
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.max_temp_file_size_conf,
+./http/modules/ngx_http_scgi_module.c:                                 prev->upstream.ignore_headers,
+./http/modules/ngx_http_scgi_module.c:                                 prev->upstream.next_upstream,
+./http/modules/ngx_http_scgi_module.c:                                  prev->upstream.temp_path,
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.cache, NULL);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.cache_min_uses, 1);
+./http/modules/ngx_http_scgi_module.c:                              prev->upstream.cache_use_stale,
+./http/modules/ngx_http_scgi_module.c:        conf->upstream.cache_methods = prev->upstream.cache_methods;
+./http/modules/ngx_http_scgi_module.c:                             prev->upstream.cache_bypass, NULL);
+./http/modules/ngx_http_scgi_module.c:                             prev->upstream.no_cache, NULL);
+./http/modules/ngx_http_scgi_module.c:                             prev->upstream.cache_valid, NULL);
+./http/modules/ngx_http_scgi_module.c:        conf->cache_key = prev->cache_key;
+./http/modules/ngx_http_scgi_module.c:                         prev->upstream.pass_request_headers, 1);
+./http/modules/ngx_http_scgi_module.c:                         prev->upstream.pass_request_body, 1);
+./http/modules/ngx_http_scgi_module.c:                         prev->upstream.intercept_errors, 0);
+./http/modules/ngx_http_scgi_module.c:            &prev->upstream, ngx_http_scgi_hide_headers, &hash)
+./http/modules/ngx_http_scgi_module.c:        conf->upstream.upstream = prev->upstream.upstream;
+./http/modules/ngx_http_scgi_module.c:        conf->scgi_lengths = prev->scgi_lengths;
+./http/modules/ngx_http_scgi_module.c:        conf->scgi_values = prev->scgi_values;
+./http/modules/ngx_http_scgi_module.c:        conf->params_source = prev->params_source;
+./http/modules/ngx_http_scgi_module.c:        if (prev->headers_hash.buckets
+./http/modules/ngx_http_scgi_module.c:            && ((conf->upstream.cache == NULL) == (prev->upstream.cache == NULL))
+./http/modules/ngx_http_scgi_module.c:            conf->flushes = prev->flushes;
+./http/modules/ngx_http_scgi_module.c:            conf->params_len = prev->params_len;
+./http/modules/ngx_http_scgi_module.c:            conf->params = prev->params;
+./http/modules/ngx_http_scgi_module.c:            conf->headers_hash = prev->headers_hash;
+./http/modules/ngx_http_scgi_module.c:            conf->header_params = prev->header_params;
+./http/modules/ngx_http_charset_filter_module.c:                             &prev->types_keys, &prev->types,
+./http/modules/ngx_http_charset_filter_module.c:    ngx_conf_merge_value(conf->override_charset, prev->override_charset, 0);
+./http/modules/ngx_http_charset_filter_module.c:    ngx_conf_merge_value(conf->charset, prev->charset, NGX_HTTP_CHARSET_OFF);
+./http/modules/ngx_http_charset_filter_module.c:    ngx_conf_merge_value(conf->source_charset, prev->source_charset,
+./http/modules/ngx_http_ssl_module.c:        if (prev->enable == NGX_CONF_UNSET) {
+./http/modules/ngx_http_ssl_module.c:            conf->enable = prev->enable;
+./http/modules/ngx_http_ssl_module.c:            conf->file = prev->file;
+./http/modules/ngx_http_ssl_module.c:            conf->line = prev->line;
+./http/modules/ngx_http_ssl_module.c:                         prev->session_timeout, 300);
+./http/modules/ngx_http_ssl_module.c:                         prev->prefer_server_ciphers, 0);
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_bitmask_value(conf->protocols, prev->protocols,
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_uint_value(conf->verify, prev->verify, 0);
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_uint_value(conf->verify_depth, prev->verify_depth, 1);
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->certificate, prev->certificate, "");
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->certificate_key, prev->certificate_key, "");
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->dhparam, prev->dhparam, "");
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->client_certificate, prev->client_certificate,
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->crl, prev->crl, "");
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->ecdh_curve, prev->ecdh_curve,
+./http/modules/ngx_http_ssl_module.c:    ngx_conf_merge_str_value(conf->ciphers, prev->ciphers, NGX_DEFAULT_CIPHERS);
+./http/modules/ngx_http_ssl_module.c:                         prev->builtin_session_cache, NGX_SSL_NONE_SCACHE);
+./http/modules/ngx_http_ssl_module.c:        conf->shm_zone = prev->shm_zone;
+./http/modules/ngx_http_xslt_filter_module.c:        conf->dtd = prev->dtd;
+./http/modules/ngx_http_xslt_filter_module.c:        conf->sheets = prev->sheets;
+./http/modules/ngx_http_xslt_filter_module.c:                             &prev->types_keys, &prev->types,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.store, 0);
+./http/modules/ngx_http_proxy_module.c:            conf->upstream.store_lengths = prev->upstream.store_lengths;
+./http/modules/ngx_http_proxy_module.c:            conf->upstream.store_values = prev->upstream.store_values;
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.store_access, 0600);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.buffering, 1);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.ignore_client_abort, 0);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.connect_timeout, 60000);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.send_timeout, 60000);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.read_timeout, 60000);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.send_lowat, 0);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.buffer_size,
+./http/modules/ngx_http_proxy_module.c:    ngx_conf_merge_bufs_value(conf->upstream.bufs, prev->upstream.bufs,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.busy_buffers_size_conf,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.temp_file_write_size_conf,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.max_temp_file_size_conf,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.ignore_headers,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.next_upstream,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.temp_path,
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.cache, NULL);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.cache_min_uses, 1);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.cache_use_stale,
+./http/modules/ngx_http_proxy_module.c:        conf->upstream.cache_methods = prev->upstream.cache_methods;
+./http/modules/ngx_http_proxy_module.c:                             prev->upstream.cache_bypass, NULL);
+./http/modules/ngx_http_proxy_module.c:                             prev->upstream.no_cache, NULL);
+./http/modules/ngx_http_proxy_module.c:                             prev->upstream.cache_valid, NULL);
+./http/modules/ngx_http_proxy_module.c:        conf->cache_key = prev->cache_key;
+./http/modules/ngx_http_proxy_module.c:        conf->method = prev->method;
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.pass_request_headers, 1);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.pass_request_body, 1);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.intercept_errors, 0);
+./http/modules/ngx_http_proxy_module.c:                              prev->upstream.ssl_session_reuse, 1);
+./http/modules/ngx_http_proxy_module.c:    ngx_conf_merge_value(conf->redirect, prev->redirect, 1);
+./http/modules/ngx_http_proxy_module.c:            conf->redirects = prev->redirects;
+./http/modules/ngx_http_proxy_module.c:        conf->upstream.ssl = prev->upstream.ssl;
+./http/modules/ngx_http_proxy_module.c:                              prev->headers_hash_max_size, 512);
+./http/modules/ngx_http_proxy_module.c:                              prev->headers_hash_bucket_size, 64);
+./http/modules/ngx_http_proxy_module.c:            &prev->upstream, ngx_http_proxy_hide_headers, &hash)
+./http/modules/ngx_http_proxy_module.c:        conf->upstream.upstream = prev->upstream.upstream;
+./http/modules/ngx_http_proxy_module.c:        conf->vars = prev->vars;
+./http/modules/ngx_http_proxy_module.c:        conf->proxy_lengths = prev->proxy_lengths;
+./http/modules/ngx_http_proxy_module.c:        conf->proxy_values = prev->proxy_values;
+./http/modules/ngx_http_proxy_module.c:            conf->location = prev->location;
+./http/modules/ngx_http_proxy_module.c:        conf->body_source = prev->body_source;
+./http/modules/ngx_http_proxy_module.c:        conf->body_set_len = prev->body_set_len;
+./http/modules/ngx_http_proxy_module.c:        conf->body_set = prev->body_set;
+./http/modules/ngx_http_proxy_module.c:        conf->flushes = prev->flushes;
+./http/modules/ngx_http_proxy_module.c:        conf->headers_set_len = prev->headers_set_len;
+./http/modules/ngx_http_proxy_module.c:        conf->headers_set = prev->headers_set;
+./http/modules/ngx_http_proxy_module.c:        conf->headers_set_hash = prev->headers_set_hash;
+./http/modules/ngx_http_proxy_module.c:        conf->headers_source = prev->headers_source;
+./http/modules/ngx_http_proxy_module.c:            == (prev->body_source.data == NULL))
+./http/modules/ngx_http_proxy_module.c:        && ((conf->upstream.cache == NULL) == (prev->upstream.cache == NULL))
+./http/modules/ngx_http_addition_filter_module.c:    ngx_conf_merge_str_value(conf->before_body, prev->before_body, "");
+./http/modules/ngx_http_addition_filter_module.c:    ngx_conf_merge_str_value(conf->after_body, prev->after_body, "");
+./http/modules/ngx_http_addition_filter_module.c:                             &prev->types_keys, &prev->types,
+./http/modules/ngx_http_uwsgi_module.c:        ngx_conf_merge_value(conf->upstream.store, prev->upstream.store, 0);
+./http/modules/ngx_http_uwsgi_module.c:            conf->upstream.store_lengths = prev->upstream.store_lengths;
+./http/modules/ngx_http_uwsgi_module.c:            conf->upstream.store_values = prev->upstream.store_values;
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.store_access, 0600);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.buffering, 1);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.ignore_client_abort, 0);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.connect_timeout, 60000);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.send_timeout, 60000);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.read_timeout, 60000);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.send_lowat, 0);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.buffer_size,
+./http/modules/ngx_http_uwsgi_module.c:    ngx_conf_merge_bufs_value(conf->upstream.bufs, prev->upstream.bufs,
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.busy_buffers_size_conf,
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.temp_file_write_size_conf,
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.max_temp_file_size_conf,
+./http/modules/ngx_http_uwsgi_module.c:                                 prev->upstream.ignore_headers,
+./http/modules/ngx_http_uwsgi_module.c:                                 prev->upstream.next_upstream,
+./http/modules/ngx_http_uwsgi_module.c:                                  prev->upstream.temp_path,
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.cache, NULL);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.cache_min_uses, 1);
+./http/modules/ngx_http_uwsgi_module.c:                              prev->upstream.cache_use_stale,
+./http/modules/ngx_http_uwsgi_module.c:        conf->upstream.cache_methods = prev->upstream.cache_methods;
+./http/modules/ngx_http_uwsgi_module.c:                             prev->upstream.cache_bypass, NULL);
+./http/modules/ngx_http_uwsgi_module.c:                             prev->upstream.no_cache, NULL);
+./http/modules/ngx_http_uwsgi_module.c:                             prev->upstream.cache_valid, NULL);
+./http/modules/ngx_http_uwsgi_module.c:        conf->cache_key = prev->cache_key;
+./http/modules/ngx_http_uwsgi_module.c:                         prev->upstream.pass_request_headers, 1);
+./http/modules/ngx_http_uwsgi_module.c:                         prev->upstream.pass_request_body, 1);
+./http/modules/ngx_http_uwsgi_module.c:                         prev->upstream.intercept_errors, 0);
+./http/modules/ngx_http_uwsgi_module.c:    ngx_conf_merge_str_value(conf->uwsgi_string, prev->uwsgi_string, "");
+./http/modules/ngx_http_uwsgi_module.c:            &prev->upstream, ngx_http_uwsgi_hide_headers, &hash)
+./http/modules/ngx_http_uwsgi_module.c:        conf->upstream.upstream = prev->upstream.upstream;
+./http/modules/ngx_http_uwsgi_module.c:        conf->uwsgi_lengths = prev->uwsgi_lengths;
+./http/modules/ngx_http_uwsgi_module.c:        conf->uwsgi_values = prev->uwsgi_values;
+./http/modules/ngx_http_uwsgi_module.c:    ngx_conf_merge_uint_value(conf->modifier1, prev->modifier1, 0);
+./http/modules/ngx_http_uwsgi_module.c:    ngx_conf_merge_uint_value(conf->modifier2, prev->modifier2, 0);
+./http/modules/ngx_http_uwsgi_module.c:        conf->params_source = prev->params_source;
+./http/modules/ngx_http_uwsgi_module.c:        if (prev->headers_hash.buckets
+./http/modules/ngx_http_uwsgi_module.c:            && ((conf->upstream.cache == NULL) == (prev->upstream.cache == NULL))
+./http/modules/ngx_http_uwsgi_module.c:            conf->flushes = prev->flushes;
+./http/modules/ngx_http_uwsgi_module.c:            conf->params_len = prev->params_len;
+./http/modules/ngx_http_uwsgi_module.c:            conf->params = prev->params;
+./http/modules/ngx_http_uwsgi_module.c:            conf->headers_hash = prev->headers_hash;
+./http/modules/ngx_http_uwsgi_module.c:            conf->header_params = prev->header_params;
+./http/modules/ngx_http_sub_filter_module.c:    ngx_conf_merge_value(conf->once, prev->once, 1);
+./http/modules/ngx_http_sub_filter_module.c:    ngx_conf_merge_str_value(conf->match, prev->match, "");
+./http/modules/ngx_http_sub_filter_module.c:        conf->value = prev->value;
+./http/modules/ngx_http_sub_filter_module.c:                             &prev->types_keys, &prev->types,
+./http/modules/ngx_http_random_index_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./http/modules/perl/ngx_http_perl_module.c:    if (wev->timedout) {
+./http/modules/perl/ngx_http_perl_module.c:        wev->timedout = 0;
+./http/modules/perl/ngx_http_perl_module.c:        conf->sub = prev->sub;
+./http/modules/perl/ngx_http_perl_module.c:        conf->handler = prev->handler;
+./http/modules/ngx_http_browser_module.c:        conf->modern_browsers = prev->modern_browsers;
+./http/modules/ngx_http_browser_module.c:        conf->ancient_browsers = prev->ancient_browsers;
+./http/modules/ngx_http_browser_module.c:        conf->modern_browser_value = prev->modern_browser_value;
+./http/modules/ngx_http_browser_module.c:        conf->ancient_browser_value = prev->ancient_browser_value;
+./http/modules/ngx_http_secure_link_module.c:    ngx_conf_merge_str_value(conf->secret, prev->secret, "");
+./http/modules/ngx_http_secure_link_module.c:        conf->variable = prev->variable;
+./http/modules/ngx_http_secure_link_module.c:        conf->md5 = prev->md5;
+./http/modules/ngx_http_log_module.c:        conf->open_file_cache = prev->open_file_cache;
+./http/modules/ngx_http_log_module.c:        conf->open_file_cache_valid = prev->open_file_cache_valid;
+./http/modules/ngx_http_log_module.c:        conf->open_file_cache_min_uses = prev->open_file_cache_min_uses;
+./http/modules/ngx_http_log_module.c:    conf->logs = prev->logs;
+./http/modules/ngx_http_log_module.c:    conf->off = prev->off;
+./http/modules/ngx_http_mp4_module.c:    ngx_conf_merge_size_value(conf->buffer_size, prev->buffer_size, 512 * 1024);
+./http/modules/ngx_http_mp4_module.c:    ngx_conf_merge_size_value(conf->max_buffer_size, prev->max_buffer_size,
+./http/modules/ngx_http_gzip_static_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_uint_value(conf->enable, prev->enable,
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_str_value(conf->name, prev->name, "uid");
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_str_value(conf->domain, prev->domain, "");
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_str_value(conf->path, prev->path, "; path=/");
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_str_value(conf->p3p, prev->p3p, "");
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_value(conf->service, prev->service, NGX_CONF_UNSET);
+./http/modules/ngx_http_userid_filter_module.c:    ngx_conf_merge_sec_value(conf->expires, prev->expires, 0);
+./http/modules/ngx_http_userid_filter_module.c:        if (prev->mark == (u_char) '\xFF') {
+./http/modules/ngx_http_userid_filter_module.c:            conf->mark = prev->mark;
+./http/modules/ngx_http_rewrite_module.c:    ngx_conf_merge_value(conf->log, prev->log, 0);
+./http/modules/ngx_http_rewrite_module.c:                         prev->uninitialized_variable_warn, 1);
+./http/modules/ngx_http_rewrite_module.c:    ngx_conf_merge_uint_value(conf->stack_size, prev->stack_size, 10);
+./http/modules/ngx_http_rewrite_module.c:    if (conf->codes == prev->codes) {
+./http/modules/ngx_http_memcached_module.c:                              prev->upstream.connect_timeout, 60000);
+./http/modules/ngx_http_memcached_module.c:                              prev->upstream.send_timeout, 60000);
+./http/modules/ngx_http_memcached_module.c:                              prev->upstream.read_timeout, 60000);
+./http/modules/ngx_http_memcached_module.c:                              prev->upstream.buffer_size,
+./http/modules/ngx_http_memcached_module.c:                              prev->upstream.next_upstream,
+./http/modules/ngx_http_memcached_module.c:        conf->upstream.upstream = prev->upstream.upstream;
+./http/modules/ngx_http_memcached_module.c:        conf->index = prev->index;
+./http/modules/ngx_http_degradation_module.c:    ngx_conf_merge_uint_value(conf->degrade, prev->degrade, 0);
+./http/modules/ngx_http_referer_module.c:        conf->hash = prev->hash;
+./http/modules/ngx_http_referer_module.c:        ngx_conf_merge_ptr_value(conf->regex, prev->regex, NULL);
+./http/modules/ngx_http_referer_module.c:        ngx_conf_merge_value(conf->no_referer, prev->no_referer, 0);
+./http/modules/ngx_http_referer_module.c:        ngx_conf_merge_value(conf->blocked_referer, prev->blocked_referer, 0);
+./http/modules/ngx_http_referer_module.c:                                  prev->referer_hash_max_size, 2048);
+./http/modules/ngx_http_referer_module.c:                                  prev->referer_hash_bucket_size, 64);
+./http/modules/ngx_http_referer_module.c:                              prev->referer_hash_max_size, 2048);
+./http/modules/ngx_http_referer_module.c:                              prev->referer_hash_bucket_size, 64);
+./http/modules/ngx_http_referer_module.c:    ngx_conf_merge_ptr_value(conf->regex, prev->regex, NULL);
+./http/modules/ngx_http_image_filter_module.c:        if (prev->filter == NGX_CONF_UNSET_UINT) {
+./http/modules/ngx_http_image_filter_module.c:            conf->filter = prev->filter;
+./http/modules/ngx_http_image_filter_module.c:            conf->width = prev->width;
+./http/modules/ngx_http_image_filter_module.c:            conf->height = prev->height;
+./http/modules/ngx_http_image_filter_module.c:            conf->wcv = prev->wcv;
+./http/modules/ngx_http_image_filter_module.c:            conf->hcv = prev->hcv;
+./http/modules/ngx_http_image_filter_module.c:    ngx_conf_merge_uint_value(conf->jpeg_quality, prev->jpeg_quality, 75);
+./http/modules/ngx_http_image_filter_module.c:        conf->jqcv = prev->jqcv;
+./http/modules/ngx_http_image_filter_module.c:    ngx_conf_merge_uint_value(conf->sharpen, prev->sharpen, 0);
+./http/modules/ngx_http_image_filter_module.c:        conf->shcv = prev->shcv;
+./http/modules/ngx_http_image_filter_module.c:    ngx_conf_merge_uint_value(conf->angle, prev->angle, 0);
+./http/modules/ngx_http_image_filter_module.c:        conf->acv = prev->acv;
+./http/modules/ngx_http_image_filter_module.c:    ngx_conf_merge_value(conf->transparency, prev->transparency, 1);
+./http/modules/ngx_http_image_filter_module.c:    ngx_conf_merge_size_value(conf->buffer_size, prev->buffer_size,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.store, 0);
+./http/modules/ngx_http_fastcgi_module.c:            conf->upstream.store_lengths = prev->upstream.store_lengths;
+./http/modules/ngx_http_fastcgi_module.c:            conf->upstream.store_values = prev->upstream.store_values;
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.store_access, 0600);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.buffering, 1);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.ignore_client_abort, 0);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.connect_timeout, 60000);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.send_timeout, 60000);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.read_timeout, 60000);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.send_lowat, 0);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.buffer_size,
+./http/modules/ngx_http_fastcgi_module.c:    ngx_conf_merge_bufs_value(conf->upstream.bufs, prev->upstream.bufs,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.busy_buffers_size_conf,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.temp_file_write_size_conf,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.max_temp_file_size_conf,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.ignore_headers,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.next_upstream,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.temp_path,
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.cache, NULL);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.cache_min_uses, 1);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.cache_use_stale,
+./http/modules/ngx_http_fastcgi_module.c:        conf->upstream.cache_methods = prev->upstream.cache_methods;
+./http/modules/ngx_http_fastcgi_module.c:                             prev->upstream.cache_bypass, NULL);
+./http/modules/ngx_http_fastcgi_module.c:                             prev->upstream.no_cache, NULL);
+./http/modules/ngx_http_fastcgi_module.c:                             prev->upstream.cache_valid, NULL);
+./http/modules/ngx_http_fastcgi_module.c:        conf->cache_key = prev->cache_key;
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.pass_request_headers, 1);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.pass_request_body, 1);
+./http/modules/ngx_http_fastcgi_module.c:                              prev->upstream.intercept_errors, 0);
+./http/modules/ngx_http_fastcgi_module.c:    ngx_conf_merge_ptr_value(conf->catch_stderr, prev->catch_stderr, NULL);
+./http/modules/ngx_http_fastcgi_module.c:    ngx_conf_merge_str_value(conf->index, prev->index, "");
+./http/modules/ngx_http_fastcgi_module.c:             &prev->upstream, ngx_http_fastcgi_hide_headers, &hash)
+./http/modules/ngx_http_fastcgi_module.c:        conf->upstream.upstream = prev->upstream.upstream;
+./http/modules/ngx_http_fastcgi_module.c:        conf->fastcgi_lengths = prev->fastcgi_lengths;
+./http/modules/ngx_http_fastcgi_module.c:        conf->fastcgi_values = prev->fastcgi_values;
+./http/modules/ngx_http_fastcgi_module.c:        conf->split_regex = prev->split_regex;
+./http/modules/ngx_http_fastcgi_module.c:        conf->split_name = prev->split_name;
+./http/modules/ngx_http_fastcgi_module.c:        conf->params_source = prev->params_source;
+./http/modules/ngx_http_fastcgi_module.c:        if (prev->headers_hash.buckets
+./http/modules/ngx_http_fastcgi_module.c:            && ((conf->upstream.cache == NULL) == (prev->upstream.cache == NULL))
+./http/modules/ngx_http_fastcgi_module.c:            conf->flushes = prev->flushes;
+./http/modules/ngx_http_fastcgi_module.c:            conf->params_len = prev->params_len;
+./http/modules/ngx_http_fastcgi_module.c:            conf->params = prev->params;
+./http/modules/ngx_http_fastcgi_module.c:            conf->headers_hash = prev->headers_hash;
+./http/modules/ngx_http_fastcgi_module.c:            conf->header_params = prev->header_params;
+./http/modules/ngx_http_index_module.c:        conf->indices = prev->indices;
+./http/modules/ngx_http_index_module.c:        conf->max_index_len = prev->max_index_len;
+./http/cs.out:, &´ev->
+./http/cs.out:, &´ev->
+./http/cs.out:, &´ev->
+./http/cs.out:->unixsock == 2) ? 0 :…rev->unixsock;
+./http/cs.out:, &´ev->
+./http/cs.out:, &´ev->
+./http/cs.out:, &´ev->
+./http/cs.out: == 3) ? 0 :…rev->gzip_disable_msie6;
+./http/cs.out: && wev->
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_uint_value(conf->starttls, prev->starttls,
+./mail/ngx_mail_ssl_module.c:                         prev->session_timeout, 300);
+./mail/ngx_mail_ssl_module.c:                         prev->prefer_server_ciphers, 0);
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_bitmask_value(conf->protocols, prev->protocols,
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_str_value(conf->certificate, prev->certificate, "");
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_str_value(conf->certificate_key, prev->certificate_key, "");
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_str_value(conf->dhparam, prev->dhparam, "");
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_str_value(conf->ecdh_curve, prev->ecdh_curve,
+./mail/ngx_mail_ssl_module.c:    ngx_conf_merge_str_value(conf->ciphers, prev->ciphers, NGX_DEFAULT_CIPHERS);
+./mail/ngx_mail_ssl_module.c:                         prev->builtin_session_cache, NGX_SSL_NONE_SCACHE);
+./mail/ngx_mail_ssl_module.c:        conf->shm_zone = prev->shm_zone;
+./mail/ngx_mail_smtp_handler.c:    c = rev->data;
+./mail/ngx_mail_smtp_handler.c:    c = rev->data;
+./mail/ngx_mail_smtp_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_smtp_handler.c:        rev->timedout = 0;
+./mail/ngx_mail_smtp_handler.c:    c = rev->data;
+./mail/ngx_mail_smtp_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_smtp_handler.c:    c = rev->data;
+./mail/ngx_mail_smtp_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_proxy_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0, "mail proxy block read");
+./mail/ngx_mail_proxy_module.c:        c = rev->data;
+./mail/ngx_mail_proxy_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:    c = rev->data;
+./mail/ngx_mail_proxy_module.c:    if (rev->timedout) {
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0, "mail proxy send user");
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0, "mail proxy send pass");
+./mail/ngx_mail_proxy_module.c:        rev->handler = ngx_mail_proxy_handler;
+./mail/ngx_mail_proxy_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:    c = rev->data;
+./mail/ngx_mail_proxy_module.c:    if (rev->timedout) {
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0, "mail proxy send user");
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:        rev->handler = ngx_mail_proxy_handler;
+./mail/ngx_mail_proxy_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:    c = rev->data;
+./mail/ngx_mail_proxy_module.c:    if (rev->timedout) {
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0, "mail proxy send ehlo");
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_proxy_module.c:        rev->handler = ngx_mail_proxy_handler;
+./mail/ngx_mail_proxy_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, wev->log, 0, "mail proxy dummy handler");
+./mail/ngx_mail_proxy_module.c:        c = wev->data;
+./mail/ngx_mail_proxy_module.c:    c = ev->data;
+./mail/ngx_mail_proxy_module.c:    if (ev->timedout) {
+./mail/ngx_mail_proxy_module.c:        if (ev->write) {
+./mail/ngx_mail_proxy_module.c:        if (ev->write) {
+./mail/ngx_mail_proxy_module.c:    do_write = ev->write ? 1 : 0;
+./mail/ngx_mail_proxy_module.c:    ngx_log_debug3(NGX_LOG_DEBUG_MAIL, ev->log, 0,
+./mail/ngx_mail_proxy_module.c:    ngx_conf_merge_value(conf->enable, prev->enable, 0);
+./mail/ngx_mail_proxy_module.c:    ngx_conf_merge_value(conf->pass_error_message, prev->pass_error_message, 0);
+./mail/ngx_mail_proxy_module.c:    ngx_conf_merge_value(conf->xclient, prev->xclient, 1);
+./mail/ngx_mail_proxy_module.c:    ngx_conf_merge_size_value(conf->buffer_size, prev->buffer_size,
+./mail/ngx_mail_proxy_module.c:    ngx_conf_merge_msec_value(conf->timeout, prev->timeout, 24 * 60 * 60000);
+./mail/ngx_mail_core_module.c:    ngx_conf_merge_msec_value(conf->timeout, prev->timeout, 60000);
+./mail/ngx_mail_core_module.c:    ngx_conf_merge_msec_value(conf->resolver_timeout, prev->resolver_timeout,
+./mail/ngx_mail_core_module.c:    ngx_conf_merge_value(conf->so_keepalive, prev->so_keepalive, 0);
+./mail/ngx_mail_core_module.c:    ngx_conf_merge_str_value(conf->server_name, prev->server_name, "");
+./mail/ngx_mail_core_module.c:    ngx_conf_merge_ptr_value(conf->resolver, prev->resolver, NULL);
+./mail/ngx_mail_imap_handler.c:    c = rev->data;
+./mail/ngx_mail_imap_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_imap_handler.c:    c = rev->data;
+./mail/ngx_mail_imap_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_smtp_module.c:                              prev->client_buffer_size,
+./mail/ngx_mail_smtp_module.c:                              prev->greeting_delay, 0);
+./mail/ngx_mail_smtp_module.c:                              prev->auth_methods,
+./mail/ngx_mail_smtp_module.c:        conf->capabilities = prev->capabilities;
+./mail/ngx_mail_pop3_module.c:                                 prev->auth_methods,
+./mail/ngx_mail_pop3_module.c:        conf->capabilities = prev->capabilities;
+./mail/ngx_mail_handler.c:    c = rev->data;
+./mail/ngx_mail_handler.c:    c = wev->data;
+./mail/ngx_mail_handler.c:    if (wev->timedout) {
+./mail/ngx_mail_handler.c:        if (wev->timer_set) {
+./mail/ngx_mail_pop3_handler.c:    c = rev->data;
+./mail/ngx_mail_pop3_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_pop3_handler.c:    c = rev->data;
+./mail/ngx_mail_pop3_handler.c:    if (rev->timedout) {
+./mail/ngx_mail_imap_module.c:                              prev->client_buffer_size,
+./mail/ngx_mail_imap_module.c:                              prev->auth_methods,
+./mail/ngx_mail_imap_module.c:        conf->capabilities = prev->capabilities;
+./mail/ngx_mail_auth_http_module.c:    c = wev->data;
+./mail/ngx_mail_auth_http_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, wev->log, 0,
+./mail/ngx_mail_auth_http_module.c:    if (wev->timedout) {
+./mail/ngx_mail_auth_http_module.c:        ngx_log_error(NGX_LOG_ERR, wev->log, NGX_ETIMEDOUT,
+./mail/ngx_mail_auth_http_module.c:            wev->handler = ngx_mail_auth_http_dummy_handler;
+./mail/ngx_mail_auth_http_module.c:            if (wev->timer_set) {
+./mail/ngx_mail_auth_http_module.c:    if (!wev->timer_set) {
+./mail/ngx_mail_auth_http_module.c:    c = rev->data;
+./mail/ngx_mail_auth_http_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_auth_http_module.c:    if (rev->timedout) {
+./mail/ngx_mail_auth_http_module.c:        ngx_log_error(NGX_LOG_ERR, rev->log, NGX_ETIMEDOUT,
+./mail/ngx_mail_auth_http_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0, "mail auth sleep handler");
+./mail/ngx_mail_auth_http_module.c:    c = rev->data;
+./mail/ngx_mail_auth_http_module.c:    if (rev->timedout) {
+./mail/ngx_mail_auth_http_module.c:        rev->timedout = 0;
+./mail/ngx_mail_auth_http_module.c:        rev->handler = cscf->protocol->auth_state;
+./mail/ngx_mail_auth_http_module.c:        if (rev->ready) {
+./mail/ngx_mail_auth_http_module.c:            rev->handler(rev);
+./mail/ngx_mail_auth_http_module.c:    if (rev->active) {
+./mail/ngx_mail_auth_http_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, rev->log, 0,
+./mail/ngx_mail_auth_http_module.c:        c = rev->data;
+./mail/ngx_mail_auth_http_module.c:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, ev->log, 0,
+./mail/ngx_mail_auth_http_module.c:        conf->peer = prev->peer;
+./mail/ngx_mail_auth_http_module.c:        conf->host_header = prev->host_header;
+./mail/ngx_mail_auth_http_module.c:        conf->uri = prev->uri;
+./mail/ngx_mail_auth_http_module.c:    ngx_conf_merge_msec_value(conf->timeout, prev->timeout, 60000);
+./mail/ngx_mail_auth_http_module.c:        conf->headers = prev->headers;
+./mail/ngx_mail_auth_http_module.c:        conf->header = prev->header;
+./os/unix/ngx_writev_chain.c:    if (!wev->ready) {
+./os/unix/ngx_writev_chain.c:    if ((ngx_event_flags & NGX_USE_KQUEUE_EVENT) && wev->pending_eof) {
+./os/unix/ngx_writev_chain.c:        (void) ngx_connection_error(c, wev->kq_errno,
+./os/unix/ngx_writev_chain.c:        wev->error = 1;
+./os/unix/ngx_writev_chain.c:                wev->error = 1;
+./os/unix/ngx_writev_chain.c:            wev->ready = 0;
+./os/unix/ngx_send.c:    if ((ngx_event_flags & NGX_USE_KQUEUE_EVENT) && wev->pending_eof) {
+./os/unix/ngx_send.c:        (void) ngx_connection_error(c, wev->kq_errno,
+./os/unix/ngx_send.c:        wev->error = 1;
+./os/unix/ngx_send.c:                wev->ready = 0;
+./os/unix/ngx_send.c:            wev->ready = 0;
+./os/unix/ngx_send.c:            wev->ready = 0;
+./os/unix/ngx_send.c:            wev->error = 1;
+./os/unix/ngx_file_aio_read.c:    if (!ev->ready) {
+./os/unix/ngx_file_aio_read.c:                   ev->complete, offset, size, &file->name);
+./os/unix/ngx_file_aio_read.c:    if (ev->complete) {
+./os/unix/ngx_file_aio_read.c:        ev->complete = 0;
+./os/unix/ngx_file_aio_read.c:    ev->handler = ngx_file_aio_event_handler;
+./os/unix/ngx_file_aio_read.c:    ev->active = 1;
+./os/unix/ngx_file_aio_read.c:    ev->ready = 0;
+./os/unix/ngx_file_aio_read.c:    ev->complete = 0;
+./os/unix/ngx_file_aio_read.c:        if (ev->ready) {
+./os/unix/ngx_file_aio_read.c:            ev->ready = 0;
+./os/unix/ngx_file_aio_read.c:        ev->ready = 1;
+./os/unix/ngx_file_aio_read.c:    ev->ready = 1;
+./os/unix/ngx_file_aio_read.c:    ev->active = 0;
+./os/unix/ngx_file_aio_read.c:    aio = ev->data;
+./os/unix/ngx_file_aio_read.c:    ngx_log_debug2(NGX_LOG_DEBUG_CORE, ev->log, 0,
+./os/unix/ngx_process_cycle.c:    if (ev->timedout) {
+./os/unix/ngx_process_cycle.c:        ev->timedout = 0;
+./os/unix/ngx_process_cycle.c:    c = ev->data;
+./os/unix/ngx_process_cycle.c:    ngx_log_debug0(NGX_LOG_DEBUG_CORE, ev->log, 0, "channel handler");
+./os/unix/ngx_process_cycle.c:        n = ngx_read_channel(c->fd, &ch, sizeof(ngx_channel_t), ev->log);
+./os/unix/ngx_process_cycle.c:        ngx_log_debug1(NGX_LOG_DEBUG_CORE, ev->log, 0, "channel: %i", n);
+./os/unix/ngx_process_cycle.c:        ngx_log_debug1(NGX_LOG_DEBUG_CORE, ev->log, 0,
+./os/unix/ngx_process_cycle.c:            ngx_log_debug3(NGX_LOG_DEBUG_CORE, ev->log, 0,
+./os/unix/ngx_process_cycle.c:            ngx_log_debug4(NGX_LOG_DEBUG_CORE, ev->log, 0,
+./os/unix/ngx_process_cycle.c:                ngx_log_error(NGX_LOG_ALERT, ev->log, ngx_errno,
+./os/unix/ngx_udp_recv.c:                rev->available -= n;
+./os/unix/ngx_udp_recv.c:                 * rev->available may be negative here because some additional
+./os/unix/ngx_udp_recv.c:                if (rev->available <= 0) {
+./os/unix/ngx_udp_recv.c:                    rev->ready = 0;
+./os/unix/ngx_udp_recv.c:                    rev->available = 0;
+./os/unix/ngx_udp_recv.c:    rev->ready = 0;
+./os/unix/ngx_udp_recv.c:        rev->error = 1;
+./os/unix/ngx_udp_recv.c:    rev->ready = 0;
+./os/unix/ngx_udp_recv.c:        rev->error = 1;
+./os/unix/ngx_channel.c:    rev->log = cycle->log;
+./os/unix/ngx_channel.c:    wev->log = cycle->log;
+./os/unix/ngx_channel.c:    rev->lock = &c->lock;
+./os/unix/ngx_channel.c:    wev->lock = &c->lock;
+./os/unix/ngx_channel.c:    rev->own_lock = &c->lock;
+./os/unix/ngx_channel.c:    wev->own_lock = &c->lock;
+./os/unix/ngx_channel.c:    rev->channel = 1;
+./os/unix/ngx_channel.c:    wev->channel = 1;
+./os/unix/ngx_channel.c:    ev->handler = handler;
+./os/unix/ngx_recv.c:                       rev->pending_eof, rev->available, rev->kq_errno);
+./os/unix/ngx_recv.c:        if (rev->available == 0) {
+./os/unix/ngx_recv.c:            if (rev->pending_eof) {
+./os/unix/ngx_recv.c:                rev->ready = 0;
+./os/unix/ngx_recv.c:                rev->eof = 1;
+./os/unix/ngx_recv.c:                if (rev->kq_errno) {
+./os/unix/ngx_recv.c:                    rev->error = 1;
+./os/unix/ngx_recv.c:                    ngx_set_socket_errno(rev->kq_errno);
+./os/unix/ngx_recv.c:                    return ngx_connection_error(c, rev->kq_errno,
+./os/unix/ngx_recv.c:                rev->ready = 0;
+./os/unix/ngx_recv.c:                rev->available -= n;
+./os/unix/ngx_recv.c:                 * rev->available may be negative here because some additional
+./os/unix/ngx_recv.c:                if (rev->available <= 0) {
+./os/unix/ngx_recv.c:                    if (!rev->pending_eof) {
+./os/unix/ngx_recv.c:                        rev->ready = 0;
+./os/unix/ngx_recv.c:                    if (rev->available < 0) {
+./os/unix/ngx_recv.c:                        rev->available = 0;
+./os/unix/ngx_recv.c:                    rev->eof = 1;
+./os/unix/ngx_recv.c:                    rev->available = 0;
+./os/unix/ngx_recv.c:                rev->ready = 0;
+./os/unix/ngx_recv.c:                rev->eof = 1;
+./os/unix/ngx_recv.c:    rev->ready = 0;
+./os/unix/ngx_recv.c:        rev->error = 1;
+./os/unix/ngx_recv.c:            rev->ready = 0;
+./os/unix/ngx_recv.c:            rev->eof = 1;
+./os/unix/ngx_recv.c:                rev->ready = 0;
+./os/unix/ngx_recv.c:    rev->ready = 0;
+./os/unix/ngx_recv.c:        rev->error = 1;
+./os/unix/ngx_freebsd_sendfile_chain.c:    if (!wev->ready) {
+./os/unix/ngx_freebsd_sendfile_chain.c:    if ((ngx_event_flags & NGX_USE_KQUEUE_EVENT) && wev->pending_eof) {
+./os/unix/ngx_freebsd_sendfile_chain.c:        (void) ngx_connection_error(c, wev->kq_errno,
+./os/unix/ngx_freebsd_sendfile_chain.c:        wev->error = 1;
+./os/unix/ngx_freebsd_sendfile_chain.c:                        wev->error = 1;
+./os/unix/ngx_freebsd_sendfile_chain.c:                    wev->error = 1;
+./os/unix/ngx_freebsd_sendfile_chain.c:                    wev->error = 1;
+./os/unix/ngx_freebsd_sendfile_chain.c:            wev->ready = 0;
+./os/unix/ngx_freebsd_sendfile_chain.c:            wev->ready = 0;
+./os/unix/ngx_solaris_sendfilev_chain.c:    if (!wev->ready) {
+./os/unix/ngx_solaris_sendfilev_chain.c:                wev->error = 1;
+./os/unix/ngx_solaris_sendfilev_chain.c:            wev->ready = 0;
+./os/unix/ngx_aio_read.c:    if (!rev->ready) {
+./os/unix/ngx_aio_read.c:                   "rev->complete: %d", rev->complete);
+./os/unix/ngx_aio_read.c:    if (!rev->complete) {
+./os/unix/ngx_aio_read.c:        ngx_memzero(&rev->aiocb, sizeof(struct aiocb));
+./os/unix/ngx_aio_read.c:        rev->aiocb.aio_fildes = c->fd;
+./os/unix/ngx_aio_read.c:        rev->aiocb.aio_buf = buf;
+./os/unix/ngx_aio_read.c:        rev->aiocb.aio_nbytes = size;
+./os/unix/ngx_aio_read.c:        rev->aiocb.aio_sigevent.sigev_notify_kqueue = ngx_kqueue;
+./os/unix/ngx_aio_read.c:        rev->aiocb.aio_sigevent.sigev_notify = SIGEV_KEVENT;
+./os/unix/ngx_aio_read.c:        rev->aiocb.aio_sigevent.sigev_value.sigval_ptr = rev;
+./os/unix/ngx_aio_read.c:        if (aio_read(&rev->aiocb) == -1) {
+./os/unix/ngx_aio_read.c:            ngx_log_error(NGX_LOG_CRIT, rev->log, ngx_errno,
+./os/unix/ngx_aio_read.c:            rev->error = 1;
+./os/unix/ngx_aio_read.c:        rev->active = 1;
+./os/unix/ngx_aio_read.c:        rev->ready = 0;
+./os/unix/ngx_aio_read.c:    rev->complete = 0;
+./os/unix/ngx_aio_read.c:    n = aio_error(&rev->aiocb);
+./os/unix/ngx_aio_read.c:        rev->error = 1;
+./os/unix/ngx_aio_read.c:            if (rev->ready) {
+./os/unix/ngx_aio_read.c:                rev->ready = 0;
+./os/unix/ngx_aio_read.c:        rev->error = 1;
+./os/unix/ngx_aio_read.c:        rev->ready = 0;
+./os/unix/ngx_aio_read.c:    n = aio_return(&rev->aiocb);
+./os/unix/ngx_aio_read.c:        rev->error = 1;
+./os/unix/ngx_aio_read.c:        rev->ready = 0;
+./os/unix/ngx_aio_read.c:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, rev->log, 0,
+./os/unix/ngx_aio_read.c:        rev->eof = 1;
+./os/unix/ngx_aio_read.c:        rev->ready = 0;
+./os/unix/ngx_aio_read.c:        rev->ready = 1;
+./os/unix/ngx_aio_read.c:    rev->active = 0;
+./os/unix/ngx_linux_sendfile_chain.c:    if (!wev->ready) {
+./os/unix/ngx_linux_sendfile_chain.c:                        wev->error = 1;
+./os/unix/ngx_linux_sendfile_chain.c:                        wev->error = 1;
+./os/unix/ngx_linux_sendfile_chain.c:                    wev->error = 1;
+./os/unix/ngx_linux_sendfile_chain.c:                    wev->error = 1;
+./os/unix/ngx_linux_sendfile_chain.c:            wev->ready = 0;
+./os/unix/ngx_linux_aio_read.c:    if (!ev->ready) {
+./os/unix/ngx_linux_aio_read.c:                   ev->complete, offset, size, &file->name);
+./os/unix/ngx_linux_aio_read.c:    if (ev->complete) {
+./os/unix/ngx_linux_aio_read.c:        ev->active = 0;
+./os/unix/ngx_linux_aio_read.c:        ev->complete = 0;
+./os/unix/ngx_linux_aio_read.c:    ev->handler = ngx_file_aio_event_handler;
+./os/unix/ngx_linux_aio_read.c:        ev->active = 1;
+./os/unix/ngx_linux_aio_read.c:        ev->ready = 0;
+./os/unix/ngx_linux_aio_read.c:        ev->complete = 0;
+./os/unix/ngx_linux_aio_read.c:    aio = ev->data;
+./os/unix/ngx_linux_aio_read.c:    ngx_log_debug2(NGX_LOG_DEBUG_CORE, ev->log, 0,
+./os/unix/ngx_aio_write.c:    if (!wev->ready) {
+./os/unix/ngx_aio_write.c:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, wev->log, 0,
+./os/unix/ngx_aio_write.c:                   "aio: wev->complete: %d", wev->complete);
+./os/unix/ngx_aio_write.c:    if (!wev->complete) {
+./os/unix/ngx_aio_write.c:        ngx_memzero(&wev->aiocb, sizeof(struct aiocb));
+./os/unix/ngx_aio_write.c:        wev->aiocb.aio_fildes = c->fd;
+./os/unix/ngx_aio_write.c:        wev->aiocb.aio_buf = buf;
+./os/unix/ngx_aio_write.c:        wev->aiocb.aio_nbytes = size;
+./os/unix/ngx_aio_write.c:        wev->aiocb.aio_sigevent.sigev_notify_kqueue = ngx_kqueue;
+./os/unix/ngx_aio_write.c:        wev->aiocb.aio_sigevent.sigev_notify = SIGEV_KEVENT;
+./os/unix/ngx_aio_write.c:        wev->aiocb.aio_sigevent.sigev_value.sigval_ptr = wev;
+./os/unix/ngx_aio_write.c:        if (aio_write(&wev->aiocb) == -1) {
+./os/unix/ngx_aio_write.c:            ngx_log_error(NGX_LOG_CRIT, wev->log, ngx_errno,
+./os/unix/ngx_aio_write.c:        ngx_log_debug0(NGX_LOG_DEBUG_EVENT, wev->log, 0, "aio_write: OK");
+./os/unix/ngx_aio_write.c:        wev->active = 1;
+./os/unix/ngx_aio_write.c:        wev->ready = 0;
+./os/unix/ngx_aio_write.c:    wev->complete = 0;
+./os/unix/ngx_aio_write.c:    n = aio_error(&wev->aiocb);
+./os/unix/ngx_aio_write.c:        ngx_log_error(NGX_LOG_CRIT, wev->log, ngx_errno, "aio_error() failed");
+./os/unix/ngx_aio_write.c:        wev->error = 1;
+./os/unix/ngx_aio_write.c:            if (wev->ready) {
+./os/unix/ngx_aio_write.c:                ngx_log_error(NGX_LOG_ALERT, wev->log, n,
+./os/unix/ngx_aio_write.c:                wev->ready = 0;
+./os/unix/ngx_aio_write.c:        ngx_log_error(NGX_LOG_CRIT, wev->log, n, "aio_write() failed");
+./os/unix/ngx_aio_write.c:        wev->error = 1;
+./os/unix/ngx_aio_write.c:        wev->ready = 0;
+./os/unix/ngx_aio_write.c:        n = aio_return(&wev->aiocb);
+./os/unix/ngx_aio_write.c:            ngx_log_error(NGX_LOG_ALERT, wev->log, ngx_errno,
+./os/unix/ngx_aio_write.c:        ngx_log_error(NGX_LOG_CRIT, wev->log, n, "aio_return() %d", n);
+./os/unix/ngx_aio_write.c:    n = aio_return(&wev->aiocb);
+./os/unix/ngx_aio_write.c:        ngx_log_error(NGX_LOG_ALERT, wev->log, ngx_errno,
+./os/unix/ngx_aio_write.c:        wev->error = 1;
+./os/unix/ngx_aio_write.c:        wev->ready = 0;
+./os/unix/ngx_aio_write.c:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, wev->log, 0, "aio_write: %d", n);
+./os/unix/ngx_aio_write.c:    wev->active = 0;
+./os/unix/ngx_aio_write.c:    wev->ready = 1;
+./os/unix/ngx_darwin_sendfile_chain.c:    if (!wev->ready) {
+./os/unix/ngx_darwin_sendfile_chain.c:    if ((ngx_event_flags & NGX_USE_KQUEUE_EVENT) && wev->pending_eof) {
+./os/unix/ngx_darwin_sendfile_chain.c:        (void) ngx_connection_error(c, wev->kq_errno,
+./os/unix/ngx_darwin_sendfile_chain.c:        wev->error = 1;
+./os/unix/ngx_darwin_sendfile_chain.c:                    wev->error = 1;
+./os/unix/ngx_darwin_sendfile_chain.c:                    wev->error = 1;
+./os/unix/ngx_darwin_sendfile_chain.c:            wev->ready = 0;
+./os/unix/ngx_readv_chain.c:                       rev->pending_eof, rev->available, rev->kq_errno);
+./os/unix/ngx_readv_chain.c:        if (rev->available == 0) {
+./os/unix/ngx_readv_chain.c:            if (rev->pending_eof) {
+./os/unix/ngx_readv_chain.c:                rev->ready = 0;
+./os/unix/ngx_readv_chain.c:                rev->eof = 1;
+./os/unix/ngx_readv_chain.c:                ngx_log_error(NGX_LOG_INFO, c->log, rev->kq_errno,
+./os/unix/ngx_readv_chain.c:                if (rev->kq_errno) {
+./os/unix/ngx_readv_chain.c:                    rev->error = 1;
+./os/unix/ngx_readv_chain.c:                    ngx_set_socket_errno(rev->kq_errno);
+./os/unix/ngx_readv_chain.c:                rev->available -= n;
+./os/unix/ngx_readv_chain.c:                 * rev->available may be negative here because some additional
+./os/unix/ngx_readv_chain.c:                if (rev->available <= 0) {
+./os/unix/ngx_readv_chain.c:                    if (!rev->pending_eof) {
+./os/unix/ngx_readv_chain.c:                        rev->ready = 0;
+./os/unix/ngx_readv_chain.c:                    if (rev->available < 0) {
+./os/unix/ngx_readv_chain.c:                        rev->available = 0;
+./os/unix/ngx_readv_chain.c:                                  "%d available bytes", rev->available);
+./os/unix/ngx_readv_chain.c:                    rev->eof = 1;
+./os/unix/ngx_readv_chain.c:                    rev->available = 0;
+./os/unix/ngx_readv_chain.c:                rev->ready = 0;
+./os/unix/ngx_readv_chain.c:                rev->eof = 1;
+./os/unix/ngx_readv_chain.c:    rev->ready = 0;
+./os/unix/ngx_readv_chain.c:            rev->ready = 0;
+./os/unix/ngx_readv_chain.c:            rev->eof = 1;
+./os/unix/ngx_readv_chain.c:                rev->ready = 0;
+./os/unix/ngx_readv_chain.c:    rev->ready = 0;
+./os/unix/cs.out:29 "aio: wev->com¶‘e: %d", 
+./os/unix/cs.out:,„ev->
+./os/unix/cs.out:,„ev->
+./os/unix/cs.out:,„ev->
+./os/unix/cs.out:,„ev->
