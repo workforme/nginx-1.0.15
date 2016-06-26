@@ -41,6 +41,7 @@ ngx_event_accept(ngx_event_t *ev)
     }
 
     lc = ev->data;
+	//ngx_http.c里注册了ls->handler
     ls = lc->listening;
     ev->ready = 0;
 
