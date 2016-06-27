@@ -218,7 +218,8 @@ ngx_process_events_and_timers(ngx_cycle_t *cycle)
 
 #endif
     }
-
+//加锁并不意味着一定accept到新连接，只是此次循环中进行一次事件遍历可能有新连接
+//但也可能没有新连接，只是普通事件。所以要及时让出锁
     if (ngx_use_accept_mutex) {
         if (ngx_accept_disabled > 0) {
             ngx_accept_disabled--;
@@ -227,7 +228,8 @@ ngx_process_events_and_timers(ngx_cycle_t *cycle)
             if (ngx_trylock_accept_mutex(cycle) == NGX_ERROR) {
                 return;
             }
-
+			//如果本次获得锁，下面process_events时候不会调handler，
+			//而是event入队，返回后，释放锁再处理队列的内容。
             if (ngx_accept_mutex_held) {
                 flags |= NGX_POST_EVENTS;
 
@@ -571,7 +573,9 @@ ngx_timer_signal_handler(int signo)
 
 #endif
 
-
+//ngx_worker_process_init 里会调用event模块的init
+//重点关注rev->handler = ngx_event_accept
+	
 static ngx_int_t
 ngx_event_process_init(ngx_cycle_t *cycle)
 {
@@ -752,7 +756,7 @@ ngx_event_process_init(ngx_cycle_t *cycle)
         rev = c->read;
 
         rev->log = c->log;
-        rev->accept = 1;
+        rev->accept = 1;//process_events里对会event属性做判断，区分新连接（post）还是普通读写
 
 #if (NGX_HAVE_DEFERRED_ACCEPT)
         rev->deferred_accept = ls[i].deferred_accept;

@@ -282,13 +282,13 @@ ngx_event_accept(ngx_event_t *ev)
         log->data = NULL;
         log->handler = NULL;
 
-        ls->handler(c);
+        ls->handler(c);//init http req
 
         if (ngx_event_flags & NGX_USE_KQUEUE_EVENT) {
             ev->available--;
         }
 
-    } while (ev->available);
+    } while (ev->available);//累计待处理个数
 }
 
 
